@@ -38,32 +38,42 @@ export function SubchapterContent({ groupId, sub }: Props) {
 
       {sub.dualVideo ? (
         <>
-          <MediaBlock label="Video" description="Main clip (_V.mp4).">
+          <MediaBlock
+            key={`${groupId}-${sub.id}-v`}
+            urlKey={videoPrimary}
+            label="Video"
+            description="Main clip (_V.mp4)."
+          >
             {({ onMissing }) => (
               <video className="video" controls preload="metadata" src={videoPrimary} onError={onMissing} />
             )}
           </MediaBlock>
-          <MediaBlock label="Video (extended)" description="Second clip (_Vs.mp4).">
+          <MediaBlock
+            key={`${groupId}-${sub.id}-vs`}
+            urlKey={videoSecondary}
+            label="Video (extended)"
+            description="Second clip (_Vs.mp4)."
+          >
             {({ onMissing }) => (
               <video className="video" controls preload="metadata" src={videoSecondary} onError={onMissing} />
             )}
           </MediaBlock>
         </>
       ) : sub.videoVsOnly ? (
-        <MediaBlock label="Video" description="Single clip (_Vs.mp4).">
+        <MediaBlock key={`${groupId}-${sub.id}-vs`} urlKey={videoSecondary} label="Video" description="Single clip (_Vs.mp4).">
           {({ onMissing }) => (
             <video className="video" controls preload="metadata" src={videoSecondary} onError={onMissing} />
           )}
         </MediaBlock>
       ) : (
-        <MediaBlock label="Video" description="One MP4 file (_V.mp4).">
+        <MediaBlock key={`${groupId}-${sub.id}-v`} urlKey={videoPrimary} label="Video" description="One MP4 file (_V.mp4).">
           {({ onMissing }) => (
             <video className="video" controls preload="metadata" src={videoPrimary} onError={onMissing} />
           )}
         </MediaBlock>
       )}
 
-      <MediaBlock label="Podcast" description="One M4A file per subchapter.">
+      <MediaBlock key={`${groupId}-${sub.id}-podcast`} urlKey={audioUrl} label="Podcast" description="One M4A file per subchapter.">
         {({ onMissing }) => (
           <audio className="audio" controls preload="metadata" src={audioUrl} onError={onMissing}>
             Podcast
@@ -71,7 +81,7 @@ export function SubchapterContent({ groupId, sub }: Props) {
         )}
       </MediaBlock>
 
-      <MediaBlock label="Infographic" description="One PNG file per subchapter.">
+      <MediaBlock key={`${groupId}-${sub.id}-info`} urlKey={imageUrl} label="Infographic" description="One PNG file per subchapter.">
         {({ onMissing }) => (
           <img
             className="infographic"

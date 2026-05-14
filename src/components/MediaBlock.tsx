@@ -1,13 +1,19 @@
-import { useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 
 type Props = {
   label: string;
   description: string;
+  /** When the loaded asset URL changes, clear the “missing” state (avoids stale UI if React reuses the instance). */
+  urlKey?: string;
   children: (props: { onMissing: () => void }) => ReactNode;
 };
 
-export function MediaBlock({ label, description, children }: Props) {
+export function MediaBlock({ label, description, urlKey, children }: Props) {
   const [missing, setMissing] = useState(false);
+
+  useEffect(() => {
+    setMissing(false);
+  }, [urlKey]);
 
   return (
     <section className="media-block">
