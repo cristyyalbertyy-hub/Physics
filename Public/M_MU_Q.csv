@@ -1,0 +1,80 @@
+What is the standard SI unit for length?,The metre ($m$).
+What is the standard SI unit for time?,The second ($s$).
+What is the standard SI unit for mass?,The kilogram ($kg$).
+What does the term 'significant figures' indicate in a measurement?,The number of reliably known digits in a value.
+"When multiplying or dividing measurements, how many significant figures should the result have?",The same number as the measurement with the fewest significant figures.
+"When adding or subtracting measurements, how is the precision of the result determined?",It is limited by the measurement with the fewest decimal places.
+What is the percentage uncertainty of a measurement of $1.57 \pm 0.05$ m?,Approximately $3.2\%$ ($0.05 / 1.57 \times 100$).
+What is the definition of 'displacement' in one-dimensional kinematics?,"The change in position of an object, calculated as $\Delta x = x_{final} - x_{initial}$."
+How does displacement differ from distance travelled?,"Displacement is a vector quantity (net change), while distance is a scalar quantity (total path length)."
+Formula: Average velocity,$\bar{v} = \frac{\Delta x}{\Delta t}$
+Formula: Average speed,Average speed $= \frac{distance\ travelled}{time\ elapsed}$
+What physical quantity is represented by the slope of a position-time ($x$ vs $t$) graph?,Instantaneous velocity.
+Under what condition are average velocity and instantaneous velocity equal?,When an object moves with a constant velocity.
+What is the definition of 'acceleration'?,"The rate of change of velocity over time, $\bar{a} = \frac{\Delta v}{\Delta t}$."
+What physical quantity is represented by the slope of a velocity-time ($v$ vs $t$) graph?,Instantaneous acceleration.
+"If an object's velocity and acceleration have opposite signs, what is happening to its speed?",The object is slowing down (decelerating).
+"Kinematic equation for final velocity ($v$) given initial velocity ($v_0$), constant acceleration ($a$), and time ($t$):",$v = v_0 + at$
+"Kinematic equation for position ($x$) given initial position ($x_0$), initial velocity ($v_0$), constant acceleration ($a$), and time ($t$):",$x = x_0 + v_0t + \frac{1}{2}at^2$
+"Kinematic equation for final velocity ($v$) given initial velocity ($v_0$), constant acceleration ($a$), and displacement ($\Delta x$):",$v^2 = v_0^2 + 2a\Delta x$
+"Kinematic equation for displacement ($\Delta x$) using only initial velocity ($v_0$), final velocity ($v$), and time ($t$):",$\Delta x = \frac{v + v_0}{2}t$
+What is the approximate value of acceleration due to gravity ($g$) near the Earth's surface?,$9.80\ m/s^2$
+"In the absence of air resistance, what determines the acceleration of a falling object?","Gravity alone, making it independent of the object's mass."
+What is the velocity of an object thrown vertically upwards when it reaches its maximum height?,$0\ m/s$
+What is the acceleration of an object at its maximum height after being thrown vertically upwards?,$9.80\ m/s^2$ (downwards).
+How is 'average acceleration' calculated for an object changing velocity from $v_1$ to $v_2$ over time $\Delta t$?,$a_{avg} = \frac{v_2 - v_1}{\Delta t}$
+What are the dimensions of density?,$[M L^{-3}]$ (Mass divided by length cubed).
+What are the dimensions of acceleration?,$[L T^{-2}]$ (Length divided by time squared).
+"Dimensional analysis: If $[v] = [L/T]$ and $[a] = [L/T^2]$, what are the dimensions of $at^2$?",$[L]$ (Length).
+Term: Deceleration,Definition: Acceleration that acts in the direction opposite to the velocity of an object.
+What is the displacement of an athlete who runs one complete lap around a $400$ m track?,$0$ m.
+"In a position-time graph, a horizontal line indicates that the object is _____.",At rest (stationary).
+"In a velocity-time graph, a horizontal line indicates that the object is _____.",Moving at a constant velocity (zero acceleration).
+What does the area under a velocity-time graph represent?,The displacement of the object.
+What does the area under an acceleration-time graph represent?,The change in velocity.
+Concept: Instantaneous Velocity,"Definition: The velocity of an object at a specific point in time, equal to the limit of average velocity as the time interval approaches zero."
+How many metres are in $1$ kilometre?,"$1,000$ m."
+How many seconds are in $1$ hour?,"$3,600$ s."
+"Conversion: To convert speed from $km/h$ to $m/s$, divide the value by _____.",$3.6$
+Why is velocity considered a vector quantity?,Because it has both a magnitude (speed) and a direction.
+Can an object have a negative velocity while having a positive acceleration?,"Yes, if the object is moving in the negative direction but slowing down."
+"In free fall, if the upward direction is chosen as positive, what sign is assigned to the acceleration $g$?",Negative ($-9.80\ m/s^2$).
+Formula: The position of a falling object dropped from rest ($v_0 = 0$) from height $y_0$ is given by $y = $ _____.,$y_0 - \frac{1}{2}gt^2$
+"If an object is thrown downwards with initial speed $v_0$, what is the equation for its velocity $v$ at time $t$?",$v = v_0 + gt$ (taking downwards as positive).
+What constitutes a 'reference frame' in kinematics?,A coordinate system used to measure the position and motion of objects.
+The standard unit for density in the SI system is _____.,$kg/m^3$
+Identify the number of significant figures in $0.00350$ kg.,"Three (the trailing zero is significant, but leading zeros are not)."
+Identify the number of significant figures in $1.050 \times 10^4$ m.,Four.
+What is 'standard deviation' in medical statistics?,A measure of the amount of variation or dispersion in a set of values.
+What does 'standard error' measure in relation to a sample mean?,The precision of the sample mean as an estimate of the population mean.
+"In statistics, what is the 'normal distribution'?",A continuous probability distribution that is symmetrical and bell-shaped.
+What is the primary purpose of a 'confidence interval' in medical research?,To provide a range of values within which the true population parameter is likely to lie.
+What does a P-value represent in hypothesis testing?,"The probability of obtaining results at least as extreme as the observed results, assuming the null hypothesis is true."
+"In medical statistics, what is 'linear regression' used for?",To model the relationship between a dependent variable and one or more independent variables.
+Which statistical measure represents the arithmetic average of a data set?,The mean.
+What is the difference between qualitative and quantitative data?,"Qualitative data describes categories or qualities, while quantitative data describes numerical counts or measurements."
+"In a study, what is 'bias'?",A systematic error that results in an incorrect estimate of an association or effect.
+Why is 'randomisation' used in clinical trials?,To ensure that treatment groups are comparable by eliminating selection bias.
+What is the 'null hypothesis' ($H_0$)?,The assumption that there is no significant difference or effect in the population.
+"In kinematics, the term _____ refers to an object's total change in velocity divided by the time interval.",Average acceleration
+"If the velocity of an object is constant, its acceleration must be _____.",Zero
+"True or False: If an object's speed is constant, its velocity must be constant.",False (the direction could be changing).
+What is the 'reaction time' in the context of braking a car?,The time interval between seeing a hazard and physically applying the brakes.
+How is the total stopping distance of a car calculated?,Reaction distance plus braking distance.
+"During a constant velocity phase of motion, acceleration is _____.",$0\ m/s^2$
+Dimensional Analysis: Is the equation $v^2 = 2ax$ dimensionally consistent?,Yes ($[L^2 T^{-2}] = [L T^{-2}][L]$).
+How does the acceleration of a stone thrown upwards compare to a stone dropped downwards?,They are the same ($g = 9.80\ m/s^2$ downwards) regardless of initial motion.
+"If air resistance is negligible, the time it takes for an object to reach its peak is _____ the time it takes to fall back to its original height.",Equal to
+Concept: Instantaneous Acceleration,Definition: The limit of the average acceleration as the time interval approaches zero.
+Formula: The change in velocity ($\Delta v$) for an object with constant acceleration $a$ over time $t$ is _____.,$\Delta v = at$
+"If $x$ is measured in metres and $t$ in seconds, what are the units for the constant $k$ in the equation $x = kt^3$?",$m/s^3$
+"In a vacuum, if a feather and a hammer are dropped simultaneously, which hits the ground first?",They hit at the same time (both accelerate at $g$).
+What is 'uncertainty' in a physical measurement?,A range within which the true value of a measurement is estimated to lie.
+Significant figures: $2.5 \times 3.42 = $ _____,$8.6$ (rounded to two significant figures).
+Identify the base SI unit for the amount of substance.,The mole ($mol$).
+What is the conversion factor from miles to kilometres?,Approximately $1.61$ ($1\ mi \approx 1.61\ km$).
+"In kinematics, _____ is the rate at which distance is covered.",Speed
+How is 'displacement' represented on a coordinate axis?,As a vector pointing from the initial position to the final position.
+What does a negative acceleration signify if the object is moving in the positive direction?,The object is slowing down.
+"In the equation $v = v_0 + at$, what does $v_0$ represent?",The initial velocity at time $t = 0$.
+Calculate the average speed of a car that travels $180$ km in $2$ hours.,$90\ km/h$.

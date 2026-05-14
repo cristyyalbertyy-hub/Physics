@@ -1,0 +1,80 @@
+Equation: Relationship between linear velocity $v$ and angular velocity $\omega$ for a point at radius $r$.,$v = r\omega$
+What is the formula for centripetal acceleration $a_c$ in terms of tangential velocity $v$ and radius $r$?,$a_c = \frac{v^2}{r}$
+Equation: Centripetal acceleration $a_c$ expressed in terms of angular velocity $\omega$.,$a_c = r\omega^2$
+"In rotational motion, the tangential acceleration $a_{tan}$ is related to angular acceleration $\alpha$ by the formula _____.",$a_{tan} = r\alpha$
+"If a rotating object is slowing down, in which direction does the decelerating force vector point relative to the velocity vector?",Opposite to the velocity.
+"For an object moving in a circle, which force component always points towards the centre of rotation?",Centripetal force.
+How is the frequency $f$ related to the angular velocity $\omega$?,$\omega = 2\pi f$
+"In a vertical circular motion problem, such as Tarzan swinging on a vine, what type of acceleration does he experience at the bottom of the swing?",Centripetal acceleration pointing upwards.
+Term: Moment of Inertia ($I$),Definition: A measure of an object's resistance to changes in its rotational motion.
+Why does concentrating muscle mass high and close to the body help a runner rotate their legs faster?,"It minimises the moment of inertia, allowing for higher angular acceleration."
+How does the distribution of mass relative to the axis of rotation affect the moment of inertia?,Mass further from the axis increases the moment of inertia.
+"For a book laying on a table, which axis of rotation results in the smallest moment of inertia?",The axis parallel to the longest dimension of the book.
+Explain why an object's mass cannot be considered concentrated at its centre of mass (CM) when analysing rotational motion.,"If mass were at the CM, the rotational inertia would be zero, making rotation impossible to describe."
+How does shifting the axis of rotation from the centre of a disk to its edge change the moment of inertia?,It increases the moment of inertia because most mass is now further from the axis.
+The rotational inertia of a solid ball rotating about an axis through its centre is given by _____.,$I = \frac{2}{5}MR^2$
+Equation: Conservation of mechanical energy for a rolling object without slipping at height $h$.,$Mgh = \frac{1}{2}Mv^2 + \frac{1}{2}I\omega^2$
+"When using conservation of energy for objects rolling down a ramp, why do the mass and radius usually cancel out in the final speed equation?",Because both the moment of inertia and kinetic energy terms are proportional to mass and the square of the radius.
+Under what condition are linear momentum and angular momentum conserved in a system?,When there are no external forces or external torques applied to the system.
+Why must a diver have initial angular momentum when leaving a board to perform a somersault?,"Angular momentum is conserved during free-fall, and the diver cannot exert a torque on themselves mid-air."
+"According to Newton's Third Law, what happens to a helicopter's body if the rotor's angular speed increases?",The body tends to spin in the opposite direction to the change in the rotor's angular velocity.
+"If two balls are given the same initial energy, why does a rotating ball travel slower linearly than a non-rotating one?","Some of the energy is used for rotational kinetic energy, leaving less for translational kinetic energy."
+"Between a thin hoop and a solid sphere of the same mass and radius, which will reach a greater height on a ramp if they have the same initial total kinetic energy?","The thin hoop, because it has a larger moment of inertia."
+"If people move toward the Earth's equator, why does the Earth's angular speed decrease?","Mass moves further from the axis, increasing $I$, so $\omega$ must decrease to conserve angular momentum."
+What happens to your angular speed if you are spinning on a stool and drop masses held in your hands?,Your angular speed remains unchanged as the masses carry their angular momentum away.
+"In one full revolution, how far forward does a wheel of radius $r$ move?",$2\pi r$ (the circumference).
+What is the period of the second hand of a clock?,60 seconds.
+What is the period of the hour hand of a standard analogue clock?,12 hours.
+Equation: The torque $\tau$ produced by a force $F$ applied at a distance $r$ with an angle $\theta$.,$\tau = rF\sin\theta$
+Newton's Second Law for rotation states that the net torque $\Sigma\tau$ is equal to _____.,$I\alpha$ (Moment of Inertia multiplied by angular acceleration).
+Why is the rotational inertia of a hub often ignored in simple calculations?,Because its distance from the axis of rotation is very small.
+How do you calculate the angular acceleration $\alpha$ given initial and final angular velocities over a time interval $t$?,$\alpha = \frac{\omega - \omega_0}{t}$
+Equation: Rotational kinetic energy ($KE_{rot}$).,$KE_{rot} = \frac{1}{2}I\omega^2$
+Concept: Rolling without slipping.,"Definition: A condition where the point of the object in contact with the surface is momentarily at rest, implying $v = r\omega$."
+What is the rotational inertia of a uniform hoop of mass $M$ and radius $R$ about its central axis?,$I = MR^2$
+Formula: Angular momentum $L$ for a rigid body.,$L = I\omega$
+"For a skater pulling their arms in, why does their angular velocity increase?","Moment of inertia decreases, and angular momentum must be conserved."
+Torque can be defined as the rate of change of _____.,Angular momentum ($\tau = \frac{\Delta L}{\Delta t}$).
+What is the formula for the work done by a constant torque $\tau$ over an angular displacement $\theta$?,$W = \tau\theta$
+Formula: Power $P$ in rotational motion.,$P = \tau\omega$
+"If an object is in static equilibrium, what are the two necessary conditions for the net force and net torque?",$\Sigma F = 0$ and $\Sigma\tau = 0$.
+"In a torque calculation, what is the 'lever arm'?",The perpendicular distance from the axis of rotation to the line of action of the force.
+How does the total kinetic energy of a rolling cylinder compare to its translational kinetic energy?,The total is the sum of translational ($\frac{1}{2}Mv^2$) and rotational ($\frac{1}{2}I\omega^2$) kinetic energy.
+"If the net force on an object is zero, must the net torque also be zero?","No, forces can be arranged to produce a net torque without a net force (a couple)."
+Which rotational quantity is the analogue of linear mass?,Moment of inertia ($I$).
+Which rotational quantity is the analogue of linear force?,Torque ($\tau$).
+Which rotational quantity is the analogue of linear momentum?,Angular momentum ($L$).
+What is the angular displacement $\theta$ (in radians) for one full revolution?,$2\pi$ radians.
+How many radians are in $360^{\circ}$?,$2\pi$ radians.
+What is the conversion factor from revolutions per minute (rpm) to radians per second?,$\frac{2\pi}{60}$
+"If a wheel is rotating clockwise, what is the standard sign convention for its angular velocity?",Negative.
+"In the context of the Earth, what is the angular frequency of its daily rotation in rad/s?","$\omega = \frac{2\pi}{86,400}$ rad/s."
+What is the rotational inertia of a uniform solid cylinder of mass $M$ and radius $R$ about its axis?,$I = \frac{1}{2}MR^2$
+"In a system with no external torque, if the moment of inertia is halved, what happens to the angular velocity?",It doubles.
+Formula: Final angular velocity $\omega$ under constant angular acceleration $\alpha$.,$\omega = \omega_0 + \alpha t$
+Formula: Angular displacement $\theta$ under constant angular acceleration $\alpha$.,$\theta = \omega_0 t + \frac{1}{2}\alpha t^2$
+Formula: Square of final angular velocity $\omega^2$ in terms of $\alpha$ and $\theta$.,$\omega^2 = \omega_0^2 + 2\alpha\theta$
+Why is it easier to balance a bicycle when it is moving?,"The spinning wheels have angular momentum, which resists changes in the direction of the axis of rotation."
+What force provides the centripetal acceleration for a penny sitting on a rotating turntable?,Static friction.
+"If a car is moving in a circle and its speed is doubled, by what factor does the centripetal force increase?",Four (factor of $2^2$).
+"In the yo-yo example, which energy conversion takes place as it falls?",Gravitational potential energy converts into both translational and rotational kinetic energy.
+"For a rolling object, the velocity of the centre of mass is _____ times the angular velocity.",The radius $r$.
+The torque required to change the orientation of a planet's axis depends on the rate of change of its _____.,Angular momentum vector.
+What is the 'centre of mass' (CM)?,The unique point where the weighted relative position of the distributed mass sums to zero.
+Does a non-rotating object in equilibrium have a specific axis of rotation?,"No, any arbitrary point can be chosen as the axis for calculating torques."
+"In medical statistics, what is the first step in using data according to the 'Basics' section?",Defining the data.
+List two ways to 'Display the data' as per the Essential Medical Statistics contents.,Tables and graphs (visual displays).
+What is the significance of 'Elasticity' in the context of Chapter 9 of the physics syllabus?,It describes how materials (like bones or tissues) deform under stress and return to their original shape.
+Term: Stress (in mechanics),Definition: The internal force per unit area acting within a material.
+Term: Strain (in mechanics),Definition: The measure of deformation representing the displacement between particles in the material body relative to a reference length.
+What is 'Fracture' in a medical physics context?,"The point at which the stress on a material exceeds its ultimate strength, causing it to break."
+How does the 'Parallel Axis Theorem' relate to moment of inertia?,It allows calculation of $I$ about any axis parallel to one through the CM if the distance $d$ is known ($I = I_{CM} + Md^2$).
+"In rotational dynamics, what does the symbol $\Sigma\tau$ represent?",The vector sum of all external torques acting on the body.
+Why is angular momentum a vector quantity?,Because it has both a magnitude ($I\omega$) and a direction defined by the axis of rotation.
+How is the direction of the angular velocity vector $\vec{\omega}$ determined?,Using the Right-Hand Rule.
+"If a torque is applied perpendicular to the angular momentum vector, what happens to the object?","The direction of the angular momentum changes (precession), but not necessarily its magnitude."
+"In a 'totally inelastic collision' of rotating objects, what quantity is shared after the collision?",Angular velocity.
+What is the SI unit for Torque?,Newton-metres ($N \cdot m$).
+What is the SI unit for Moment of Inertia?,$kg \cdot m^2$
+What is the SI unit for Angular Momentum?,$kg \cdot m^2/s$
+"According to the syllabus, which chapter covers 'Applications to Muscles and Joints'?",Chapter 9 (Static Equilibrium).

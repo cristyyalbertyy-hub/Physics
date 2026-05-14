@@ -1,0 +1,80 @@
+How is the density ($\rho$) of a substance defined?,It is the mass per unit volume.
+What is the formula to find mass ($m$) using density ($\rho$) and volume ($V$)?,$m = \rho V$
+Term: Specific Gravity,Definition: The ratio of the density of a substance to the density of water at $4.0^{\circ}\text{C}$.
+What is the SI unit for pressure ($P$)?,"The Pascal (Pa), equivalent to $1 \text{ N/m}^2$."
+Under what condition is pressure ($P$) calculated as $F/A$?,When a force ($F$) is applied perpendicularly over a surface area ($A$).
+"According to Bernoulli's principle, what happens to the pressure of a gas as its speed increases (at a constant height)?",The pressure decreases.
+"In a clinical setting, why must a blood pressure cuff be placed at the level of the heart?",To avoid measurements that are too high (if below heart level) or too low (if above heart level) due to hydrostatic pressure.
+The buoyant force on an object is equal to the _____.,weight of the fluid displaced by the object.
+Why do a piece of wood and a piece of iron of identical volume experience the same buoyant force when fully submerged in the same fluid?,They both displace the same volume of fluid.
+An object sinks in a fluid if its weight is _____ than the buoyant force.,greater
+How is the pressure difference ($\Delta P$) in a static fluid at depth $h$ calculated?,$\Delta P = \rho g h$
+Which principle states that an external pressure applied to a confined fluid is transmitted undiminished to every point of the fluid?,Pascal's Principle
+"In a hydraulic system, the relationship between input force ($F_1$), input area ($A_1$), output force ($F_2$), and output area ($A_2$) is _____.",$F_1/A_1 = F_2/A_2$
+What is the approximate density of water in SI units?,$1.00 \times 10^3 \text{ kg/m}^3$
+The pressure measured relative to atmospheric pressure is called _____ pressure.,gauge
+Absolute pressure is calculated by adding atmospheric pressure to _____.,gauge pressure
+"For an incompressible fluid, what is the Equation of Continuity relating cross-sectional area ($A$) and flow speed ($v$)?",$A_1 v_1 = A_2 v_2$
+The product of cross-sectional area and fluid velocity ($Av$) represents the _____.,volume flow rate ($Q$)
+"Write Bernoulli's equation for a fluid with density $\rho$, pressure $P$, speed $v$, and height $y$.",$P + \frac{1}{2}\rho v^2 + \rho gy = \text{constant}$
+Which theorem states that the exit speed of a liquid from a small hole in a tank is $v = \sqrt{2gh}$?,Torricelli's Theorem
+How does the pressure inside a hurricane compare to the atmospheric pressure outside?,It is lower due to the high wind speeds.
+What physical phenomenon allows an aeroplane wing to experience lift?,A pressure difference created by faster air moving over the top surface compared to the bottom.
+Term: Viscosity ($\eta$),Definition: A measure of a fluid's internal friction or resistance to flow.
+"According to Poiseuille's equation, the volume flow rate ($Q$) is proportional to which power of the tube's radius ($R$)?",The fourth power ($R^4$).
+How does increasing the viscosity ($\eta$) of a fluid affect its flow rate ($Q$) through a tube?,The flow rate decreases.
+Write Poiseuille's equation for the volume flow rate ($Q$) in a tube of length $L$ and radius $R$.,$Q = \frac{\pi R^4 (P_1 - P_2)}{8 \eta L}$
+The force per unit length exerted by a liquid surface is known as _____.,surface tension ($\gamma$)
+What is the formula for the surface tension ($\gamma$) of a liquid film when the force ($F$) acts on two surfaces of length $l$?,$\gamma = \frac{F}{2l}$
+"Under Archimedes' principle, the apparent weight of a submerged object is its actual weight minus the _____.",buoyant force
+Why is a blood reservoir placed at a specific height ($h$) above a patient's vein during an IV infusion?,To produce enough hydrostatic pressure to overcome the patient's blood pressure and viscous resistance.
+"If the radius of a blood vessel is halved, by what factor does the resistance to flow increase according to Poiseuille's law?",A factor of 16 (since $R^4 = (1/2)^4 = 1/16$).
+How is the work ($W$) done by the heart during a heartbeat related to pressure ($P$) and volume of blood pumped ($\Delta V$)?,$W = P \Delta V$
+"In the Equation of Continuity, as the cross-sectional area of a pipe increases, the speed of the fluid must _____.",decrease
+A person floats in water if their average density is _____ than the density of water.,less
+What is the gauge pressure at the surface of a liquid exposed to the atmosphere?,Zero
+Why does a roof lift off during very high winds according to fluid dynamics?,"The high speed of air outside reduces pressure above the roof, while stationary air inside exerts higher upward pressure."
+How is the buoyant force ($F_B$) on a completely submerged object calculated using its volume ($V_{obj}$)?,$F_B = \rho_{fluid} V_{obj} g$
+What conversion factor is used to change mm-Hg (torr) to Pascals ($1 \text{ mm-Hg} \approx$ _____ $\text{Pa}$)?,$133 \text{ Pa}$
+"In blood flow, which vessel has a larger total cross-sectional area: the single aorta or the collection of major arteries?",The collection of major arteries (resulting in slower blood flow).
+Which physical principle explains why two sheets of paper move toward each other when air is blown between them?,Bernoulli's Principle
+The ratio of the buoyant force to the weight of a submerged object is equal to the ratio of the _____.,density of the fluid to the density of the object.
+How does the pressure at the bottom of a container depend on the shape of the container?,It does not; it only depends on the depth and density of the liquid.
+"A 'transient ischaemic attack' (TIA) can be caused by a 'steal' of blood flow where higher speed blood in an artery causes _____ pressure, drawing blood away from the brain.",lower
+What is the purpose of a barometer?,To measure atmospheric pressure.
+How does the density of air typically change with increasing altitude in the atmosphere?,It decreases.
+"If a raft just barely floats, its weight plus any load must equal the weight of _____.",the water displaced by the raft's total volume.
+The upward force exerted by a fluid on a submerged object is called the _____ force.,buoyant
+"When applying Bernoulli's equation to points at the same height, the point with the highest speed has the _____ pressure.",lowest
+"In a syringe, if you push the plunger, the increase in pressure is transmitted to the fluid in the needle due to _____ Principle.",Pascal's
+How is the volume of a displaced fluid related to the volume of a fully submerged object?,They are equal.
+Why is the density of granite used instead of the mass of a granite mountain when calculating mountain-scale pressures?,Density is an intensive property and remains constant regardless of the total mass or volume.
+"For a person underwater, the pressure difference between their lungs and the surface is proportional to their _____.",depth
+What happens to the buoyant force on a sinking iron ball as it travels deeper (assuming water is incompressible)?,It remains constant.
+"In Poiseuille flow, where is the fluid velocity at its maximum within a cylindrical tube?",At the centre of the tube.
+What happens to the pressure of blood in a person's calf when they stand up compared to when they are lying down?,It increases due to the height of the column of blood above the calf.
+How does an increase in temperature typically affect the surface tension of a liquid?,It decreases the surface tension.
+Term: Laminar Flow,Definition: Smooth flow in which each particle of the fluid follows a smooth path and the paths do not cross.
+"What describes the flow when fluid particles follow irregular, fluctuating paths?",Turbulent flow
+Which variable in Bernoulli's equation represents the potential energy per unit volume?,$\rho gy$
+The 'lift' force on a roof in a storm is calculated as the product of _____ and the roof's area.,the pressure difference ($\Delta P$)
+"In Archimedes' principle, what determines whether an object will sink or float in a specific liquid?",The comparison of the object's average density to the liquid's density.
+Why does the fluid level in an IV bag drop faster if the bag is raised higher?,"The increased height increases the pressure difference ($P_1 - P_2$), which increases the flow rate according to Poiseuille's law."
+The phenomenon where a liquid rises or falls in a narrow tube is called _____ action.,capillary
+"According to the syllabus, the study of Bernoulli's principle includes medical applications like Airplanes, Baseballs, and _____.",TIA (Transient Ischaemic Attack)
+Under what condition is the Equation of Continuity ($A_1 v_1 = A_2 v_2$) valid?,When the fluid is incompressible and the flow is steady.
+What is the standard value for atmospheric pressure at sea level in Pascals?,$1.013 \times 10^5 \text{ Pa}$
+"If a person's body fat has a lower density than water, how does an increase in body fat affect their overall buoyancy?",It increases their buoyancy (making them more likely to float).
+Formula: Hydrostatic Pressure at depth $h$,$P = P_{atm} + \rho gh$
+"In a Venturi tube, where the pipe narrows, the fluid speed _____ and the pressure _____.",increases; decreases
+What is the approximate density of gold compared to water?,It is about 19.3 times denser (SG $\approx 19.3$).
+"In a clinical syringe application, the force applied to the plunger creates a pressure that is _____ to the force divided by the plunger's area.",equal
+How is the volume of an irregularly shaped object determined using Archimedes' principle?,By measuring the mass (or volume) of the fluid it displaces when fully submerged.
+"According to Poiseuille's equation, if the length of a pipe ($L$) is doubled while all other factors remain constant, the flow rate ($Q$) will _____.",be halved.
+The work done by the heart to pump a volume of blood is $W = P \Delta V$. What does $P$ represent in this context?,The average pressure the heart exerts on the blood.
+What causes the surface of a liquid to act like a stretched elastic membrane?,Surface tension
+Which law or principle is primarily used to calculate the lift force on a bird's wing?,Bernoulli's Principle
+"If a fluid is 'ideal', it is assumed to be nonviscous and _____.",incompressible
+"In a hydraulic press, why is the work done on the small piston equal to the work done by the large piston (ignoring friction)?",Because energy is conserved; a smaller force over a larger distance equals a larger force over a smaller distance.
+What happens to the pressure at a specific depth in a swimming pool if you add more water to the pool?,The pressure increases because the depth ($h$) from the new surface increases.
+Does a sunken ship at the bottom of the ocean experience a buoyant force?,"Yes, it experiences a buoyant force equal to the weight of the water it displaces."

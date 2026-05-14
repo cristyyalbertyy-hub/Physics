@@ -1,0 +1,56 @@
+What is the primary force responsible for holding the protons and neutrons together within an atomic nucleus?,The strong nuclear force.
+Why is the gravitational force between nucleons considered insufficient to hold a nucleus together?,It is approximately 50 orders of magnitude weaker than the repulsive Coulomb force.
+"In the context of the nucleus, the electrical repulsion between protons is known as the _____ force.",Coulomb
+What is the approximate range beyond which the strong nuclear force becomes negligible?,$10^{-15}$ metres (roughly the size of the nucleus).
+How does the range of the electromagnetic force compare to that of the strong nuclear force?,"The electromagnetic force is long-range, while the strong force is short-range."
+"The strong nuclear force is always _____ between nucleons, whereas the electromagnetic force can be either attractive or repulsive.",attractive
+Which fundamental force acts only between charged particles within the nucleus?,The electromagnetic (EM) force.
+Identify the mediating field particle associated with the strong nuclear force at the quark level.,The gluon.
+Which particle is the mediator of the electromagnetic force?,The photon.
+"At distances on the order of $10^{-15}$ m, the electromagnetic force is approximately _____ times weaker than the strong nuclear force.",100
+Why do neutrons play a critical role in the stability of larger nuclei?,They provide additional attractive strong force without adding repulsive Coulomb force.
+Define 'Binding Energy' in the context of nuclear physics.,The energy required to break a nucleus apart into its constituent protons and neutrons.
+The difference between the total mass of the individual nucleons and the actual mass of the bound nucleus is known as the _____.,mass defect
+"According to Einstein's principle of mass-energy equivalence, what formula relates nuclear binding energy to mass defect?",$E = (\Delta m)c^2$
+How does the total mass of a stable nucleus compare to the sum of the masses of its individual nucleons?,The mass of the nucleus is less than the total mass of its separate nucleons.
+Which value serves as a better indicator of nuclear stability: total binding energy or binding energy per nucleon?,Binding energy per nucleon.
+In which range of mass numbers ($A$) is the average binding energy per nucleon generally at its maximum?,Between $A \approx 40$ and $A \approx 80$.
+Why are nuclei with $Z > 92$ generally unstable regardless of the number of neutrons?,The short-range strong force cannot overcome the long-range electrostatic repulsion of so many protons.
+Term: Nucleon,Definition: A collective term for the protons and neutrons that make up the atomic nucleus.
+True or False: The strong nuclear force acts on electrons orbiting the nucleus.,False; it only acts on quarks and the nucleons they compose.
+What happens to the excess 'mass energy' when protons and neutrons bind together to form a nucleus?,"It is released, usually appearing as radiation or kinetic energy."
+How does the number of neutrons relative to protons change as the atomic number ($Z$) increases in stable nuclei?,The number of neutrons increases more rapidly than the number of protons.
+"The process where a large nucleus splits into smaller fragments, releasing energy due to increased binding energy per nucleon, is called _____.",nuclear fission
+"The process where small nuclei combine to form a larger nucleus, releasing energy, is called _____.",nuclear fusion
+What prevents fusion from occurring at room temperature?,The Coulomb repulsive force between positively charged nuclei.
+"In the proton-proton chain of stars, what force must be overcome for fusion to occur?",The electromagnetic (Coulomb) repulsion.
+Concept: Short-range force,"Definition: A force that acts only over very small distances, such as the strong nuclear force ($10^{-15}$ m)."
+Why is it easier to remove a proton from a nucleus than a neutron of the same energy level?,The repulsive electric force from other protons helps push the proton out.
+The fundamental particles that experience the strong nuclear force are known as _____.,hadrons (specifically quarks)
+Which fundamental particles do NOT experience the strong nuclear force?,Leptons (such as electrons and neutrinos).
+"In the liquid-drop model, the 'surface tension' effect that reduces binding energy is caused by nucleons at the _____ of the nucleus having fewer neighbours.",surface
+What is the relationship between the stability of an alpha particle and its binding energy?,It is very stable because it has a high binding energy for its mass number.
+How does the strong force between two protons compare to the strong force between two neutrons?,They are approximately equal (the strong force is independent of charge).
+The magnitude of the strong force between a proton and a neutron is _____ to the force between two protons.,approximately equal
+What specific characteristic of the electromagnetic force allows it to destabilise large nuclei despite being weaker than the strong force?,"Its long-range nature, which allows every proton to repel every other proton in the nucleus."
+Formula: Average binding energy per nucleon,The total binding energy of the nucleus divided by the mass number $A$.
+Identify the two forces that compete to determine the shape and stability of the nucleus.,The strong nuclear force (attractive) and the Coulomb force (repulsive).
+Why is the alpha particle ($^4_2He$) particularly significant in nuclear decay?,"It is a very stable, tightly bound configuration of two protons and two neutrons."
+The conversion factor used to calculate energy from mass in atomic mass units ($u$) is approximately _____ MeV/$u$.,931.5
+"In the context of the strong nuclear force, what determines the 'saturation' of the force?",A nucleon only interacts with its immediate neighbours due to the force's short range.
+How does increasing the number of protons affect the 'critical mass' needed for a self-sustaining fission reaction?,It typically decreases the critical mass by increasing the probability of neutron capture.
+True or False: The strong nuclear force is the strongest of the four fundamental forces of nature.,True.
+Which subatomic particles are composed of three quarks bound by the strong force?,"Baryons (e.g., protons and neutrons)."
+What is the primary reason why light nuclei ($A < 20$) are more likely to undergo fusion than fission?,"Combining them increases the binding energy per nucleon, leading to a more stable state."
+What is the primary reason why very heavy nuclei are more likely to undergo fission than fusion?,"Splitting them increases the binding energy per nucleon, as the resulting smaller nuclei are more stable."
+The concept that a nucleus has less energy than its separated constituent parts is the basis of _____.,nuclear binding
+"At what distance does the strong force become repulsive, preventing nucleons from collapsing into each other?","At extremely short distances, less than approximately $0.5 \times 10^{-15}$ m."
+Why does a higher temperature increase the likelihood of nuclear fusion in a plasma?,"It increases the kinetic energy of nuclei, allowing them to overcome Coulomb repulsion."
+What role does the 'weak nuclear force' play in the sun's energy production compared to the strong force?,"It governs the initial proton-to-neutron conversion, which is the rate-limiting step for the fusion process."
+"The total number of nucleons in a nuclear reaction is always _____, a principle known as the conservation of nucleon number.",conserved
+What is the effect of 'nuclear shielding' by neutrons in heavy nuclei?,"It spaces out the protons, reducing their total electrostatic repulsion while providing extra 'glue' via the strong force."
+How is the radius of a nucleus ($r$) related to its mass number ($A$)?,$r \approx (1.2 \times 10^{-15}\text{ m})A^{1/3}$
+"In medicine, what nuclear property is exploited by MRI to image tissues?",The magnetic moment (spin) of nuclei like hydrogen-1.
+Which fundamental interaction is responsible for beta decay?,The weak nuclear force.
+How does the strong force contribute to the density of nuclear matter?,Its short-range attractive nature creates a nearly constant density across different nuclei.
+Why is the energy released per nucleon in fusion generally higher than in fission?,The change in binding energy per nucleon is steeper at the low-$A$ end of the curve.

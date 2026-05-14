@@ -1,0 +1,60 @@
+"In the context of NMR, what does the acronym stand for?",Nuclear Magnetic Resonance.
+What does the abbreviation MRI represent in medical physics?,Magnetic Resonance Imaging.
+Which specific nucleus is most commonly targeted in clinical MRI?,The hydrogen nucleus (proton).
+"In an NMR system operating at $42.58 \text{ MHz}$, what is the calculated wavelength ($\lambda$) of the signal?",$7.041 \text{ m}$.
+To which region of the electromagnetic spectrum do the frequencies used in MRI and NMR typically belong?,Radio waves.
+What is the primary physical interaction that allows NMR to occur?,The interaction between nuclear magnetic moments and an external magnetic field.
+How does the ionising potential of MRI compare to that of X-ray imaging?,"MRI uses non-ionising radiofrequency radiation, whereas X-rays are ionising."
+"In nuclear physics, what does the symbol $Z$ represent?","The atomic number, or the number of protons in the nucleus."
+"In nuclear physics, what does the symbol $A$ represent?","The mass number, or the total number of nucleons (protons and neutrons)."
+How are isotopes of the same element defined?,Atoms with the same number of protons but different numbers of neutrons.
+Why do different isotopes of the same element exhibit almost identical chemical properties?,They have the same number of electrons and the same electronic structure.
+What is the approximate radius of a proton?,$1.2 \times 10^{-15} \text{ m}$ (or $1.2 \text{ fm}$).
+"According to the empirical formula, how is the radius ($r$) of a nucleus related to its mass number ($A$)?",$r = (1.2 \times 10^{-15} \text{ m}) A^{1/3}$.
+How does the density of nuclear matter change as the mass number ($A$) of the atom increases?,The density remains approximately constant and is independent of $A$.
+What is the value of the charge ($e$) of a single proton?,$1.60 \times 10^{-19} \text{ C}$.
+Which fundamental force overcomes the electrical repulsion between protons to hold the nucleus together?,The strong nuclear force.
+What is the approximate range over which the strong nuclear force acts?,On the order of $10^{-15} \text{ m}$.
+How does the strength of the strong nuclear force compare to the electromagnetic force at nuclear distances?,The strong force is approximately 100 times stronger than the electromagnetic force.
+"In terms of mass-energy equivalence, what is the energy value of $1$ atomic mass unit ($u$)?",$931.5 \text{ MeV}$.
+The difference between the total mass of the individual nucleons and the actual mass of the nucleus is called the _____.,Binding energy.
+What describes the stability of an alpha particle compared to its constituent nucleons?,It is highly stable because it has less energy when bound than when separated.
+"In beta-minus ($\beta^-$) decay, a neutron is effectively converted into which two particles within the nucleus?",A proton and an electron.
+What is the composition of an alpha ($\alpha$) particle?,Two protons and two neutrons (a helium-4 nucleus).
+Which type of nuclear decay involves the emission of high-energy photons without changing $A$ or $Z$?,Gamma ($\gamma$) decay.
+What is the charge of an alpha particle?,$+2e$.
+What must be added to a nucleus to break it apart into its constituent protons and neutrons?,Binding energy.
+Why is $1 \text{ kg}$ of copper found to have more atoms than $1 \text{ kg}$ of lead?,"Copper has a smaller atomic mass, meaning each individual atom has less mass."
+What is the formula for calculating the wavelength ($\lambda$) of an EM wave given frequency ($f$)?,$\lambda = \frac{c}{f}$.
+"In MRI, why are 'gradient fields' used in addition to the main static magnetic field?",To vary the magnetic field spatially for position encoding (imaging).
+Which particle is emitted alongside an electron in beta-minus decay to conserve lepton number?,An antineutrino ($v^-$).
+What conservation law states that the total number of protons and neutrons must remain constant in a nuclear reaction?,Conservation of nucleon number.
+How does the mass of a nucleus compare to the sum of the masses of its individual nucleons?,The nucleus has less mass due to the mass energy released during binding.
+Which fundamental force is responsible for binding negatively charged electrons to the positively charged nucleus?,The electromagnetic force.
+What is the mass of a proton in atomic mass units ($u$)?,$1.007276 \text{ u}$.
+What is the mass of a neutron in atomic mass units ($u$)?,$1.008665 \text{ u}$.
+Which type of radiation consists of electrons or positrons?,Beta ($\beta$) radiation.
+Why does alpha radiation cause more biological damage in a concentrated area than gamma radiation?,"Alpha particles have a relatively large mass and slow speed, leading to high ionisation density."
+"In clinical MRI, what provides the 'resonance' condition for the hydrogen protons?",Applying an RF pulse at a frequency that matches the protons' energy level transition.
+What is the approximate density of nuclear matter in SI units?,$2.3 \times 10^{17} \text{ kg m}^{-3}$.
+"If the radius of a gold nucleus ($A=197$) is $r$, what is the approximate distance of closest approach for a $7.7 \text{ MeV}$ alpha particle?",Approximately $4.2$ times the radius of the gold nucleus.
+What governs the 'half-life' of a radioactive substance used in medical tracers?,The time required for half of the radioactive nuclei in a sample to decay.
+What is the conversion factor between electron-volts and Joules?,$1 \text{ eV} = 1.60 \times 10^{-19} \text{ J}$.
+"In a magnetic field $B$, the magnetic force on a moving charge $q$ is perpendicular to both the velocity and _____.",The magnetic field direction.
+Which physical principle determines the path of a charged particle in a mass spectrometer?,The magnetic force producing centripetal acceleration ($F = qvB$).
+Why is Strontium-90 particularly dangerous if ingested by humans?,It is chemically similar to Calcium and may be stored in the bones.
+"In the Bohr model of the atom, what is the value used for the Bohr radius ($r_1$)?",$0.53 \times 10^{-10} \text{ m}$.
+What is the daughter nucleus if Uranium-238 ($Z=92$) undergoes alpha decay?,Thorium-234 ($Z=90$).
+What occurs to the atomic number ($Z$) of a nucleus during positron emission ($\beta^+$ decay)?,The atomic number decreases by 1.
+Which type of nuclear reaction involves a heavy nucleus splitting into two smaller nuclei?,Fission.
+Which type of nuclear reaction involves two light nuclei combining to form a heavier nucleus?,Fusion.
+What is the typical energy release per single fission reaction of Uranium-235?,Approximately $200 \text{ MeV}$.
+"In an NMR experiment, the frequency at which the nucleus absorbs energy is known as the _____ frequency.",Larmor (or Resonant).
+What is the SI unit for the absorbed dose of radiation?,The Gray (Gy).
+How is the Sievert (Sv) defined in terms of radiation dosimetry?,"It is the unit of effective dose, accounting for the biological effect of different radiation types."
+What role does the 'main magnet' play in an MRI scanner?,"It produces a strong, uniform static magnetic field to align nuclear spins."
+Why is a vacuum necessary in a mass spectrometer?,"To prevent ions from colliding with air molecules, which would deflect their paths."
+"In the equation $E = hf$, what does $h$ represent?",Planck's constant ($6.626 \times 10^{-34} \text{ J s}$).
+What is the purpose of 'moderators' in a nuclear fission reactor?,To slow down neutrons so they are more likely to cause further fission reactions.
+How does the wavelength of medical MRI signals compare to the size of the human body?,The wavelength (several metres) is typically larger than the human body.
+What is the charge of a neutron?,Zero (electrically neutral).

@@ -1,0 +1,60 @@
+"In physics, what two factors must be present for a force to perform 'work' on an object?",The object must undergo displacement and the force must have a component in the direction of that motion.
+What is the mathematical formula for work done by a constant force $F$ over a displacement $d$?,"$W = F d \cos \theta$, where $\theta$ is the angle between the force and the displacement vectors."
+Why is the work done by a centripetal force on an object moving in a circle always zero?,"The centripetal force is always perpendicular to the direction of motion, making $\cos 90^{\circ}$ equal to zero."
+Does a student do 'work' in the physics sense while sitting still and studying a problem set?,"No, because there is no displacement involved in the activity."
+Under what specific condition does the normal force perform work on a person?,"It performs work when the person's displacement has a component perpendicular to the surface, such as during a vertical jump."
+Definition: Conservative Force,A force for which the work done on an object is independent of the path taken between two points.
+Identify three non-conservative forces mentioned in the source material.,"Friction, air resistance, and forces produced by human muscles are all non-conservative."
+Non-conservative forces typically dissipate mechanical energy into what form?,"They dissipate energy into heat, sound, or light."
+Why does stepping on top of a log require more work than stepping over it?,Stepping on top of the log requires the person to raise their centre of mass to a greater height.
+What is the formula for calculating translational kinetic energy?,$KE = \frac{1}{2} m v^2$.
+"According to the Work-Energy Principle, the net work done on an object is equal to its change in _____.",Kinetic energy
+"If the speed of a car is doubled, by what factor does its kinetic energy increase?",The kinetic energy increases by a factor of four because it is proportional to the square of the speed.
+What determines the stopping distance of a car if a constant braking force is applied?,"The stopping distance is proportional to the car's initial kinetic energy, which varies with the square of its speed."
+What is the formula for gravitational potential energy relative to a reference height?,"$PE_G = mgy$, where $g$ is the acceleration due to gravity and $y$ is the vertical height."
+The potential energy stored in a compressed or stretched spring is known as _____ potential energy.,Elastic
+What is the formula for the elastic potential energy of a spring with spring constant $k$ and displacement $x$?,$PE_{el} = \frac{1}{2} k x^2$.
+Total mechanical energy ($E$) is defined as the sum of which two types of energy?,It is the sum of kinetic energy and potential energy ($E = KE + PE$).
+Under what condition is the total mechanical energy of a system conserved?,Mechanical energy is conserved when only conservative forces do work on the system.
+Definition: Power,The rate at which work is done or energy is transformed over time.
+What is the SI unit of power?,"The Watt ($W$), which is equivalent to one Joule per second ($J/s$)."
+What is the conversion factor between horsepower ($hp$) and Watts ($W$)?,$1\ hp = 746\ W$.
+"In terms of force $F$ and constant velocity $v$, how is instantaneous power expressed?",$P = F v$.
+Why does taking a zigzag trail up a mountain feel 'easier' than going straight up?,"The zigzag path requires less force and a lower power output, though the total work performed is the same."
+"When a car slows down, is the work done on it by the brakes positive or negative?",The work is negative because the force of friction acts in the opposite direction to the displacement.
+"For two bullets with the same kinetic energy, which one will have a higher speed: the lighter one or the heavier one?",The lighter bullet will have a higher speed.
+"If a car's initial speed increases by $50\%$, by what factor does its stopping distance increase under constant braking force?",The stopping distance increases by a factor of $2.25$ (calculated as $1.5^2$).
+"In a lever system, if the input work equals the output work, how are the forces related to their respective displacements ($h$)?",The ratio of forces is inversely proportional to the ratio of their displacements ($F_O/F_I = h_I/h_O$).
+"When calculating work from a force-displacement graph, what physical quantity represents the work done?",The area underneath the force-displacement curve represents the work done.
+What is the 'efficiency' of a machine or process defined as?,The ratio of useful power output to total power input.
+How does the work done by gravity on an object change as it is lifted vertically versus being dropped?,Gravity does negative work when the object is lifted and positive work when it is dropped.
+"When a person jumps, the _____ force from the ground provides the work necessary to accelerate them vertically.",Normal
+"If an object is moving at a constant velocity, what is the net work done on it?",The net work is zero because there is no change in kinetic energy.
+How does air friction affect the kinetic energy of a falling object?,"Air friction performs negative work, which decreases the object's kinetic energy relative to a vacuum fall."
+The formula $E = mc^2$ implies that _____ can be included as a form of energy in physical analysis.,Mass
+"When a golfer swings a club to hit a ball, what energy transformation occurs at the point of impact?",Some of the club's maximum kinetic energy is converted into the kinetic energy of the ball.
+"In a physics context, if you push against a stationary wall until you are exhausted, why have you done zero work on the wall?",Because the wall has not undergone any displacement.
+"Why is the internal energy of your muscles depleted when pushing a stationary wall, despite doing zero work on the wall?",Muscles convert chemical energy into heat and other internal forms even without external displacement.
+"A conservative force, such as gravity, allows for the definition of a corresponding _____ energy.",Potential
+How does taking a zigzag path affect the total time required to climb a mountain compared to a straight path?,The zigzag path increases the total time required for the climb.
+"In the context of stopping distance, if a car is three times heavier but moving at the same speed, how is the work required to stop it affected?",The work required is three times greater because kinetic energy is directly proportional to mass.
+What is the relationship between the work done by a net force and the final velocity of an object starting from rest?,$v_f = \sqrt{\frac{2W_{net}}{m}}$.
+Does the tension in the cord of a swinging pendulum do work on the bob?,"No, because the tension is always perpendicular to the path of the bob."
+"The rate of energy conversion by brakes on a steep hill is high, potentially causing them to catch fire if they cannot dissipate _____ quickly enough.",Thermal power (heat)
+"In thermodynamics, what does the first law state regarding work ($W$), heat ($Q$), and internal energy ($\Delta U$)?",$\Delta U = Q - W$.
+Why is it impossible for a heat engine to perform more work than the heat energy it extracts?,"Because energy must be conserved, and work output is limited by the total energy input."
+"According to the second law of thermodynamics, the _____ of the universe must increase in any process.",Entropy
+What is the formula for the work done by an electric field on a charge $q$ moving through a potential difference $V_{ba}$?,$W_{ba} = -q V_{ba}$.
+Is the electrostatic force between two point charges considered conservative or non-conservative?,Conservative.
+"A common unit of energy used in atomic physics is the _____, defined as the energy gained by an electron moving through $1\ V$.",Electron-volt ($eV$)
+How does doubling the mass of an object affect its gravitational potential energy at a fixed height?,It doubles the gravitational potential energy.
+"For a constant power output, how are force and speed related?","Force and speed are inversely proportional; as speed increases, the available force decreases."
+"If a system's speed increases, its kinetic energy must have increased, implying that the _____ work done on it was positive.",Net
+"In a spring-block system, at what point during the oscillation is the speed of the block at its maximum?",The speed is maximum at the equilibrium position (displacement of zero).
+What happens to the total mechanical energy of a falling object if air resistance is significant?,The total mechanical energy decreases as it is converted into thermal energy.
+How is the work done at a constant pressure $P$ related to the change in volume $\Delta V$?,$W = P \Delta V$.
+Why is it said that 'you can't get something for nothing' in the context of the first law of thermodynamics?,"Work done by a system must have a source, either heat input or a reduction in internal energy."
+What is the relationship between impulse and momentum for an object starting from rest?,The impulse is equal to the final momentum of the object.
+"If two vehicles are acted upon by the same force for the same amount of time, which one will have more kinetic energy: the lighter or the heavier one?",The lighter vehicle will have more kinetic energy because it travels a greater distance in that time.
+How is the efficiency of a lightbulb related to the power it radiates?,Efficiency is proportional to the power radiated as visible light relative to the total electrical power consumed.
+"In the analysis of relativistic energy, the total energy of a particle is given by $E = KE + m c^2$. What does $m c^2$ represent?",The rest energy of the particle.

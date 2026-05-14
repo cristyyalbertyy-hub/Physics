@@ -1,0 +1,65 @@
+What is the physical definition of displacement?,"It is the change in position of an object, represented as a vector quantity."
+How does distance differ from displacement?,"Distance is a scalar quantity representing the total path length travelled, whereas displacement only considers the change between the starting and ending points."
+What is the formula for average velocity?,"$v = \frac{\Delta x}{\Delta t}$, where $\Delta x$ is displacement and $\Delta t$ is the elapsed time."
+Average speed is calculated by dividing the total _____ by the total time elapsed.,distance travelled
+"In a trip from point A to B and back to A, what is the total displacement?","Zero, because the final position is the same as the starting position."
+"If you travel equal distances at speeds of $70 \, km/h$ and $90 \, km/h$, why is the average speed less than $80 \, km/h$?",More time is spent travelling at the slower speed than at the faster speed.
+Term: Instantaneous Velocity,"Definition: The velocity of an object at a specific point in time, represented by the slope of the tangent to the position-time graph."
+What does a non-zero constant acceleration imply about an object's velocity?,"The velocity is changing at a steady, uniform rate over time."
+Can an object have zero velocity and non-zero acceleration simultaneously?,"Yes, for example, a rock at the highest point of its flight after being thrown straight up."
+What is the SI unit for acceleration?,$m/s^{2}$ (metres per second squared).
+"Formula: The kinematic equation relating final velocity, initial velocity, acceleration, and time.",$v = v_{0} + at$
+Formula: The kinematic equation for position $x$ as a function of time $t$ under constant acceleration $a$.,$x = x_{0} + v_{0}t + \frac{1}{2}at^{2}$
+"Formula: The kinematic equation relating velocities, acceleration, and displacement without explicit time.",$v^{2} = v_{0}^{2} + 2a(x - x_{0})$
+What value is typically used for the acceleration due to gravity ($g$) near the Earth's surface?,"$9.80 \, m/s^{2}$"
+"When an object is in 'free fall', what is the only force assumed to be acting upon it?",Gravity.
+"If upward is defined as the positive direction, what is the sign of the acceleration due to gravity?","Negative ($-9.80 \, m/s^{2}$)."
+The slope of a velocity-time graph represents the object's _____.,acceleration
+How is the displacement of an object determined from a velocity-time graph?,By calculating the area under the curve (or line) of the graph.
+What does the phrase 'slows down uniformly' indicate about a vehicle's motion?,It has a constant negative acceleration (deceleration).
+Term: Reaction Time,"Definition: The interval between a person perceiving a hazard and physically applying the brakes, during which the car travels at constant velocity."
+How do you convert a speed from $km/h$ to $m/s$?,Divide the value in $km/h$ by $3.6$.
+"If a car's acceleration is in the opposite direction of its velocity, the car is _____.",decelerating (or slowing down)
+What is the instantaneous velocity of a rock thrown vertically upwards when it reaches its maximum height?,"$0 \, m/s$"
+"In the kinematic equation $v^{2} = v_{0}^{2} + 2a\Delta x$, what does $\Delta x$ represent?",Displacement (change in position).
+How does the mass of an object affect its acceleration during free fall in a vacuum?,It does not; all objects accelerate at the same rate regardless of mass.
+A car starting from rest has an initial velocity ($v_{0}$) of _____.,zero
+What is the approximate rule of thumb for the distance sound travels every $3$ seconds?,"Approximately $1 \, km$."
+"When calculating 'g's' for a specific acceleration $a$, what is the formula used?","$Number\ of\ g's = \frac{a}{9.80 \, m/s^{2}}$"
+"In kinematics, the term 'at rest' signifies that the _____ is zero.",velocity
+What kinematic variable is found by taking the derivative of velocity with respect to time?,Acceleration.
+Why is the average velocity of a round trip always zero?,Because the total displacement for any round trip is zero.
+"When solving for time in the equation $x = v_{0}t + \frac{1}{2}at^{2}$, what mathematical tool is often required?",The quadratic formula.
+"If an object is dropped from a height $H$, what is its initial velocity $v_{0}$?","$0 \, m/s$"
+Concept: Deceleration,"Definition: Acceleration that acts in the direction opposite to the motion, causing the object to slow down."
+What defines a reference frame in kinematics?,A coordinate system used to measure and describe the position and motion of objects.
+"If a car accelerates from $95 \, km/h$ to $105 \, km/h$, what is the change in velocity $\Delta v$?","$10 \, km/h$"
+The total stopping distance of a car is the sum of the _____ distance and the braking distance.,reaction
+How is the speed of one object relative to another calculated if they move in the same direction?,By subtracting the magnitude of the slower velocity from the faster velocity.
+How is relative speed calculated for two objects moving directly towards each other?,By adding the magnitudes of their individual velocities.
+"In the absence of air resistance, the time an object takes to go up to a certain height is _____ the time it takes to fall back to the same level.",equal to
+What does a constant horizontal line on a velocity-time graph indicate?,Zero acceleration (constant velocity).
+What does a straight line with a non-zero slope on a position-time graph indicate?,Constant velocity.
+"An object's velocity is a vector, meaning it has both _____ and _____.",magnitude; direction
+The average acceleration is the change in _____ divided by the time taken.,velocity
+What is the physical meaning of a negative velocity if the positive direction is 'East'?,The object is moving West.
+At what point in its trajectory does a projectile have its minimum speed in 1D vertical motion?,At its highest point (where speed is zero).
+"If a car's velocity and acceleration are both negative, is the car speeding up or slowing down?",Speeding up (moving faster in the negative direction).
+Term: Scalar,"Definition: A physical quantity described by magnitude only, such as distance or speed."
+Term: Vector,"Definition: A physical quantity described by both magnitude and direction, such as displacement or velocity."
+Which kinematic equation is independent of the object's mass?,All standard kinematic equations for constant acceleration are independent of mass.
+"If an object travels at a constant speed in a circle, is it accelerating?","Yes, because its direction of velocity is constantly changing."
+The area of a rectangle on a velocity-time graph (constant $v$) represents displacement $x = _____$.,$vt$
+"If air resistance is negligible, what is the acceleration of a ball after it is released but before it hits the ground?","$9.80 \, m/s^{2}$ downwards."
+"A particle moves from $x = 5 \, m$ to $x = 2 \, m$. What is its displacement?","$-3 \, m$"
+What is the name for the motion of an object under the influence of gravity only?,Free fall.
+Why is it important to choose a coordinate system before solving a kinematics problem?,To define the origin and the positive/negative directions for vectors like displacement and velocity.
+"If an object is thrown down with an initial speed $v_{0}$, its speed after time $t$ is $v = _____$.",$v_{0} + gt$
+Does a car speedometer measure speed or velocity?,Speed (it does not indicate direction).
+"In the equation $\bar{v} = \frac{v + v_{0}}{2}$, what condition must be met for this to be valid?",The acceleration must be constant.
+"What is the displacement of a runner who completes one full lap on a $400 \, m$ track?",Zero.
+"If acceleration is zero, how does the position change over time?",It changes linearly with time ($x = x_{0} + vt$).
+What happens to the velocity of an object if its acceleration is perpendicular to its motion?,"The direction of the velocity changes, but the speed remains constant."
+"In 1D motion, the sign of the velocity indicates the _____ of motion.",direction
+How does the final speed of a falling object relate to its fall height $H$ (ignoring air resistance)?,$v = \sqrt{2gH}$
+"When a ball is thrown upwards, its acceleration at the very top of its path is _____.","$9.80 \, m/s^{2}$ downwards"

@@ -1,0 +1,60 @@
+"According to Newton’s first law, what property of matter causes a child sitting in a wagon to seem to fall backwards when the wagon is pulled sharply forward?",Inertia.
+"When a wagon is pulled forward, the child inside moves forward because of the _____ force between the child and the wagon's surface.",frictional
+"On Mars, where the acceleration due to gravity is $3.7\ m/s^{2}$, what is the weight of a $68\ kg$ person?",$250\ N$.
+What is the weight of a $68\ kg$ object in deep space where the local acceleration due to gravity is zero?,$0\ N$.
+"State the formula for Newton’s second law relating net force, mass, and acceleration.",$\sum F = ma$.
+"If the heart exerts a net force of $0.02\ N$ on blood with a mass of $2.0 \times 10^{-3}\ kg$, what is the average acceleration of the blood?",$10\ m/s^{2}$.
+"In the equation for average acceleration $a_{avg} = \frac{v^{2} - v_{0}^{2}}{2(x - x_{0})}$, what does the term $(x - x_{0})$ represent?",Displacement.
+"When calculating the force required to stop a train, what does a negative sign in the resulting force value indicate?",The force is in the opposite direction to the initial velocity.
+"In a vertical system where 'up' is positive, what is the formula for the tension force ($F_{T}$) required to accelerate a mass ($m$) upwards at rate ($a$)?",$F_{T} = m(g + a)$.
+A $20.0\ kg$ box is resting on a table; what is the magnitude of the normal force acting on the box?,$196\ N$.
+"If an elevator starts to move downwards from rest, the scale reading for a person inside will be _____ than their actual weight.",lower
+"In a free-body diagram of a skydiver, what two primary forces are acting in opposite vertical directions before the parachute opens?",Weight ($mg$) and air resistance ($F_{A}$).
+"Newton’s Third Law states that if a sprinter exerts a force of $720\ N$ on the ground at $22^{\circ}$ below the horizontal, the ground exerts a force of _____ on the sprinter.",$720\ N$ at $22^{\circ}$ above the horizontal.
+Concept: Static Equilibrium,"Definition: A state where the net force and net torque on an object are both zero, resulting in no motion."
+"For a stationary object suspended by a wire, the vertical component of the tension must be equal to the object's _____.",weight ($mg$)
+"In the context of an object hanging from a car's rearview mirror, if the car slows down, the object swings towards the _____.",windshield
+The coefficient of kinetic friction ($\mu_{k}$) is used to calculate the friction force ($F_{fr}$) using the formula $F_{fr} = $ _____.,$\mu_{k} F_{N}$
+"When two blocks are in contact and pushed together on a surface, they can be treated as a _____ object to find the system's acceleration.",single
+"On an inclined plane at angle $\theta$, what is the component of the gravitational force acting parallel to and down the incline?",$mg \sin \theta$.
+"On an inclined plane at angle $\theta$, what is the component of the gravitational force acting perpendicular to the surface?",$mg \cos \theta$.
+A skier moving at a constant speed down a slope has a net force of _____ acting on them.,zero
+"When a person in an elevator is accelerating upwards, the normal force ($F_{N}$) is calculated as $m(g + a)$; this $F_{N}$ is also known as the _____ weight.",apparent
+How is the 'kilogram reading' of a scale in an accelerating elevator determined from the normal force ($F_{N}$)?,By dividing the normal force by the acceleration due to gravity ($g$).
+The force that keeps an object moving in a circle is called the _____ force.,centripetal
+What is the formula for centripetal acceleration ($a_{R}$) in terms of velocity ($v$) and radius ($r$)?,$a_{R} = \frac{v^{2}}{r}$.
+"In uniform circular motion, the acceleration vector always points towards the _____ of the circle.",centre
+"For a car rounding a level curve, what force provides the necessary centripetal acceleration?",Static friction.
+"At the top of a vertical loop-the-loop, if a passenger is upside down, the net downward force is the sum of weight ($mg$) and the _____ force.",normal ($F_{N}$)
+Newton's second law for a rotating object can be expressed as $\sum F_{R} = m \cdot$ _____.,$\frac{v^{2}}{r}$
+What is the unit of Force in the SI system?,The Newton ($N$).
+A 'free-body diagram' is a sketch showing all the _____ acting on a single object.,forces
+"If an object is moving at a constant velocity, the acceleration is zero and the net force is _____.",zero
+"According to Newton’s _____ law, for every action there is an equal and opposite reaction.",Third
+The force of gravity acting on an object's mass is defined as its _____.,weight
+"In an elevator accelerating downwards at rate $a$, the apparent weight of a person is $m($ _____ $)$.",$g - a$
+Kinetic friction acts in the _____ direction to the relative motion of the surfaces.,opposite
+The maximum static friction force is generally _____ than the kinetic friction force for the same materials.,greater
+What happens to the normal force on an object as the angle of the incline it sits on increases?,It decreases.
+The coefficient of static friction is denoted by the Greek letter _____ with a subscript 's'.,$\mu$ (mu)
+"If the net force on an object is tripled while the mass remains constant, the acceleration will _____.",triple
+"In a pulley system with two masses $m_{1}$ and $m_{2}$, if $m_{2} > m_{1}$, the magnitude of acceleration ($a$) is $g \cdot \frac{m_{2} - m_{1}}{m_{1} + m_{2}}$ provided there is no _____.",friction
+The standard value for the acceleration due to gravity on Earth is $g =$ _____.,$9.80\ m/s^{2}$
+"Tension is a pulling force exerted by a stretched _____, cord, or cable.",string
+"A person stands on a scale in a lift. If the cable breaks and the lift falls freely, the scale reading will be _____.",zero
+"In $F = ma$, if the force is measured in Newtons and mass in kilograms, what are the units for acceleration?",Metres per second squared ($m/s^{2}$).
+"When a car brakes, the force of friction from the road acts in the _____ direction to the car's motion.",opposite
+What trig function is used to find the horizontal component ($F_{x}$) of a force ($F$) acting at an angle $\theta$ to the horizontal?,$F \cos \theta$.
+The normal force ($F_{N}$) is always _____ to the surface of contact.,perpendicular
+"If a force is applied to a crate but it does not move, the force of _____ friction is equal and opposite to the applied force.",static
+"In circular motion, the time taken for one complete revolution is called the _____.",period ($T$)
+What is the relationship between frequency ($f$) and period ($T$)?,$f = \frac{1}{T}$.
+"For an object tied to a string and whirled in a horizontal circle, the tension in the string provides the _____ force.",centripetal
+"In the medical context of a 'Search and Learn' problem, what force provides the centripetal acceleration for the Moon's orbit around the Earth?",Gravitational force.
+What force prevents tires from skidding on a banked race track curve in the absence of friction?,The horizontal component of the normal force.
+"In the diagram of a 'conical pendulum', the horizontal component of tension ($F_{T} \sin \theta$) equals $m \cdot$ _____.",$\frac{v^{2}}{r}$
+"The average force on a human torso due to the legs during a landing can be found by $F_{T} = m(g - a_{y})$, where $a_{y}$ is the vertical _____.",acceleration
+"If a climber is at rest, the tension in the rope supporting them must be equal to their _____.",weight ($mg$)
+"To calculate the power ($P$) required to push an object at constant velocity ($v$) against friction, the formula is $P = $ _____.",$F_{fr} \cdot v$
+The torque ($\tau$) produced by a force ($F$) at a distance ($r$) from the pivot is calculated as $\tau = $ _____.,$r F \sin \theta$
+"In static equilibrium problems, the sum of all clockwise torques must equal the sum of all _____ torques.",anti-clockwise (or counter-clockwise)

@@ -1,0 +1,60 @@
+"In nuclear physics, what does the atomic number ($Z$) represent?",The number of protons in the nucleus.
+What is the term for nuclei that have the same number of protons but different numbers of neutrons?,Isotopes
+How is the mass number ($A$) of a nucleus calculated?,The sum of the number of protons and neutrons ($Z + N$).
+Which fundamental force is responsible for binding nucleons together despite the electrical repulsion between protons?,The strong nuclear force.
+What is the approximate range of the strong nuclear force?,"Short-range, acting only over distances on the order of $10^{-15}\text{ m}$."
+Formula: Empirical relationship for nuclear radius ($r$),$r \approx (1.2 \times 10^{-15}\text{ m}) A^{1/3}$
+How does the density of nuclear matter change as the mass number ($A$) of an atom increases?,It remains approximately constant and independent of $A$.
+The mass of a nucleus is always _____ than the total mass of its individual constituent protons and neutrons.,less
+What is the term for the energy required to break a nucleus into its constituent nucleons?,Binding energy
+"Radioactivity is primarily a _____ process, meaning it is unaffected by chemical or physical treatments like heating.",nuclear
+What specific particle is emitted during $\alpha$ (alpha) decay?,A helium nucleus ($^4_2\text{He}$).
+By how much does the mass number ($A$) change when a nucleus undergoes alpha decay?,It decreases by 4.
+By how much does the atomic number ($Z$) change when a nucleus undergoes alpha decay?,It decreases by 2.
+What transformation occurs to a nucleon during $\beta^-$ (beta-minus) decay?,"A neutron transforms into a proton, an electron, and an antineutrino."
+"In $\beta^-$ decay, the atomic number ($Z$) of the daughter nucleus increases by _____.",1
+What particle is emitted alongside a positron in $\beta^+$ (beta-plus) decay?,A neutrino.
+What happens to the atomic number ($Z$) of a nucleus during positron emission ($\beta^+$ decay)?,It decreases by 1.
+What is the change in mass number ($A$) during any form of beta decay?,Zero (it remains the same).
+What is emitted during $\gamma$ (gamma) decay?,A high-energy photon.
+How do the atomic number ($Z$) and mass number ($A$) change during gamma decay?,They do not change.
+Which conservation law states that the total number of protons and neutrons must remain constant in a nuclear reaction?,Conservation of nucleon number.
+"What is the SI unit of radioactivity, defined as one decay per second?",Becquerel ($\text{Bq}$).
+How many decays per second are equivalent to one Curie ($\text{Ci}$)?,$3.70 \times 10^{10}\text{ decays/s}$
+The time required for half of the original number of radioactive nuclei in a sample to decay is called the _____.,half-life ($T_{1/2}$)
+Formula: Radioactive decay law for the number of remaining nuclei ($N$),$N = N_0 e^{-\lambda t}$
+How is the decay constant ($\lambda$) related to the half-life ($T_{1/2}$)?,$\lambda = \frac{\ln 2}{T_{1/2}}$
+Why do heavier nuclei require a higher ratio of neutrons to protons for stability?,To offset the increased Coulomb repulsive forces between protons.
+What is the term for a radioactive isotope used in medicine to track the path of a chemical through the body?,Radioactive tracer
+"In dosimetry, what does the unit 'Gray' ($\text{Gy}$) measure?","Absorbed dose, defined as 1 Joule of energy deposited per kilogram of material."
+What factor is used to account for the different biological damage caused by different types of radiation?,Relative Biological Effectiveness (RBE)
+How is the effective dose in Sieverts ($\text{Sv}$) calculated?,Effective dose = Absorbed dose ($\text{Gy}$) $\times$ RBE.
+Which type of radiation generally has a much higher RBE than gamma or beta radiation?,Alpha radiation.
+The safety principle ALARA stands for 'As Low As _____ Achieveable'.,Reasonably
+What is the approximate energy released in a single uranium-235 fission reaction?,$200 \text{ MeV}$
+Which process involves the combining of small nuclei into larger ones to release energy?,Nuclear fusion
+"In a nuclear reactor, what is the purpose of a moderator?",To slow down neutrons so they are more likely to be absorbed by fuel nuclei.
+Why is $\alpha$ radiation more damaging to living tissue than $\gamma$ radiation of the same energy?,It is more heavily ionizing due to its larger mass and charge.
+What is the Larmor frequency for hydrogen protons in a $1.0\text{ T}$ magnetic field (used in NMR)?,$42.58 \text{ MHz}$
+"What is the term for the process where an excited nucleus transfers its energy directly to an orbital electron, ejecting it?",Internal conversion
+"In the decay series of Uranium-235 to Lead-207, why does the mass number change only in steps of 4?",Only alpha decay ($A$ change of 4) affects the mass number significantly; beta decay does not.
+What is the value of the atomic mass unit ($u$) in $\text{MeV}/c^2$?,$931.5 \text{ MeV}/c^2$
+The rate of decay ($R$) of a sample is proportional to the number of _____ present.,radioactive nuclei ($N$)
+Why must the electron emitted in beta decay have a continuous energy spectrum?,Because the energy is shared between the electron and a neutrino.
+"Which conservation law was initially thought to be violated in beta decay, leading to the prediction of the neutrino?",Conservation of energy (or momentum).
+"According to the source, why are strontium-90 isotopes particularly dangerous if ingested?",The body treats strontium chemically like calcium and stores it in bones.
+What is the relationship between the Sievert ($\text{Sv}$) and the Rem?,$1 \text{ Sv} = 100 \text{ rem}$
+What physical treatment can be used to alter the half-life of a radioactive isotope?,None; radioactivity is unaffected by external physical treatments.
+How does the activity of a radioactive sample change after two half-lives?,It drops to one-quarter ($25\%$) of its original activity.
+Which particle is the 'antiparticle' of the electron?,The positron.
+What fundamental particles make up protons and neutrons?,Quarks
+Identify the missing particle in the reaction: $^1_0n + ^{137}_{56}Ba \rightarrow ^{138}_{56}Ba + \text{?}$,$\gamma$ (gamma ray)
+"In the context of medical imaging safety, what is a 'latent failure'?",A defect related to technical systems or reporting rather than direct human action.
+"Which radioactive isotope is commonly used for dating organic materials up to about 60,000 years old?",Carbon-14 ($^{14}C$)
+What happens to the mass of a system when energy is released in a nuclear reaction?,The total mass decreases according to $\Delta m = \Delta E / c^2$.
+What is the primary danger of 'thermal pollution' from nuclear fission plants?,"The warming of the surrounding environment, such as local water bodies."
+"In radioactive decay, the term 'parent' refers to the original nucleus and 'daughter' refers to the _____.",resulting nucleus after decay
+Which type of decay occurs when a nucleus has too many protons and converts one into a neutron while capturing an orbiting electron?,Electron capture
+The RBE for X-rays and gamma rays is defined as _____.,1
+A Geiger counter detects radiation by measuring the _____ produced as radiation passes through a gas.,ionisation
+What is the main advantage of using a 'secondary system' for cooling in a nuclear reactor?,It isolates radioactive materials in the primary system from the external environment.
