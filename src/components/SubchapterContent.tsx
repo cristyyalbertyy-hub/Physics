@@ -6,6 +6,7 @@ import {
   videoUrl,
   type Subchapter,
 } from '../data/curriculum';
+import { assetUrl } from '../utils/assetUrl';
 import { MediaBlock } from './MediaBlock';
 import { Questionnaire } from './Questionnaire';
 
@@ -15,12 +16,12 @@ type Props = {
 };
 
 export function SubchapterContent({ groupId, sub }: Props) {
-  const qPath = questionnairePathFor(groupId, sub);
-  const audioUrl = podcastUrl(groupId, sub);
-  const imageUrl = infographicUrl(groupId, sub);
+  const qPath = assetUrl(questionnairePathFor(groupId, sub));
+  const audioUrl = assetUrl(podcastUrl(groupId, sub));
+  const imageUrl = assetUrl(infographicUrl(groupId, sub));
 
-  const videoPrimary = videoUrl(groupId, sub, 'V');
-  const videoSecondary = videoUrl(groupId, sub, 'Vs');
+  const videoPrimary = assetUrl(videoUrl(groupId, sub, 'V'));
+  const videoSecondary = assetUrl(videoUrl(groupId, sub, 'Vs'));
 
   const namingHint =
     sub.groupOnlyAssetNames && groupId === 'F'
