@@ -29,7 +29,6 @@ export default function App() {
 
   const selectSubchapter = (sel: Selection) => {
     setSelection(sel);
-    setOpenGroups(collapsedGroups());
   };
 
   const goToEntry = () => {
