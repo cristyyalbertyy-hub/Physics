@@ -32,10 +32,26 @@ export default function App() {
     setOpenGroups(collapsedGroups());
   };
 
+  const goToEntry = () => {
+    setSelection(null);
+    setOpenGroups(collapsedGroups());
+  };
+
   return (
     <div className="app-shell">
       <header className="app-header">
-        <h1>Physics</h1>
+        <div className="app-title-row">
+          <button
+            type="button"
+            className="home-thumb"
+            onClick={goToEntry}
+            aria-label="Back to course overview"
+            title="Course overview"
+          >
+            <img src={assetUrl('/Physics_I.png')} alt="" />
+          </button>
+          <h1>Physics</h1>
+        </div>
         <p className="tagline">Structured lessons with video, podcast, infographic, and questionnaire.</p>
       </header>
 

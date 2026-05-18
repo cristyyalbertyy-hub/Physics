@@ -11,6 +11,8 @@ export type Subchapter = {
   videoVsOnly?: boolean;
   /** When filenames do not follow Group_Code_Type (exceptional paths only) */
   questionnairePath?: string;
+  /** When infographic is not Group_Code_I.png (e.g. EM_M.png) */
+  infographicPath?: string;
   /**
    * Fluids assets use only the group letter (F_P.m4a, F_I.png, F_V.mp4, F_Q.csv),
    * not F_FL_*.
@@ -41,10 +43,15 @@ export const groups: Group[] = [
     id: 'EM',
     title: 'Electricity & Magnetism',
     subchapters: [
-      { id: 'em-cf', title: 'Electric Charge and Field', code: 'CF' },
+      { id: 'em-cf', title: 'Electric Charge and Field', code: 'ECF' },
       { id: 'em-ep', title: 'Electric Potential', code: 'EP' },
-      { id: 'em-cc', title: 'Electric Currents and DC Circuits', code: 'CC' },
-      { id: 'em-mg', title: 'Magnetism', code: 'MG' },
+      {
+        id: 'em-cc',
+        title: 'Electric Currents and DC Circuits',
+        code: 'ECDC',
+        questionnairePath: '/EM_ECDC_Q_.csv',
+      },
+      { id: 'em-mg', title: 'Magnetism', code: 'M', infographicPath: '/EM_M.png' },
       { id: 'em-ei', title: 'Electromagnetic Induction', code: 'EI' },
     ],
   },
@@ -52,10 +59,10 @@ export const groups: Group[] = [
     id: 'VW',
     title: 'Vibrations & Waves',
     subchapters: [
-      { id: 'vw-ws', title: 'Wave Motion and Sound', code: 'WS' },
+      { id: 'vw-ws', title: 'Wave Motion and Sound', code: 'WMS' },
       { id: 'vw-ew', title: 'Electromagnetic Waves', code: 'EW' },
       { id: 'vw-lo', title: 'Light and Optics', code: 'LO' },
-      { id: 'vw-xr', title: 'X-Rays and CT Scans', code: 'XR' },
+      { id: 'vw-xr', title: 'X-Rays and CT Scans', code: 'XRC' },
     ],
   },
   {
@@ -113,6 +120,7 @@ export function podcastUrl(groupId: GroupId, sub: Subchapter): string {
 
 /** Infographic PNG. Fluids: F_I.png. */
 export function infographicUrl(groupId: GroupId, sub: Subchapter): string {
+  if (sub.infographicPath) return sub.infographicPath;
   if (sub.groupOnlyAssetNames && groupId === 'F') return '/F_I.png';
   return `/${buildStem(groupId, sub.code)}_I.png`;
 }
