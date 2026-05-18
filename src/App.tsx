@@ -1,16 +1,19 @@
 import { useMemo, useState } from 'react';
 import { groups, type GroupId } from './data/curriculum';
 import { SubchapterContent } from './components/SubchapterContent';
+import { assetUrl } from './utils/assetUrl';
 
 type Selection = { groupId: GroupId; subId: string };
 
+function collapsedGroups(): Record<GroupId, boolean> {
+  const init: Partial<Record<GroupId, boolean>> = {};
+  for (const g of groups) init[g.id] = false;
+  return init as Record<GroupId, boolean>;
+}
+
 export default function App() {
-  const [openGroups, setOpenGroups] = useState<Record<GroupId, boolean>>(() => {
-    const init: Partial<Record<GroupId, boolean>> = {};
-    for (const g of groups) init[g.id] = true;
-    return init as Record<GroupId, boolean>;
-  });
-  const [selection, setSelection] = useState<Selection | null>({ groupId: 'M', subId: 'm-mu' });
+  const [openGroups, setOpenGroups] = useState<Record<GroupId, boolean>>(collapsedGroups);
+  const [selection, setSelection] = useState<Selection | null>(null);
 
   const selected = useMemo(() => {
     if (!selection) return null;
@@ -22,6 +25,11 @@ export default function App() {
 
   const toggleGroup = (id: GroupId) => {
     setOpenGroups((o) => ({ ...o, [id]: !o[id] }));
+  };
+
+  const selectSubchapter = (sel: Selection) => {
+    setSelection(sel);
+    setOpenGroups(collapsedGroups());
   };
 
   return (
@@ -46,10 +54,7 @@ export default function App() {
                   <span className="chevron" aria-hidden>
                     {open ? '◀' : '▶'}
                   </span>
-                  <span className="group-title">
-                    <span className="group-name">{g.title}</span>
-                    <span className="group-id">{g.id}</span>
-                  </span>
+                  <span className="group-name">{g.title}</span>
                 </button>
                 {open ? (
                   <ul className="sub-list">
@@ -60,7 +65,7 @@ export default function App() {
                           <button
                             type="button"
                             className={`sub-link${active ? ' active' : ''}`}
-                            onClick={() => setSelection({ groupId: g.id, subId: s.id })}
+                            onClick={() => selectSubchapter({ groupId: g.id, subId: s.id })}
                           >
                             {s.title}
                           </button>
@@ -74,11 +79,17 @@ export default function App() {
           })}
         </nav>
 
-        <main className="main">
+        <main className={`main${selected ? '' : ' main--entry'}`}>
           {selected ? (
             <SubchapterContent groupId={selected.g.id} sub={selected.sub} />
           ) : (
-            <p className="muted">Choose a subchapter from the menu.</p>
+            <div className="entry-panel">
+              <img
+                src={assetUrl('/Physics_I.png')}
+                alt="Physics course overview"
+                className="entry-image"
+              />
+            </div>
           )}
         </main>
       </div>

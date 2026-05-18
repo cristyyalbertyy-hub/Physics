@@ -1,0 +1,56 @@
+What is the physical definition of 'heat'?,The transfer of energy from one object to another due to a difference in temperature.
+The SI unit for heat energy is the _____.,Joule ($J$)
+Term: Calorie ($cal$),Definition: The amount of heat required to raise the temperature of $1$ gram of water by $1^{\circ}C$.
+How many Joules are equivalent to $1$ kilocalorie ($kcal$)?,"$4186\,J$"
+What is the relationship between 'heat' and 'internal energy'?,"Heat refers to the transfer of energy, while internal energy is the total energy of all molecules in an object."
+"For an ideal gas, the internal energy depends only on its _____.",Temperature
+Concept: Specific Heat capacity ($c$),Definition: The amount of heat required to change the temperature of a unit mass of a substance by $1^{\circ}C$.
+Formula: Heat required for a temperature change,$Q = mc \Delta T$
+"In the formula $Q = mc \Delta T$, what does the symbol $\Delta T$ represent?",The change in temperature ($T_{final} - T_{initial}$).
+Why does water have a significant moderating effect on climate compared to land?,"Water has a very high specific heat capacity, meaning it absorbs or releases large amounts of energy with minimal temperature change."
+What is the primary conservation law used in calorimetry?,The Law of Conservation of Energy (Heat Lost = Heat Gained).
+Concept: Calorimeter,Definition: An insulated device used to measure the heat exchange between substances during a thermal process.
+What happens to the temperature of a substance while it is undergoing a phase change?,The temperature remains constant.
+The heat required to change a substance from solid to liquid at its melting point is called the Latent Heat of _____.,Fusion ($L_{f}$)
+Formula: Heat required for a phase change,$Q = mL$
+The heat required to change a substance from liquid to gas at its boiling point is called the Latent Heat of _____.,Vaporisation ($L_{v}$)
+Why does a burn from steam at $100^{\circ}C$ cause more damage than a burn from liquid water at $100^{\circ}C$?,Steam releases additional energy (Latent Heat of Vaporisation) as it condenses on the skin.
+How does evaporative cooling function in the human body?,"Phase change from liquid sweat to vapour absorbs the Latent Heat of Vaporisation from the skin, lowering body temperature."
+Why must a medical incubator for premature babies maintain high humidity?,"High humidity reduces the rate of moisture evaporation from the baby's thin skin, preventing excessive cooling."
+Name the three mechanisms of heat transfer.,"Conduction, convection, and radiation."
+What is the primary mode of heat transfer through a solid material?,Conduction
+Formula: Rate of heat flow by conduction,$\frac{Q}{t} = kA \frac{T_{1} - T_{2}}{l}$
+"In the conduction equation, what does the constant $k$ represent?",Thermal conductivity
+Why is the thermal conductivity ($k$) of air very low?,"Molecules in air are far apart, making energy transfer through collisions inefficient."
+Concept: Convection,Definition: Heat transfer by the mass movement of molecules from one place to another within a fluid.
+What is the difference between natural and forced convection?,"Natural convection is driven by density differences, whereas forced convection is driven by a pump or fan (e.g., blood circulation)."
+Heat transfer that does not require a medium is called _____.,Radiation
+Formula: Stefan-Boltzmann Law for radiant power,$\frac{Q}{t} = \epsilon \sigma A T^{4}$
+"In the Stefan-Boltzmann Law, what does the symbol $\epsilon$ represent?",Emissivity (ranging from $0$ to $1$).
+"A perfect radiator and absorber, with an emissivity of $1$, is known as a _____.",Blackbody
+"According to the Stefan-Boltzmann Law, the rate of radiation is proportional to which power of the absolute temperature?",The fourth power ($T^{4}$).
+Why does a thermometer in direct sunlight fail to measure true air temperature?,"It absorbs radiant energy directly from the Sun, reaching an equilibrium higher than the surrounding air temperature."
+Concept: Thermal Equilibrium,Definition: A state where two objects in thermal contact have reached the same temperature and no net heat flows between them.
+"According to the Zeroth Law of Thermodynamics, if objects A and B are in thermal equilibrium with object C, then _____.",A and B are in thermal equilibrium with each other.
+What is the 'mechanical equivalent of heat'?,"The precise amount of mechanical work required to produce a specific amount of heat ($4.186\,J = 1\,cal$)."
+"In medical thermodynamics, why is 'gauge pressure' unsuitable for the ideal gas law?",Gauge pressure is a comparison to atmospheric pressure; the law requires absolute pressure relative to a true zero.
+How does the 'internal energy' of a substance differ from its 'heat content'?,Internal energy is a state property of the substance; 'heat' is only energy in transit and is not 'stored' as heat.
+What determines whether heat flows between two objects?,A difference in temperature (not a difference in internal energy).
+Why do windy days make windows feel colder than calm days at the same temperature?,"Convection removes the warmed layer of air near the window, increasing the rate of heat conduction."
+"The energy required to melt $1\,kg$ of ice is $3.33 \times 10^{5}\,J$. This value is the _____ of water.",Latent Heat of Fusion
+How does the body provide 'convective' cooling to the skin surface?,"Through blood circulation, which carries internal heat to the skin for dissipation."
+Term: Metabolic Rate,Definition: The rate at which internal energy is transformed within the body (often measured in Watts or $kcal/h$).
+"If a system performs work while heat is added, the change in internal energy ($\Delta U$) is equal to _____.",$Q - W$ (The First Law of Thermodynamics).
+"In an isothermal expansion of an ideal gas, what is the value of $\Delta U$?",$0$ (because temperature is constant).
+A thermodynamic process in which no heat is exchanged with the environment is called an _____ process.,Adiabatic
+"During an adiabatic compression, what happens to the temperature of a gas?",The temperature increases (as work done on the gas becomes internal energy).
+What does a 'negative' value for $W$ signify in the equation $\Delta U = Q - W$?,Work is being done on the system by the surroundings.
+The specific heat of the human body is approximately _____ $kcal/kg \cdot ^{\circ}C$.,$0.83$ (similar to water but lower due to tissues).
+Which mode of heat transfer is prevented by the vacuum in a Thermos flask?,Conduction and Convection
+Why is the emissivity ($\epsilon$) of the human skin considered high (close to $1$) for infrared radiation?,"Human skin is a very efficient radiator of thermal energy in the infrared spectrum, regardless of visible pigmentation."
+"The energy needed to raise the temperature of $1\,kg$ of water by $1^{\circ}C$ is exactly $1$ _____.",Kilocalorie ($kcal$ or dietary Calorie).
+"In calorimetry, if a hot metal is placed in cool water, the final temperature of both must be _____.",Equal (the equilibrium temperature).
+"When calculating heat transfer, what is the 'absolute' temperature scale required for radiation formulas?",The Kelvin scale ($K$).
+Why does an object with a low specific heat capacity heat up faster than one with a high specific heat?,It requires less energy input to produce the same change in temperature ($Q = mc \Delta T$).
+What is the significance of the Latent Heat of Vaporisation being much larger than the Latent Heat of Fusion for water?,Significantly more energy is required to completely break molecular bonds to form a gas than to merely loosen them into a liquid.
+Concept: Thermal Conductivity ($k$),Definition: A material property that measures the rate at which heat is conducted through a unit thickness for a given temperature gradient.

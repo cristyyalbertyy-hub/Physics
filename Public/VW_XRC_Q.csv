@@ -1,0 +1,80 @@
+What type of wave is an X-ray classified as?,An electromagnetic wave.
+"Do X-rays require a medium, such as air or water, to travel through space?","No, they can travel through a vacuum."
+The continuous portion of the X-ray spectrum is produced by radiation known as _____.,Bremsstrahlung (braking radiation).
+What physical process causes the 'Bremsstrahlung' radiation in an X-ray tube?,Incoming electrons decelerating as they collide with or pass near target nuclei.
+What determines the 'cutoff' (minimum) wavelength $\lambda_0$ in an X-ray spectrum?,The maximum kinetic energy of the electrons hitting the target.
+What is the formula for the cutoff wavelength $\lambda_0$ in terms of the accelerating potential $V$?,$\lambda_0 = \frac{hc}{eV}$
+How does increasing the number of electrons (current) in an X-ray tube affect the cutoff wavelength?,It has no effect on the cutoff wavelength.
+Under what condition does an electron produce a photon with the cutoff wavelength $\lambda_0$?,When the electron gives up all of its kinetic energy in a single collision.
+"If the accelerating potential of an X-ray tube is $28.5$ kV, what is the maximum energy of the produced photons?",$28.5$ keV
+Calculate the cutoff wavelength for an X-ray tube operated at $28.5$ kV.,Approximately $0.0436$ nm.
+What is the typical upper limit for the wavelength of the X-ray region in the electromagnetic spectrum?,Approximately $1$ nm.
+Why is X-ray diffraction used to study the structure of crystals?,Because the wavelength of X-rays is comparable to the spacing between atoms in a crystal.
+What is the approximate slit separation required to observe X-ray diffraction patterns?,$10^{-10}$ m (or $0.1$ nm).
+Concept: X-ray Imaging,Definition: A technique where X-rays pass through a body to create a 'shadow' image on a detector based on material density.
+"In X-ray imaging, why are the images referred to as 'shadows'?",Because the rays travel in straight lines from the source and are not significantly refracted by the body.
+What is the magnification of an X-ray image if the object is placed directly against the detector?,$1$
+"Using similar triangles, what is the formula for magnification $M$ if the source-to-object distance is $d_1$ and the object-to-film distance is $d_2$?",$M = \frac{d_1 + d_2}{d_1}$
+Calculate the magnification of a bone located $15$ cm from a point X-ray source and $25$ cm from the film.,$2.7$
+"In the context of the photoelectric effect, what happens to the incident X-ray photon?",It is completely absorbed by the target atom.
+What occurs during 'Compton scattering' when an X-ray photon interacts with an electron?,The photon is scattered with reduced energy and an increased wavelength.
+Why does the wavelength of an X-ray photon increase after it scatters off an electron?,"The photon transfers some of its energy to the electron, and wavelength is inversely proportional to energy."
+How does the photon energy in the Compton effect compare to the energy involved in the photoelectric effect?,Compton effect photons typically have much higher energy (X-ray range vs visible range).
+What is the primary difference between how photons behave in the photoelectric effect versus the Compton effect?,"In the photoelectric effect photons are absorbed, whereas in the Compton effect they are scattered."
+Why does light not diffract around the corners of a doorway while sound does?,Light has a much smaller wavelength (approx. $10^{-7}$ m) compared to the width of the doorway.
+"What is the relationship between X-ray frequency $f$, wavelength $\lambda$, and the speed of light $c$?",$c = f \lambda$
+"If the wavelength of an X-ray decreases, how does its energy change?",The energy increases.
+What is the purpose of 'Computed Tomography' (CT scans) in medical imaging?,To produce three-dimensional images of the body from a series of two-dimensional X-ray projections.
+How do X-rays and gamma rays differ in their mechanism of ionising materials compared to alpha particles?,They are uncharged and ionise via mechanisms like Compton scattering rather than direct electrical forces.
+"In an X-ray diffraction experiment, what provides the 'slits' for the interference pattern to form?",The regular array of atoms within a crystal.
+Why is X-ray diffraction considered evidence for the wave nature of light?,Because it produces interference and diffraction patterns characteristic of waves.
+The term for the maximum possible frequency produced by an X-ray tube is the _____ frequency.,Cutoff
+What is the approximate range of X-ray wavelengths in metres?,$10^{-8}$ m to $10^{-11}$ m.
+Which characteristic of X-rays allows them to penetrate soft tissue but be absorbed by bone?,Their high energy and the difference in atomic density between tissue and bone.
+How does the intensity of X-rays from a point source change with distance $r$?,It follows the inverse square law ($I \propto \frac{1}{r^2}$).
+"In the Compton effect, the change in wavelength $\Delta \lambda$ is _____ of the initial wavelength.",Independent
+What happens to the 'braking' electron in the Bremsstrahlung process after it emits a photon?,It continues with less kinetic energy.
+Formula: Energy of an X-ray photon,$E = hf$ or $E = \frac{hc}{\lambda}$
+What is the value of Planck's constant $h$ in SI units?,$6.63 \times 10^{-34}$ J·s
+"In a medical context, why is total digitisation of radiology considered an important development?","It allows for efficient storage, rapid retrieval, and advanced digital processing of medical images."
+How does the 'wave-particle duality' apply to X-rays in imaging?,They travel as waves (diffraction) but interact with matter (detectors/tissue) as discrete particles or photons.
+What is the significance of the 'Bragg angle' in X-ray diffraction?,It is the specific angle at which constructive interference occurs for X-rays reflecting off crystal planes.
+Which physical constant relates the energy of an X-ray photon to its frequency?,Planck's constant ($h$).
+"If the voltage in an X-ray tube is doubled, what happens to the cutoff frequency?",The cutoff frequency doubles.
+The process of X-ray imaging relies on the _____ of X-rays by different body tissues.,Differential absorption
+How does an increase in X-ray photon energy affect its penetration depth in tissue?,Higher energy photons generally have greater penetration depth.
+"In the context of CT scans, what is a 'Hounsfield unit' typically used to represent?",The radiodensity of a material compared to water.
+Why are X-rays considered 'ionising radiation'?,They possess enough energy to remove tightly bound electrons from the orbit of an atom.
+What is the primary risk associated with the ionising nature of X-rays in medical use?,Potential damage to DNA and biological tissues.
+Does the speed of an X-ray depend on its frequency in a vacuum?,"No, all X-rays travel at the speed of light $c$."
+What is the name of the discrete packets of energy that make up an X-ray beam?,Photons.
+"In X-ray diffraction, if the wavelength $\lambda$ is much larger than the atomic spacing $d$, will a diffraction pattern be visible?","No, diffraction requires $\lambda$ to be less than or equal to $2d$."
+What is the role of the 'target' in an X-ray tube?,"To provide a material for high-speed electrons to collide with, generating X-ray photons."
+Which metal is commonly used as a target in X-ray tubes due to its high melting point?,Tungsten.
+The spectrum of X-rays that shows sharp peaks at specific wavelengths is known as the _____ spectrum.,Characteristic
+What causes the 'characteristic' peaks in an X-ray spectrum?,Electrons from the target atoms jumping between energy levels after being knocked out by incident electrons.
+How does the 'characteristic' spectrum differ from the 'Bremsstrahlung' spectrum?,"Characteristic radiation depends on the target material's energy levels, while Bremsstrahlung is continuous and depends on electron energy."
+What is the effect of a higher atomic number ($Z$) target on the intensity of Bremsstrahlung radiation?,Intensity increases with higher atomic numbers.
+"In imaging, what causes 'blurring' (penumbra) when using a standard X-ray source?",The finite (non-zero) size of the X-ray source point.
+Concept: Radiological Examination,Definition: The use of medical imaging (like X-rays or CT) to diagnose or treat disease within the body.
+What is the primary benefit of Computed Tomography (CT) over conventional X-ray imaging?,It eliminates the overlapping of structures by providing cross-sectional views.
+Which physical principle describes the total displacement when two sound or X-ray waves overlap?,The superposition principle.
+Why is it impossible for a matter wave to be polarised?,"Because it is a scalar wave, unlike the vector nature of electromagnetic waves."
+"In a CT scanner, the X-ray source and detector _____ around the patient.",Rotate
+How is the 'cutoff' wavelength related to the maximum frequency $f_{max}$?,$\lambda_0 = \frac{c}{f_{max}}$
+What happens to the frequency of an X-ray photon if its energy is halved?,The frequency is also halved.
+Which interaction is dominant for low-energy X-rays in tissue?,The photoelectric effect.
+Which interaction is dominant for high-energy X-rays in tissue?,Compton scattering.
+Does the intensity of X-rays decrease linearly or exponentially as they pass through a uniform material?,Exponentially.
+What is 'attenuation' in the context of X-ray physics?,The reduction in intensity of the X-ray beam as it traverses matter due to absorption and scattering.
+The 'half-value layer' (HVL) is the thickness of material required to reduce the X-ray beam intensity by _____.,Half (50%)
+"In medical statistics, what is the 'Normal distribution' often used to describe?","The distribution of continuous biological measurements, such as height or blood pressure."
+Why is the Mean an important measure for medical science students analysing X-ray dosages?,It provides a central value for the typical exposure level across a group of patients.
+A P-value less than $0.05$ in a medical study comparing two X-ray techniques suggests the result is _____.,Statistically significant.
+What does a $95$% confidence interval for a mean dose represent?,A range of values that is $95$% likely to contain the true population mean dose.
+Is 'Bremsstrahlung' considered a wave-like or a particle-like phenomenon?,It can be described by both: wave theory for emission and photon theory for energy levels.
+"In radiology, what is an 'Order Entry System'?",A digital system used by clinicians to request radiological tests and manage imaging workflows.
+What is the role of a 'Radiological System' in a modern hospital?,"To manage the acquisition, storage, and communication of medical images."
+Why is 'image reconstruction' necessary in CT scans?,To convert the raw X-ray absorption data from multiple angles into a coherent 3D image.
+Can X-rays be focused by traditional glass lenses like visible light?,"No, because their refractive index in most materials is very close to $1$."
+The ability of X-rays to pass through objects opaque to visible light is primarily due to their _____.,Short wavelength (or high energy).

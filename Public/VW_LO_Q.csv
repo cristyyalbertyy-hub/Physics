@@ -1,0 +1,80 @@
+Why is sound classified as a mechanical wave rather than an electromagnetic wave?,"Sound requires a physical medium (gas, liquid, or solid) to propagate, whereas electromagnetic waves can travel through a vacuum."
+List three physical phenomena that provide evidence that sound is a wave.,"Interference (such as beats), diffraction (hearing around corners), and refraction."
+What is the relationship between the number of octaves ($n$) and the change in frequency?,"Each octave represents a doubling of the frequency, expressed as $f_{final} = f_{initial} \times 2^n$."
+"Approximately how many octaves are contained within the human hearing range of $20 \text{ Hz}$ to $20,000 \text{ Hz}$?",Approximately $10$ octaves.
+"If the intensity of a sound wave increases by a factor of $100$, by what factor does the displacement amplitude increase?","It increases by a factor of $10$, as intensity is proportional to the square of the amplitude ($I \propto A^2$)."
+"In medical ultrasound, how many Doppler shifts occur when measuring the velocity of blood cells?","Two shifts: one when the moving cells receive the signal from the stationary source, and another when the detector receives the reflected signal from the moving cells."
+"What defines the beat frequency produced by two slightly different sound frequencies, $f_1$ and $f_2$?","The absolute difference between the two frequencies, $|f_1 - f_2|$."
+How does an increase in air temperature affect the fundamental frequency of an organ pipe?,It increases the frequency because the speed of sound in air increases with temperature.
+What is the formula for the fundamental frequency ($f_1$) of a tube closed at one end?,"$f_1 = \frac{v}{4L}$, where $v$ is the speed of sound and $L$ is the length of the tube."
+"If two violin strings have the same length and tension but different masses, what determines the difference in their fundamental frequencies?",The difference in wave speed caused by the different mass per unit length (linear density) of the strings.
+"According to electromagnetic theory, what is the geometric relationship between the electric field, the magnetic field, and the direction of wave travel?",All three are mutually perpendicular to each other.
+How does the velocity of X-rays in a vacuum compare to the velocity of radio waves in a vacuum?,They are identical; all electromagnetic waves travel at the speed of light ($c$) in a vacuum.
+"Can a human hear an electromagnetic wave with a frequency of $1,000 \text{ Hz}$?","No, the auditory system is excited by pressure waves (mechanical), not electromagnetic waves."
+What is the standard value for the speed of light in a vacuum ($c$)?,$3.00 \times 10^8 \text{ m/s}$.
+"In a vacuum, what is the formula relating the speed of light ($c$), frequency ($f$), and wavelength ($\lambda$)?",$c = f\lambda$.
+Which wave property provides evidence that light is a transverse wave rather than a longitudinal wave?,Polarisation.
+"When white light passes through a prism, why does violet light bend more than red light?",Violet light has a shorter wavelength and a slightly higher index of refraction in glass than red light.
+"In the context of a rainbow, which colour appears at the top of the arc?","Red light, because it undergoes the least amount of refraction."
+"What is the relationship between the speed of light in a medium ($v$), the speed of light in a vacuum ($c$), and the index of refraction ($n$)?",$v = \frac{c}{n}$.
+"In Young’s double-slit experiment, what path difference between the two slits results in the first constructive interference maximum?",One full wavelength ($\lambda$).
+What path difference results in destructive interference in a double-slit experiment?,"An odd integer multiple of half a wavelength, such as $\frac{1}{2}\lambda$."
+"When light reflects off a surface with a higher index of refraction than the current medium, what phase change occurs?",A phase change of $\pi$ radians (or half a wavelength).
+"When light reflects off a surface with a lower index of refraction, what phase change occurs?",No phase change ($0$ radians).
+What is the primary cause of the iridescent colours seen in a soap bubble or thin oil film?,Thin-film interference between light reflected from the outer and inner surfaces.
+"According to the wave-particle duality, how is the momentum ($p$) of a photon related to its wavelength ($\lambda$)?","$\lambda = \frac{h}{p}$, where $h$ is Planck's constant."
+What does the square of the wave function ($\Psi^2$) represent in quantum mechanics?,The probability of finding the particle within a certain spatial range.
+How does a matter wave (de Broglie wave) differ from a wave on a string regarding the medium?,"A matter wave does not require a physical medium, whereas a wave on a string does."
+"In the photoelectric effect, what is the 'work function' ($W_0$)?",The minimum energy required to eject an electron from the surface of a material.
+Which light frequency is required to eject electrons if the photon energy must exceed the work function?,A frequency $f \ge \frac{W_0}{h}$.
+"In a single-slit diffraction pattern, what happens to the width of the central maximum if the slit width ($D$) is decreased?",The width of the central maximum increases.
+How many polarisers are typically needed to reduce the intensity of unpolarised light to zero?,"Two, if their transmission axes are oriented at $90^\circ$ to each other (crossed polarisers)."
+"If the first polariser reduces unpolarised light intensity to $I_1$, what is the final intensity $I_2$ after a second polariser at angle $\theta$?",$I_2 = I_1 \cos^2 \theta$ (Malus's Law).
+What physical evidence suggested the existence of a positive nucleus in the Rutherford alpha-scattering experiment?,"The observation of alpha particles scattering at very large angles, which required a concentrated positive charge to provide sufficient repulsion."
+Why does Morse code transmitted by a flashlight act as an Amplitude Modulated (AM) wave?,The amplitude of the light (the carrier wave) is varied by turning the light on and off to encode information.
+"In the context of the Doppler effect, if a source is moving towards a stationary observer, how does the observed frequency change?",The observed frequency increases.
+What is the effect of moving a microphone away from two coherent sound sources on the interference pattern?,The microphone will pass through alternating points of constructive (loud) and destructive (quiet) interference.
+Why can sound be heard 'around a corner' but light cannot (under normal circumstances)?,"The wavelength of sound is much larger, comparable to the size of doorways and corners, allowing for significant diffraction."
+"What is the threshold of hearing intensity for a standard $1,000 \text{ Hz}$ tone?",$1.0 \times 10^{-12} \text{ W/m}^2$.
+What is the frequency of the second harmonic ($f_2$) for a string fixed at both ends with fundamental frequency $f_1$?,$f_2 = 2f_1$.
+How does the wavelength of an electromagnetic wave change when it enters a medium with a higher index of refraction?,The wavelength decreases because the speed of the wave decreases while the frequency remains constant.
+Which region of the EM spectrum has wavelengths slightly longer than visible red light?,Infrared.
+Which region of the EM spectrum has frequencies slightly higher than visible violet light?,Ultraviolet.
+What is the physical significance of the Brewster angle?,It is the angle of incidence at which light reflected from a surface is perfectly polarised.
+"In thin-film interference, if a film of index $n$ is on a substrate of higher index, what is the condition for constructive interference at thickness $t$?","$2nt = m\lambda$, because both reflections (top and bottom) undergo a $\pi$ phase shift."
+How does the energy of a photon ($E$) relate to its frequency ($f$)?,$E = hf$.
+What is the de Broglie wavelength of an electron with mass $m$ and velocity $v$?,$\lambda = \frac{h}{mv}$.
+"In the Bohr model, how is the angular momentum ($L$) of an electron in a stationary orbit related to $n$?","$L = n\frac{h}{2\pi}$, where $n$ is a positive integer."
+Why is it impossible to see atoms using visible light?,"The wavelength of visible light ($400\text{--}700 \text{ nm}$) is much larger than the size of an atom ($ \approx 0.1 \text{ nm}$), so light cannot resolve them."
+What is the purpose of the 'Search and Learn' section in the textbook solutions?,To encourage students to synthesise information from multiple parts of the text to solve complex or conceptual problems.
+Define 'diffraction grating'.,A device with a large number of equally spaced parallel slits that produces sharp interference maxima.
+What is the relationship between the spacing of lines on a diffraction grating ($d$) and the number of lines per centimetre ($N$)?,$d = \frac{1}{N}$.
+"In a double-slit experiment, how does increasing the slit separation ($d$) affect the fringe spacing on a screen?",The fringe spacing decreases.
+What is 'dispersion'?,The phenomenon where the index of refraction of a medium depends on the wavelength of the light passing through it.
+Explain 'destructive interference' in terms of phase difference.,"It occurs when waves are out of phase by $180^\circ$ (or $\pi$ radians), causing their amplitudes to cancel out."
+Explain 'constructive interference' in terms of phase difference.,"It occurs when waves are in phase ($0^\circ$ or $2\pi$ radians difference), causing their amplitudes to add together."
+What happens to the speed of sound as it moves from air into water?,It increases significantly because water is less compressible than air.
+What is the main difference between a longitudinal wave and a transverse wave?,"In longitudinal waves, particles oscillate parallel to the wave direction; in transverse waves, they oscillate perpendicular to it."
+"In the Doppler effect formula for a moving source, why is the sign in the denominator negative for a source approaching the observer?","A negative sign decreases the denominator, resulting in a higher observed frequency."
+What is the 'fundamental' frequency of a vibrating system?,The lowest frequency at which the system naturally oscillates (the first harmonic).
+How are harmonics related to the fundamental frequency?,Harmonics are integer multiples of the fundamental frequency ($f_n = n f_1$).
+Why can radio waves travel around the curvature of the Earth more effectively than visible light?,Their much longer wavelengths allow them to diffract significantly around large-scale obstacles like the Earth's surface or hills.
+What is the approximate wavelength range of visible light?,$400 \text{ nm}$ (violet) to $700 \text{ nm}$ (red).
+"If an EM wave's electric field points North and its magnetic field points East, in which direction is the wave travelling?",Downward (using the right-hand rule for $\vec{E} \times \vec{B}$).
+What is the intensity ($I$) of a wave if the average power is $P$ and it spreads over area $A$?,$I = \frac{P}{A}$.
+"In a medical setting, why is Doppler ultrasound preferred for measuring blood flow velocity?",It allows for non-invasive measurement of the velocity of moving reflectors (blood cells) based on the frequency shift of the reflected wave.
+Define 'monochromatic' light.,Light that consists of a single frequency or wavelength.
+What is 'coherent' light?,Light in which the waves maintain a constant phase relationship with each other.
+How does the slit width ($D$) in a single-slit diffraction experiment relate to the angle of the first minimum ($\theta_1$)?,$\sin \theta_1 = \frac{\lambda}{D}$.
+What is the effect of using a 'blue' laser instead of a 'red' laser in a diffraction experiment?,The diffraction pattern will be more compressed (smaller angles) because blue light has a shorter wavelength.
+What are 'beats' in sound?,Periodic variations in loudness caused by the interference of two sound waves of slightly different frequencies.
+"For a standing wave on a string of length $L$ fixed at both ends, what are the possible wavelengths ($\lambda_n$)?","$\lambda_n = \frac{2L}{n}$, where $n = 1, 2, 3, \dots$."
+What is the primary difference between AM and FM radio transmission?,"AM varies the amplitude of the carrier wave, while FM varies the frequency of the carrier wave."
+"If a light source is underwater, how does its frequency change when the light enters the air?",The frequency does not change; frequency is determined by the source and remains constant across media.
+What is 'polarised' light?,Light in which the electric field oscillations are confined to a single plane.
+How does the Doppler effect apply to astrophysics?,It is used to determine if stars or galaxies are moving towards or away from Earth by observing the 'blue-shift' or 'red-shift' of their light spectra.
+"In thin-film interference, if the film is very thin (much less than $\lambda$), why does it appear dark in reflected light?","The reflection from the top surface undergoes a $\pi$ phase shift while the bottom reflection does not, causing destructive interference at nearly zero path difference."
+"What is the relationship between wave speed ($v$), frequency ($f$), and wavelength ($\lambda$)?",$v = f\lambda$.
+"In terms of phase, what is meant by 'completely out of phase'?",A phase difference of $180^\circ$ or $\pi$ radians.
+Can human eyes detect the polarisation of light without instruments?,"No, the human eye is generally insensitive to the polarisation of light."
+Why is 'total internal reflection' relevant in medical endoscopes?,It allows light to be transmitted through flexible optical fibres with minimal loss by reflecting light entirely within the fibre core.

@@ -1,0 +1,60 @@
+"In a neutral conductor, what occurs to the net charge if electrons are removed?",The net charge becomes positive.
+What term describes the electrons in a conductor that are loosely bound to atoms and able to move freely?,Conduction electrons (or free charges).
+How is the magnitude of an electric field ($E$) defined in terms of the force ($F$) exerted on a positive test charge ($q$)?,$E = \frac{F}{q}$
+Why must a test charge used to measure an electric field be very small?,To ensure its own electric field does not significantly alter the original field being measured.
+In which direction do electric field lines always point relative to a positive point charge?,"Radiating outwards, away from the positive charge."
+What does the spacing of electric field lines indicate about the field's strength?,Closer spacing indicates a stronger electric field.
+"If a particle is released from rest in a non-linear electric field, why will it not necessarily follow the field line?","The field line indicates the direction of acceleration, not the path of velocity once the particle is in motion."
+"When a negative charge interacts with an electric field, what is the direction of the force relative to the field lines?",The force is in the opposite direction to the electric field lines.
+How does the mass of an object change when it acquires a positive charge via the removal of electrons?,The mass of the object decreases.
+Why is the electric force between everyday objects often negligible despite being fundamentally stronger than gravity?,"Most everyday objects are electrically neutral, with equal numbers of positive and negative charges."
+Formula: The electric field ($E$) at a distance $r$ from a point charge $Q$.,$E = k \frac{Q}{r^2}$
+Formula: The acceleration ($a$) of a particle with charge $q$ and mass $m$ in an electric field $E$.,$a = \frac{qE}{m}$
+What is the physical definition of electric potential ($V$)?,Electric potential is the electric potential energy per unit charge.
+How does the electric potential energy of a negative charge change as it moves from a region of low potential to high potential?,The electric potential energy decreases.
+"At a point midway between two equal positive charges, what is the value of the electric field ($E$)?",$E = 0$ (the individual fields cancel out).
+"At a point midway between two equal positive charges, what is the status of the electric potential ($V$)?",The potential is high and positive (the potentials add algebraically).
+What is the electric potential ($V$) at a point midway between two charges of equal magnitude but opposite sign?,$V = 0$
+Why is it impossible for two equipotential lines to cross?,It would imply that a single point in space has two different potential values simultaneously.
+What is the required geometric relationship between electric field lines and equipotential surfaces?,Electric field lines are always perpendicular to equipotential surfaces.
+How much work is required to move a charged particle between two points on the same equipotential surface?,Zero work is required.
+"In a uniform electric field, how does the electric potential change along the direction of the field lines?",The electric potential decreases uniformly.
+"If the electric potential in a region of space is uniform, what can be inferred about the electric field there?",The electric field in that region is zero.
+Term: Electron Volt ($eV$),Definition: A unit of energy equal to the kinetic energy gained by an electron accelerating through a potential difference of $1 V$.
+Convert $1 eV$ to Joules ($J$).,$1.60 \times 10^{-19} J$
+Concept: Capacitance ($C$),Definition: The ratio of the magnitude of charge ($Q$) on either conductor to the potential difference ($V$) between them; $C = \frac{Q}{V}$.
+How does doubling the voltage across a capacitor affect the energy stored within it?,The stored energy is quadrupled ($PE = \frac{1}{2}CV^2$).
+"What happens to the potential difference between the plates of an isolated, charged capacitor if the plates are pulled further apart?",The potential difference increases.
+Why is work required to increase the separation of plates in an isolated capacitor?,Force must be exerted to overcome the electrostatic attraction between the oppositely charged plates.
+What scalar quantity is independent of the test charge placed in an electric field?,Electric potential ($V$).
+"In medical physics, how is a nerve axon modelled for electrical analysis?",As a cylindrically shaped parallel plate capacitor.
+Relationship: The magnitude of the electric field ($E$) in terms of potential difference ($\Delta V$) and distance ($d$) in a uniform field.,$E = \frac{\Delta V}{d}$
+What physical parameter does a physical sensor in e-health typically measure?,Physical parameters such as temperature or pressure.
+"In the context of e-health sensors, what is the role of a biological receptor?",To bind with a specific analyte or target molecule to produce a signal.
+Formula: The energy stored ($U$) in a capacitor with capacitance $C$ and charge $Q$.,$U = \frac{Q^2}{2C}$
+"In a system of point charges, how is the total electric potential at a specific point calculated?",By taking the algebraic sum of the individual potentials created by each charge.
+What does the density of electric field lines represent in a specific region of space?,The magnitude (strength) of the electric field.
+Why is the acceleration due to gravity usually ignored when calculating the motion of an electron in a typical laboratory electric field?,The electric force on the electron is many orders of magnitude larger than the gravitational force.
+Formula: The work ($W$) done by an electric field in moving a charge $q$ through a potential difference $V_{ba}$.,$W = -qV_{ba}$
+A positive charge naturally moves from a region of _____ potential to a region of _____ potential.,higher; lower
+What is the electric potential ($V$) at an infinite distance from a point charge?,$V = 0$
+"According to the source material, what is the approximate thickness of a cell membrane when used in capacitance calculations?",$10^{-8} m$
+How does the capacitance ($C$) of a parallel-plate capacitor change if the area ($A$) of the plates is doubled?,The capacitance doubles ($C \propto A$).
+"If the separation ($d$) between capacitor plates is doubled, how does the capacitance change?",The capacitance is halved ($C \propto \frac{1}{d}$).
+What is the net electric field inside a conductor that is in electrostatic equilibrium?,The net electric field is zero.
+Which direction do electric field lines point regarding potential levels?,They point from higher potential to lower potential.
+"In a dipole, where are the points of zero electric potential located?",On the plane midway between the two charges and perpendicular to the line connecting them.
+What is the charge of a helium nucleus in terms of the elementary charge $e$?,$+2e$
+"If a proton and an electron are accelerated through the same potential difference, how do their final kinetic energies compare?",Their final kinetic energies are equal (assuming they start from rest).
+Formula: The electric potential ($V$) created by a point charge $Q$ at a distance $r$.,$V = k \frac{Q}{r}$
+Why do the birds on high-voltage power lines not get electrocuted?,There is very little potential difference between their feet as they are close together on the same wire.
+What component of a cell is responsible for producing an 'action potential' by changing membrane potential?,The cell membrane (acting as a capacitor that discharges/recharges).
+How is the 'electric field' distinct from 'electric potential' in terms of mathematical type?,"Electric field is a vector, whereas electric potential is a scalar."
+"When calculating the net electric field from multiple charges, what method must be used?",Vector addition (calculating components).
+"When calculating the net electric potential from multiple charges, what method is used?",Algebraic addition (scalar sum).
+What does a closer spacing of equipotential lines on a map indicate about the electric field?,It indicates a larger (stronger) electric field.
+"In the context of heart monitors (ECGs), what physical concept is being measured as it moves through the heart?",The electric dipole (representing the heart's electrical activity).
+What happens to the potential energy of a system of two like charges as they are brought closer together?,The potential energy increases.
+What happens to the potential energy of a system of two unlike charges as they are moved further apart?,The potential energy increases.
+The electric potential energy ($PE$) of two unlike charges is _____ if the zero reference is at infinity.,negative
+The electric potential energy ($PE$) of two like charges is _____ if the zero reference is at infinity.,positive

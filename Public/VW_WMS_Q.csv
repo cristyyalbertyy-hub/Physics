@@ -1,0 +1,70 @@
+How does the speed of a wave on a cord change if the wave amplitude is doubled?,The wave speed remains constant because it depends only on the properties of the medium (tension and mass per unit length).
+What type of wave is produced in a rod when it is struck horizontally parallel to its length?,It sets up primarily longitudinal waves because the particle displacement is parallel to the rod's length.
+Why does the speed of sound in a gas increase as the temperature rises?,"An increase in temperature causes a decrease in gas density, which leads to a higher speed of sound per the relation $v = \sqrt{\frac{B}{\rho}}$."
+"According to the principle of superposition, what happens when two waves on a rope 'collide'?","The waves pass through each other unaffected, and the total displacement at any point is the sum of the individual displacements."
+What is the mathematical relationship between the intensity ($I$) of a wave and its frequency ($f$)?,The intensity is proportional to the square of the frequency ($I \propto f^{2}$).
+"If the wavelength of a wave is halved while keeping the medium constant, what happens to its frequency?","The frequency doubles, as the wave speed remains constant ($v = f \lambda$)."
+How does shortening the string of a pendulum affect its period of oscillation?,It decreases the period because the period is proportional to the square root of the string length ($T \propto \sqrt{L}$).
+How does the motion of a single point on a cord differ from the motion of the wave travelling along it?,"The wave travels at a constant speed, while the point on the cord moves perpendicularly with a speed that varies over time."
+Stretching a cord increases the tension and decreases the mass per unit length; how do these changes affect the wave speed?,Both changes result in an increase in the speed of the wave on the cord ($v = \sqrt{\frac{F_{T}}{\mu}}$).
+What evidence exists to show that sound is a form of energy?,"Sound can do work, such as setting eardrums in motion or causing a glass goblet to shatter."
+Why is sound heard around corners or behind obstacles even when no straight-line path exists?,"Sound waves undergo diffraction, where they bend around the edges of obstacles."
+"In a sound wave, what is the relationship between the displacement of air molecules and pressure differences?",Sound waves can be characterised either by the longitudinal displacement of molecules or by the pressure differences that cause those displacements.
+What happens to the frequency of a sound wave as it passes from air into water?,The frequency remains constant to prevent the interface from becoming an energy source or sink.
+"As sound moves from air to water, how do its speed and wavelength change?","Both the speed and the wavelength increase, while the frequency remains the same."
+What is the fundamental wavelength of an organ pipe of length $L$ that is open at both ends?,The fundamental wavelength is $2L$.
+How does the fundamental frequency change when one end of an open organ pipe is closed?,The fundamental frequency is cut in half because the fundamental wavelength doubles to $4L$.
+Why do speakers separated by a distance produce 'dead spots' in a room?,Destructive interference occurs at locations where the path difference from the speakers is an odd integer multiple of half wavelengths.
+Two cars travel in the same direction at exactly the same speed; what is the Doppler shift of a horn heard between them?,There is no Doppler shift because there is no relative motion between the source and the observer.
+How does the speed of a wave on a string compare to the speed of the sound it produces in the air?,"The two speeds are not necessarily the same, as they are determined by different physical properties of their respective media."
+The formula for the speed of a longitudinal wave in a solid rod depends on which two properties?,"It depends on the Elastic Modulus ($E$) and the density ($\rho$), given by $v = \sqrt{\frac{E}{\rho}}$."
+Define 'Beat Frequency'.,It is the difference in frequency between two similar sound waves ($f_{beat} = |f_{1} - f_{2}|$).
+What is the range of sound frequencies audible to the average human ear?,"The audible range is approximately $20\text{ Hz}$ to $20,000\text{ Hz}$ ($20\text{ kHz}$)."
+How is the amplitude of a wave related to the peak-to-peak distance of its oscillation?,The amplitude is exactly half of the peak-to-peak distance.
+What is the condition for an object on the ground to lose contact during an earthquake wave?,The maximum downward acceleration caused by the wave must be greater than the acceleration due to gravity ($g$).
+"In the context of the Doppler effect, what happens to the observed frequency when an observer moves toward a stationary source?",The observed frequency increases ($f' = f(1 + \frac{v_{obs}}{v_{snd}})$).
+"If the intensity of a sound wave increases by a factor of $100$, by what factor does the displacement amplitude increase?","The amplitude increases by a factor of $10$, as $A \propto \sqrt{I}$."
+What physical model is typically used to represent the resonance of the human ear canal?,It is modeled as a closed pipe (closed at one end) with a length of approximately $2.5\text{ cm}$.
+"In a pipe closed at one end, which harmonics are allowed to form standing waves?","Only odd harmonics ($n = 1, 3, 5, \dots$) are allowed."
+What is the 'Mach number'?,It is the ratio of the speed of an object to the speed of sound in the surrounding medium.
+Why is the frequency shift doubled in medical ultrasound applications measuring blood flow?,The blood cells first act as a moving observer receiving the signal and then as a moving source reflecting it.
+How does the intensity of a spherical wave change with the distance ($r$) from the source?,The intensity is inversely proportional to the square of the distance ($I \propto \frac{1}{r^{2}}$).
+What determines the wavelength of sound produced by a vibrating string?,It is determined by the speed of sound in air and the frequency at which the string vibrates.
+Define 'Huygens' Principle'.,Every point on a wavefront serves as a source of spherical secondary 'wavelets' that spread out in the forward direction at the speed of the wave.
+What is the main difference between mechanical waves (like sound) and electromagnetic waves regarding their travel?,"Mechanical waves require a medium to travel through, whereas electromagnetic waves can travel through a vacuum."
+"In an EM wave, what is the orientation of the electric field, magnetic field, and direction of travel?",All three are mutually perpendicular to each other.
+How does the speed of light ($c$) relate to frequency ($f$) and wavelength ($\lambda$)?,The relationship is $c = f\lambda$.
+What happens to the energy transmitted by a wave if its amplitude is tripled?,"The energy transmitted increases by a factor of nine, as energy is proportional to the square of the amplitude ($E \propto A^{2}$)."
+What is a 'node' in a standing wave pattern?,A node is a point in the medium that remains stationary (zero displacement) due to destructive interference.
+What is an 'antinode' in a standing wave pattern?,An antinode is a point in the medium that undergoes maximum displacement due to constructive interference.
+How does the wave speed in a string depend on its mass density ($\mu$)?,The wave speed is inversely proportional to the square root of the mass per unit length ($v \propto \frac{1}{\sqrt{\mu}}$).
+What is the 'fundamental frequency' of a vibrating system?,It is the lowest frequency of vibration that produces a standing wave pattern.
+How do 'overtones' relate to the fundamental frequency in a string fixed at both ends?,Overtones are integer multiples of the fundamental frequency ($f_{n} = nf_{1}$).
+Under what condition does 'Total Internal Reflection' occur for sound waves moving from air to water?,It occurs when the angle of incidence in air exceeds a critical angle such that the angle of refraction in water would be $90^{\circ}$.
+Why do low-frequency sounds diffract more than high-frequency sounds around large objects?,Diffraction is more pronounced when the wavelength of the wave is comparable to or larger than the size of the obstacle.
+Formula: Wave speed in terms of period ($T$) and wavelength ($\lambda$),$v = \frac{\lambda}{T}$
+Concept: Ultrasound in medicine,"Definition: Sound waves with frequencies above $20,000\text{ Hz}$, used for non-invasive imaging of internal organs."
+"In the Doppler effect, if a source moves *away* from a stationary observer, how does the observed frequency change?",The observed frequency decreases ($f' = f \frac{v_{snd}}{v_{snd} + v_{src}}$).
+What is the relationship between wave intensity and the distance from the source for a line source (cylindrical spreading)?,The intensity is inversely proportional to the distance ($I \propto \frac{1}{r}$).
+What does a 'ray' represent in wave optics and acoustics?,"A ray is a line drawn in the direction of wave propagation, perpendicular to the wavefronts."
+How many decibels (dB) correspond to a sound that is $100$ times more intense than the threshold of hearing?,"It corresponds to $20\text{ dB}$, as $\beta = 10 \log_{10}(\frac{I}{I_{0}})$."
+What happens to the displacement of a string at the moment two identical pulses of opposite sign perfectly overlap?,"The total displacement is zero, and all of the wave's energy is momentarily purely kinetic energy."
+Why is it easier to hear a truck before you see it when it is around a building corner?,The long wavelengths of the low-frequency engine noise diffract around the corner more effectively than light waves.
+"In a string fixed at both ends, how many nodes (including endpoints) are present in the second harmonic ($n=2$)?",There are three nodes (two at the ends and one in the centre).
+How does the 'Bulk Modulus' ($B$) affect the speed of sound in a liquid?,A higher Bulk Modulus (greater stiffness) increases the speed of sound ($v = \sqrt{\frac{B}{\rho}}$).
+What is the 'Threshold of Hearing' ($I_{0}$) value commonly used in decibel calculations?,$1.0 \times 10^{-12}\text{ W/m}^{2}$
+"If two sounds have levels of $60\text{ dB}$ and $70\text{ dB}$, what is the ratio of their intensities?",The $70\text{ dB}$ sound is $10$ times more intense than the $60\text{ dB}$ sound.
+How is 'pitch' related to the physical properties of a sound wave?,Pitch is the human perception of a sound wave's frequency.
+What determines the 'timbre' or quality of a musical note?,The number and relative intensities of the various overtones (harmonics) present in the sound.
+The phenomenon of 'beats' is an example of interference in _____.,Time
+What is the wavelength of the fundamental frequency in a pipe of length $L$ closed at one end?,The fundamental wavelength is $4L$.
+"In the DIKW paradigm mentioned for health professionals, what does the 'I' represent?",Information
+How does increasing the frequency of a sound source affect the distance between its interference 'loud spots' in a room?,"It decreases the distance because higher frequency results in shorter wavelengths, placing the interference maxima closer together."
+What is the speed of sound in dry air at $20^{\circ}\text{C}$?,Approximately $343\text{ m/s}$.
+How does the energy of a sound wave dissipate as it travels through water?,"Energy is lost due to the viscosity of the water, which leads to a decrease in the wave's amplitude."
+Why do musicians 'tune' their instruments to eliminate beats?,Beats indicate a difference in frequency; eliminating them ensures the instruments are vibrating at the exact same frequency.
+Formula: Frequency ($f$) in terms of period ($T$),$f = \frac{1}{T}$
+What happens to the period of a pendulum if the mass of the bob is doubled?,"The period remains unchanged, as it does not depend on the mass of the bob."
+Identify the 'medium' for a wave travelling through a lake.,The water in the lake.
+What defines a 'transverse' wave?,A wave where the particles of the medium vibrate perpendicularly to the direction of wave travel.
+What defines a 'longitudinal' wave?,A wave where the particles of the medium vibrate parallel to the direction of wave travel.

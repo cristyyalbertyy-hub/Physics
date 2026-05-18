@@ -1,0 +1,75 @@
+"According to Newton’s third law, how does the force of attraction compare between two lightning bugs with different charges and masses?",The force of attraction is exactly the same for both bugs.
+What physical property of electric field lines represents the magnitude of the electric field in a specific region?,The density of the field lines.
+In what direction do electric field lines always point relative to a positive point charge?,Away from the charge.
+How does the force on a negative charge relate to the direction of the electric field it is interacting with?,The force is in the opposite direction to the electric field.
+"When an object acquires a positive charge by losing electrons, what happens to its total mass?",The mass of the object decreases.
+"For two oppositely charged parallel plates, what effect does bringing them closer together have on the electric field between them?",It has no effect on the electric field.
+How does the introduction of a test charge affect the measured electric field on the surface of a conductor?,The measured value will be slightly less than the original field value.
+Why is the strong electric force between charged particles rarely observed between everyday macroscopic objects?,Most everyday objects are electrically neutral.
+Term: Electric Potential,Definition: The electric potential energy per unit charge at a specific point in space.
+Term: Electric Potential Energy,Definition: The work done against the electric force to move a charge from a reference point to a new location.
+"In terms of potential, towards which region will a negative charge naturally move?",A region of higher electric potential.
+What is the net electric field at the centre of a square with equal charges at all four corners?,The net electric field is zero.
+"If the electric potential in a region is constant, what is the value of the electric field in that region?",The electric field is zero.
+"At the midpoint between two equal but opposite charges, what is the value of the electric potential?",The electric potential is zero.
+How does the electric field between two oppositely charged parallel plates change as one moves from the positive to the negative plate?,The electric field remains constant.
+"If it takes work $W$ to bring two identical charges together, how much total work is required to bring three such charges into an equilateral triangle configuration?",The total work required is $3W$.
+How does the magnitude of the electric force on an electron compare to that on a proton when both are placed in the same uniform electric field?,The magnitude of the force is the same for both particles.
+Why does an electron experience a greater acceleration than a proton when subjected to the same electric field?,The electron has a much smaller mass than the proton.
+"The formula relating electric field $E$, potential difference $V$, and distance $d$ in a uniform field is $E = \frac{V}{d}$. What is the SI unit for electric field derived from this formula?",Volts per metre ($V/m$).
+"Inside a battery, what process moves electrons from a region of low potential energy to high potential energy?",A chemical reaction.
+"Regardless of the direction of current flow, how does the brightness of a lightbulb change if the current is reversed?",The lightbulb glows with equal brightness in either direction.
+"In a single-loop circuit, how does the amount of current entering a lightbulb compare to the amount of current exiting it?",The amount of current is exactly the same.
+Why is Ohm's Law considered an empirical law rather than a fundamental law of physics?,"It is not valid for all materials, such as diodes or superconductors."
+"Using the water wheel analogy, what does the descending water represent in an electric circuit containing a lightbulb?",Electrons losing potential energy as they pass through the bulb.
+What physical quantity does a resistor remove from an electrical system?,Energy.
+Why does a bird standing on a single high-voltage wire not experience a significant electric current?,There is very little potential difference between the bird's feet.
+"When a switch is closed, what causes all conduction electrons in a circuit to move almost instantaneously?",The creation of an electric field throughout the wire.
+Formula: Electric Current ($I$),$I = \frac{\Delta Q}{\Delta t}$
+What is the definition of the Ampere ($A$) in terms of Coulombs and seconds?,$1\ A = 1\ C/s$.
+"How is terminal voltage $V$ related to electromotive force $\mathcal{E}$, current $I$, and internal resistance $r$?",$V = \mathcal{E} - Ir$
+What is the primary requirement for two resistors to be considered in a series connection?,There must be no junctions between them so they carry the same current.
+"In a parallel circuit, how does the voltage drop across one branch compare to the voltage drop across another parallel branch?",The voltage drops across all parallel branches are equal.
+What happens to the total equivalent resistance of a circuit when a new resistor is added in parallel?,The total equivalent resistance decreases.
+Kirchhoff's Junction Rule is a statement of which fundamental conservation law?,Conservation of electric charge.
+Kirchhoff's Loop Rule is a statement of which fundamental conservation law?,Conservation of energy.
+What is the ideal internal resistance of an ammeter?,Zero.
+What is the ideal internal resistance of a voltmeter?,Infinite.
+"As a capacitor in an $RC$ circuit becomes fully charged, what happens to the current in the circuit?",The current decreases until it reaches zero.
+How does the total capacitance of capacitors connected in parallel compare to their individual capacitances?,The total capacitance is the sum of the individual capacitances.
+Which medical diagnostic tool is used to monitor the electrical activity of the heart over time?,Electrocardiogram (ECG).
+"In e-medicine, what do physical sensors typically measure in a patient?",Physical parameters such as temperature or pressure.
+"What type of sensor uses a receptor, like an antibody, to bind with a target molecule and produce an electrical signal?",A biological or chemical sensor.
+How does the 'intelligent knee sleeve' wearable sensor provide feedback to a patient during rehabilitation?,It emits an audio tone to signal knee strain.
+"In medical wristwatch devices, what is used to push ions (like pilocarpine nitrate) through the skin to dilate pores for sweat analysis?",An electric field.
+What is the function of a Ground Fault Circuit Interrupter (GFCI) in a clinical or home environment?,It shuts off power if it detects a difference in current between the two power wires.
+Which technology allows surgeons to control robotic devices to perform operations at geographically distant locations?,Telesurgery.
+What is the purpose of haptic feedback in surgical robotics?,To provide the surgeon with a tactile sense of reality during a procedure.
+"In a mobile telemedicine system, what device often acts as a gateway to send sensor data to a central database?",A cellular (mobile) phone.
+What is the primary advantage of using Bluetooth wireless LANs for patient monitoring in a hospital ward?,It eliminates wire lines and allows the patient to move freely.
+"According to the 'e-health' text, what term describes the use of digital networks for virtual diagnosis of diseases?",E-medicine.
+What is the magnitude of the elementary charge $e$ in Coulombs?,$1.602 \times 10^{-19}\ C$.
+"In an alternating current ($AC$) circuit at $60\ Hz$, how many times per second does the current reach its peak magnitude?",$120$ times per second.
+Concept: Drift Velocity,"Definition: The average velocity that a particle, such as an electron, attains due to an electric field."
+Why is the potential of the Earth expected to increase if electrons are removed from it?,The Earth becomes positively charged as negative charge is removed.
+"In a series $RC$ circuit, the time constant $\tau$ is defined as the product of which two components?",Resistance ($R$) and Capacitance ($C$).
+How does a pacemaker's mechanical device interact with the body's internal systems?,It is controlled via electrical signals.
+"When considering the safety of surgical robots, what does 'perturbation' refer to in a systems context?",Small disturbances that eventually lead a system to evolve toward order or a steady state.
+What medical condition is specifically mentioned as being aided by 'smart slippers' with pressure sensors?,Falls in the elderly.
+"In the context of wearable technology, what is a 'body area network'?",A wireless network of wearable computing devices.
+What is the significance of the $10:1$ compression ratio used in transferring ECG images via cellular networks?,It yields acceptable image quality for cardiologists while reducing data size.
+"Formula: Resistance of a conductor ($R$) given resistivity ($\rho$), length ($L$), and area ($A$)",$R = \rho \frac{L}{A}$
+"In a circuit, electrons flow from the terminal with _____ potential energy to the terminal with _____ potential energy.",high; low
+A material that does not show a constant ratio of voltage to current is said to be _____.,non-ohmic
+What is the net current through an iron ring in a GFCI if the current going in equals the current coming out?,Zero.
+How do wearable stress-sensing monitors alert caregivers to an impending crisis in autistic children?,They detect electrical changes in the skin and send a wireless alert.
+What is the primary role of a capacitor in a medical defibrillator circuit?,To store electrical energy and release it rapidly.
+Why must an ammeter be connected in series with a circuit element?,To ensure that all the current flowing through the element also flows through the ammeter.
+Why must a voltmeter be connected in parallel with a circuit element?,To measure the potential difference across that specific element without drawing significant current.
+The electric potential at a distance $r$ from a point charge $Q$ is given by $V = \frac{kQ}{r}$. Is this quantity a vector or a scalar?,Scalar.
+"If two batteries are connected in series, how is the total electromotive force (EMF) calculated?",It is the sum of the individual EMFs.
+What happens to the terminal voltage of a battery as it is being charged by an external source?,The terminal voltage is greater than the battery's EMF ($V > \mathcal{E}$).
+"In an $RC$ circuit, what percentage of the final charge does a capacitor reach after one time constant ($\tau$)?",Approximately $63\%$.
+What is the fundamental role of 'smart fabric' hospital gowns in modern patient care?,They provide continuous vital signs monitoring.
+The energy stored in a capacitor with capacitance $C$ and potential $V$ is given by which formula?,$PE = \frac{1}{2}CV^2$
+How does an 'e-clinician' perform a remote on-site examination compared to traditional videoconferencing?,By using associated peripheral devices like close-up cameras and microscopes.

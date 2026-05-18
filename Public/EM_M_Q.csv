@@ -1,0 +1,65 @@
+Where is the Earth's magnetic south pole located geographically?,It is located at the geographic north pole.
+Which pole of a compass needle points towards the geographic north?,The north pole of the compass needle.
+"What is the shape of magnetic field lines produced by a long, straight current-carrying wire?",The field lines form concentric circles centered on the wire.
+"According to the right-hand rule for a straight wire, what does the thumb represent?",The thumb represents the direction of the conventional current ($I$).
+"Which specific class of materials, including iron and nickel, is strongly attracted to magnets?",Ferromagnetic materials.
+What are the small regions within ferromagnetic materials where magnetic moments are aligned called?,Magnetic domains.
+Why does a magnet attract an unmagnetised piece of iron?,"The magnet causes the alignment of magnetic domains in the iron, creating an opposite pole and resulting in attraction."
+How can you distinguish two identical-looking rods if one is a magnet and the other is unmagnetised iron?,"Two magnets will repel each other at certain ends, whereas a magnet and unmagnetised iron will only attract."
+True or False: A stationary electric charge produces a magnetic field.,"False, only moving charges or electric currents produce magnetic fields."
+What is the formula for the magnetic force ($F$) on a particle with charge $q$ moving at velocity $v$ in a magnetic field $B$?,$F = qvB \sin \theta$
+"In the formula $F = qvB \sin \theta$, what does $\theta$ represent?",The angle between the velocity vector ($v$) and the magnetic field vector ($B$).
+Under what condition is the magnetic force on a moving charged particle equal to zero?,"When the particle moves parallel or anti-parallel to the magnetic field ($""\theta = 0^{\circ}""$ or $180^{\circ}$)."
+What is the SI unit for magnetic field strength?,The Tesla ($T$).
+Which direction does the magnetic force act relative to the velocity of a charged particle?,The force is always perpendicular to the direction of motion.
+Why does a magnetic field not change the kinetic energy of a moving electron?,"The magnetic force acts perpendicularly to the velocity, doing no work on the particle."
+How does the path of a charged particle change when entering a uniform magnetic field perpendicularly?,The particle moves in a circular path due to the constant centripetal magnetic force.
+What is the relationship between the radius ($r$) of a particle's circular path and its momentum ($mv$) in a field $B$?,$r = \frac{mv}{qB}$
+What device uses magnetic fields to deflect an electron beam to create images on a fluorescent screen?,A Cathode Ray Tube (CRT).
+"In a CRT, why might a strong external magnet cause the screen to go black?",The magnetic field deflects all electrons away from their intended destination on the screen.
+Can a magnetic field set a resting electron into motion?,"No, a magnetic field only exerts force on moving charges."
+Which type of field is required to accelerate a stationary electron from rest?,An electric field.
+What determines the direction of the magnetic field at a point near a current-carrying wire?,"The direction is determined by the right-hand rule, being tangent to the circular path around the wire."
+What is the formula for the magnitude of the magnetic field ($B$) at a distance $r$ from a long straight wire?,$B = \frac{\mu_0 I}{2\pi r}$
+What is the value of the permeability of free space ($\mu_0$)?,$4\pi \times 10^{-7} T \cdot m/A$
+How do two parallel wires behave if they carry currents in the same direction?,They exert an attractive force on each other.
+What happens to the force between two parallel wires if their currents flow in opposite directions?,They exert a repulsive force on each other.
+What is the formula for the magnetic force ($F$) on a wire of length $l$ carrying current $I$ in a field $B$?,$F = IlB \sin \theta$
+What is the purpose of the 'mass spectrometer' in medical science?,It separates ions based on their mass-to-charge ratio using magnetic deflection.
+"In a mass spectrometer, what is the total displacement of a particle that completes a half-circle path?",The displacement is equal to twice the radius ($2r$).
+How does the magnetic field from a wire change if the distance from the wire is doubled?,"The magnetic field strength is halved, as it is inversely proportional to the distance ($r$)."
+"In the right-hand rule for force, what does the palm represent for a positive charge?",The palm (or the direction the fingers curl toward) represents the direction of the magnetic force ($F$).
+How does the right-hand rule for force change when dealing with a negative charge like an electron?,The force direction is exactly opposite to that predicted for a positive charge.
+What physical quantity is defined as the product of current and the area of a loop ($IA$)?,The magnetic dipole moment ($M$).
+What is the formula for the maximum torque ($\tau$) on a coil with $N$ turns in a magnetic field?,$\tau = NIAB$
+At what angle $\theta$ is the torque on a current loop in a magnetic field equal to zero?,"When the face of the loop is perpendicular to the field ($""\theta = 0^{\circ}""$). "
+A proton moves East in a magnetic field pointing North. What is the direction of the magnetic force?,The force is directed vertically upward (out of the page).
+How do magnetic field lines behave inside a solenoid?,"They are nearly uniform, parallel, and closely spaced."
+Why do unmagnetised iron pieces become attracted to either pole of a magnet?,"The external field rotates the iron's domains to align with the field, creating a local opposite pole."
+"In clinical medicine, how can magnetic fields be used to monitor blood flow?","Magnetic fields exert forces on moving ions in the blood, creating a measurable potential difference or deflection."
+What is the 'cyclotron frequency'?,The frequency at which a charged particle circulates in a constant magnetic field.
+How is intensity related to the displacement amplitude of a sound wave?,Intensity is proportional to the square of the displacement amplitude ($I \propto A^2$).
+What happens to the magnetic field inside a material with high permeability ($\mu$)?,The magnetic field is significantly strengthened compared to its value in a vacuum.
+What is the term for the process where a changing magnetic field induces an electric current in a conductor?,Electromagnetic induction.
+How does 'Lenz's Law' describe induced currents?,The induced current creates a magnetic field that opposes the change in magnetic flux that produced it.
+What determines the 'terminal velocity' of a magnet falling through a copper tube?,The balance between the force of gravity and the upward magnetic force from induced eddy currents.
+"In a mass spectrometer, if two ions have the same charge and velocity, which ion will have a larger radius of curvature?",The ion with the larger mass.
+A wire carries current directly away from you. What is the direction of the magnetic field lines?,The field lines are circles in a clockwise direction.
+What is the force per unit length between two wires 1.0 m apart each carrying 1.0 A of current?,$2 \times 10^{-7} N/m$
+Does a magnetic field point towards or away from a magnetic South pole?,Magnetic field lines point towards a South pole.
+"In the context of the DIKW model, what does the analysis of clinical data (like blood counts) allow a practitioner to form?","A conclusion or interpretation, which is the essence of science."
+What is the primary function of a physical sensor in e-health wearable technology?,"To measure physical parameters such as temperature, pressure, or movement."
+How are magnetic sensors utilised in 'smart fabrics'?,They can monitor vital signs or detect specific movements by tracking changes in magnetic fields or orientation.
+Why is the magnetic force referred to as a 'centripetal force' for a particle moving perpendicularly to a uniform field?,It always points towards the centre of the particle's circular path and changes only the direction of velocity.
+What is the magnetic dipole moment of a single electron orbiting a nucleus with radius $r$ and speed $v$?,$M = \frac{1}{2} evr$
+How does the Hall effect relate to magnetic fields?,It involves the production of a voltage difference across an electrical conductor when a magnetic field is applied perpendicularly to the current.
+"In medical imaging, what role do magnetic fields play in MRI?",Strong magnetic fields align the spins of protons in the body to generate detailed internal images.
+What determines if two magnetic loops will repel each other?,If their magnetic fields point toward each other (like poles) or if their currents flow in opposite directions.
+What is the force on a 2.0 m wire carrying 5.0 A current parallel to a 0.5 T magnetic field?,"0 N, because $""\sin 0^{\circ} = 0""$."
+Which rule is used to find the direction of the torque on a current loop?,"The right-hand rule, by curling fingers in the direction of the current to find the magnetic moment direction."
+What is the relationship between magnetic field strength and the density of magnetic field lines?,The field is strongest where the field lines are most densely packed.
+"In health informatics, what is a 'Body Area Network' (BAN)?",A network of wearable or implanted sensors that transmit physiologic data wirelessly to a server.
+How does a 'smart slipper' use pressure sensors for elderly care?,It transmits movement data wirelessly to a remote site to aid in the early detection of falls.
+What is the magnetic force on a proton moving at $5 \times 10^6 m/s$ perpendicular to a $0.2 T$ field?,$1.6 \times 10^{-13} N$
+Why can two parallel currents be used to define the Ampere?,"The force between them is precisely determined by the current, distance, and the constant $\mu_0$."
+"If an EM wave travels South and its electric field oscillates East-West, what is the magnetic field's oscillation direction?",It must oscillate vertically (up and down).

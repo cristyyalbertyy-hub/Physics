@@ -1,0 +1,80 @@
+What physical process causes clothing to become charged in a tumble dryer?,Friction (rubbing against the dryer sides and other clothes).
+Explain why a charged shirt is attracted to the skin of the person wearing it.,The shirt causes charge separation (polarization) within the skin molecules.
+Why do water droplets in fog or rain tend to form around ions?,"Water is a polar molecule, meaning its charge centres are attracted to ions in the air."
+"In a neutral conductor, what is the net charge if extra electrons are added?",Negative.
+An object acquires a positive charge when _____ are removed from it.,Electrons
+What term refers to the electrons in a conductor that are loosely bound to atoms and can move freely?,Conduction electrons (or free charges).
+Why don't all free electrons in a conductor move to the same region when an external charge is applied?,The accumulating excess charge exerts a large repulsive force on other incoming electrons.
+"In an electroscope, the horizontal component of the tension force on the leaves balances the _____.",Electric force of repulsion.
+Contrast the types of forces produced by Newton's law of gravitation versus Coulomb's law.,"Gravitation produces only attractive forces, while Coulomb's law produces both attractive and repulsive forces."
+Why are the electric forces between everyday objects usually not noticeable?,Most ordinary objects are electrically neutral to a very high degree.
+Formula: Coulomb's Law for the magnitude of electric force between two point charges,$F = k \frac{Q_1 Q_2}{r^2}$
+What is the approximate value of the proportionality constant $k$ in Coulomb's law in SI units?,$8.988 \times 10^9 N \cdot m^2/C^2$
+"When a neutral piece of paper is attracted to a charged ruler, the paper is first _____.",Polarised
+How does the magnitude of the gravitational constant $G$ compare to the Coulomb constant $k$ in SI units?,"$G$ is very small ($6.67 \times 10^{-11}$), while $k$ is very large ($8.988 \times 10^9$)."
+Why must a test charge used to measure an electric field be very small?,To ensure its own electric field does not significantly alter the original field being measured.
+"By convention, the direction of an electric field at any point is the direction of the force on a _____.",Positive test charge.
+Formula: Electric field $E$ in terms of force $F$ and test charge $q$,$E = \frac{F}{q}$
+Where is the electric field strongest in a diagram of electric field lines?,Where the field lines are closest together (highest density).
+"If a charged particle is released from rest in a non-uniform electric field, will it always follow the field line?",No; it will only follow the line if the field line is straight.
+"According to Newton's third law, how does the force on an object with charge $+Q$ compare to the force on an object with charge $+4Q$?",The forces are equal in magnitude.
+How does removing electrons from an object affect its total mass?,The mass decreases because electrons possess mass.
+The electric force between an electron and a proton is approximately how many times stronger than the gravitational force between them?,$2.27 \times 10^{39}$
+Formula: Electric field magnitude $E$ due to a single point charge $Q$ at distance $r$,$E = k \frac{|Q|}{r^2}$
+"If the distance between two charges is reduced by a factor of 8, the electric force between them increases by a factor of _____.",64
+"If an electron accelerates from rest toward the North, what is the direction of the local electric field?",South.
+What is the typical magnitude and direction of the Earth's electric field near the surface?,$150 N/C$ pointing toward the Earth's centre (downward).
+"Given Earth's downward electric field, what is the sign of the Earth's net static charge?",Negative.
+Concept: Polarization in water molecules,The water molecule has a positive region (hydrogens) and a negative region (oxygen) that can shift in an electric field.
+"In Millikan's oil-drop experiment, what force must exactly balance the gravitational force to suspend the drop?",The electric force ($qE$).
+"If the electric field is 0 at a certain point, is the electric potential necessarily 0 at that point?",No (example: midway between two equal positive charges).
+Define 'Electric Potential Difference' ($\\Delta V$).,The change in electric potential energy per unit charge ($\\Delta PE / q$).
+What is the SI unit for electric potential?,The Volt ($V$).
+Formula: Magnitude of electric field $E$ between two parallel plates with potential difference $V$ and separation $d$,$E = \frac{V}{d}$
+Concept: Electron-Volt ($eV$),The energy acquired by an electron moving through a potential difference of exactly $1 V$.
+What is the value of $1 eV$ in Joules?,$1.602 \times 10^{-19} J$
+A negative charge will naturally move toward a region of _____ electric potential.,Higher
+How are equipotential lines always oriented relative to electric field lines?,Perpendicularly.
+Why is the potential energy of a charge system decreased when the charges move naturally due to electric forces?,The potential energy is converted into kinetic energy.
+What happens to the capacitance of an isolated capacitor if the plate separation is increased?,The capacitance decreases.
+Formula: Capacitance $C$ in terms of charge $Q$ and potential difference $V$,$C = \frac{Q}{V}$
+"If the electric field in a region is uniform, the electric potential must be changing _____.",Uniformly
+"In medical informatics, what medical diagnostic test uses an electric field to push pilocarpine nitrate into the skin?",The wristwatch cystic fibrosis test.
+How can a biological sensor be defined in terms of its mechanism?,A receptor (like an antibody) binds with a specific analyte (target molecule) to produce a signal.
+"In the context of 'supersymmetrical thinking', which entities are compared to Bosons?",Information dispensing systems (transmitting digitized knowledge).
+Which wearable monitor detects skin electrical changes to alert caregivers of an impending crisis in autistic children?,Stress-sensing monitors.
+Concept: Body Area Network (BAN),A wireless network of wearable technology that transmits physiologic data for clinical review.
+What is the net electric field inside a solid conductor at equilibrium?,Zero.
+Any excess charge on a conductor resides entirely on the _____.,Surface
+How does an electric field line originate and terminate?,It originates on a positive charge and terminates on a negative charge.
+Formula: Work $W$ done to move a charge $q$ through a potential difference $\\Delta V$,$W = q \Delta V$
+"In the parallel plate capacitor model of an axon, what represents the capacitor plates?",The inner and outer surfaces of the cylindrical axon wall.
+What is the primary difference between a Boson and a Fermion in particle physics?,Bosons transmit forces and can occupy the same state; Fermions make up matter and occupy single states.
+Why is the electric field always perpendicular to the surface of a conductor in equilibrium?,"If there were a parallel component, it would cause the free charges to move."
+Term: Dielectric,An insulating material placed between capacitor plates to increase capacitance.
+How does the electric potential vary inside a conductor at equilibrium?,It is constant throughout the conductor's volume.
+"When using a positive test charge to map a field, if the charge is repelled directly away, the source charge must be _____.",Positive
+The constant $k$ is related to the permittivity of free space ($\\epsilon_0$) by what formula?,$k = \frac{1}{4 \pi \epsilon_0}$
+What is the net charge of an atom with 29 protons and 27 electrons?,$+2e$ (or positive charge).
+"In a uniform electric field, a proton and an electron experience forces of _____ magnitude.",Equal
+"Which particle, a proton or an electron, will have a greater acceleration in the same electric field?",The electron (due to its much smaller mass).
+How does the electric field magnitude depend on the distance $r$ from a point charge?,It is inversely proportional to $r^2$.
+Can electric field lines ever cross each other?,No.
+Why is the net field zero exactly midway between two identical positive point charges?,"The individual fields from each charge are equal in magnitude but opposite in direction, cancelling out."
+What is the value of the elementary charge $e$?,$1.602 \times 10^{-19} C$
+"If the electric potential at a point is 100 V, how much work is required to move a 2 C charge from infinity to that point?",200 J.
+"In a capacitor, what happens to the stored charge if the voltage is doubled?",The stored charge doubles ($Q = CV$).
+Term: Equipotential surface,A surface on which the electric potential is the same at every point.
+What is the work done by the electric field when a charge moves along an equipotential line?,Zero.
+"In the equation $\\Delta PE = -qE \\Delta x$, what does the negative sign indicate for a positive charge moving in the direction of the field?",Its potential energy decreases.
+What is the effect of a dielectric on the electric field between capacitor plates for a fixed charge?,The electric field is reduced.
+A Farad is equivalent to one _____ per Volt.,Coulomb
+Which type of e-medicine application allows surgeons to control robotic devices at a remote location?,Telesurgery.
+Formula: Energy $U$ stored in a capacitor with capacitance $C$ and voltage $V$,$U = \frac{1}{2} C V^2$
+Which historical invention in the late 19th century was critical for the emergence of e-medicine?,The radio.
+What is the primary function of a physical sensor in e-health?,To measure parameters such as temperature or pressure.
+How does the 'intelligent knee sleeve' provide feedback to a user?,By emitting an audio tone.
+"In charging by induction, is the charged rod ever in physical contact with the object being charged?",No.
+The total number of electric field lines crossing a surface is related to the concept of electric _____.,Flux
+Why is water particularly effective at dissolving ionic compounds?,Its polar nature allow it to attract and surround individual ions.
+"If two negative charges are moved closer together, the electric potential energy of the system _____.",Increases

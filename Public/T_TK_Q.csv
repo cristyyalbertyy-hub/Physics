@@ -1,0 +1,65 @@
+"According to atomic theory, how does the size of an atom roughly compare to the distance between atoms in a gas at standard pressure?",The distance between atoms is much larger (approximately 10 to 15 times larger) than the size of the atoms themselves.
+Which temperature scale is defined such that $0\text{ K}$ represents absolute zero?,The Kelvin scale.
+How is the Kelvin temperature ($T$) calculated from the Celsius temperature ($T_C$)?,$T = T_C + 273.15$
+Which temperature interval is larger: $1\text{ Celsius degree}$ or $1\text{ Fahrenheit degree}$?,$1\text{ Celsius degree}$ (it is $\frac{9}{5}$ times larger than $1\text{ Fahrenheit degree}$).
+Concept: The Zeroth Law of Thermodynamics,"Definition: If two systems are in thermal equilibrium with a third system, they are in thermal equilibrium with each other."
+What physical property of a bimetallic strip allows it to function as a thermometer?,The difference in the coefficients of linear expansion of the two fused metals.
+Formula: Linear thermal expansion of a solid,$\Delta L = \alpha L_0 \Delta T$
+"In the formula for linear expansion, what does the symbol $\alpha$ represent?",The coefficient of linear expansion.
+How does the volume of a hole in a metal sheet change when the sheet is heated?,The hole expands at the same rate as the surrounding metal material.
+Formula: Volume thermal expansion,$\Delta V = \beta V_0 \Delta T$
+"For most solids, what is the approximate relationship between the volume expansion coefficient ($\beta$) and the linear expansion coefficient ($\alpha$)?",$\beta \approx 3\alpha$
+"Which temperature scale must be used in all gas law calculations, such as $PV = nRT$?",The Kelvin (absolute) scale.
+State Boyle's Law regarding the relationship between pressure and volume at constant temperature.,The volume of a given sample of gas is inversely proportional to the absolute pressure.
+"According to Charles's Law, what is the relationship between volume and temperature at constant pressure?",Volume is directly proportional to the absolute temperature.
+Formula: The Ideal Gas Law (in terms of moles),$PV = nRT$
+What is the numerical value of the Universal Gas Constant ($R$) in SI units?,$8.314 \text{ J}/(\text{mol} \cdot \text{K})$
+Term: Avogadro's Number ($N_A$),Definition: The number of constituent particles (usually atoms or molecules) in one mole of a substance ($6.022 \times 10^{23} \text{ mol}^{-1}$).
+Formula: The Ideal Gas Law (in terms of molecules),$PV = NkT$
+What does the Boltzmann constant ($k$) represent in terms of $R$ and $N_A$?,$k = \frac{R}{N_A}$
+What are the standard values for temperature and pressure (STP)?,$273.15 \text{ K}$ ($0^{\circ}\text{C}$) and $1.013 \times 10^5 \text{ Pa}$ ($1\text{ atm}$).
+What is the volume occupied by $1.00\text{ mol}$ of an ideal gas at STP?,$22.4 \text{ L}$
+"According to kinetic theory, what determines the absolute temperature of a gas?",The average translational kinetic energy of its molecules.
+Formula: Average translational kinetic energy of a gas molecule,$KE_{avg} = \frac{3}{2} kT$
+Formula: Total internal energy ($U$) of $n$ moles of a monatomic ideal gas,$U = \frac{3}{2} nRT$
+Term: Root-mean-square (rms) speed,Definition: The square root of the average of the squares of the speeds of the molecules in a gas.
+Formula: Root-mean-square speed ($\upsilon_{rms}$) of a gas molecule,$\upsilon_{rms} = \sqrt{\frac{3kT}{m}}$
+"If two different gases are at the same temperature, how do the average kinetic energies of their molecules compare?",They are identical.
+"At a constant temperature, how does the rms speed of a light molecule compare to that of a heavier molecule?",The lighter molecule has a higher rms speed.
+"If the absolute temperature of a gas is quadrupled, by what factor does the rms speed of the molecules increase?",A factor of $2$ (since $\upsilon_{rms} \propto \sqrt{T}$).
+Why does evaporation result in the cooling of a liquid?,"The fastest (most energetic) molecules escape, lowering the average kinetic energy of the remaining molecules."
+Term: Vapour pressure,Definition: The partial pressure of a vapour in equilibrium with its liquid or solid phase at a given temperature.
+At what condition does a liquid reach its boiling point?,When its saturated vapour pressure equals the external atmospheric pressure.
+Formula: Relative Humidity,$\text{Relative Humidity} = \frac{\text{Partial pressure of water vapour}}{\text{Saturated vapour pressure of water}} \times 100\%$
+Term: Diffusion,Definition: The net movement of molecules from a region of higher concentration to a region of lower concentration due to random thermal motion.
+"In kinetic theory, why is it assumed that molecular collisions are perfectly elastic?",To ensure that total kinetic energy is conserved at a constant temperature.
+"According to the Maxwell distribution of speeds, how does the 'most probable speed' relate to the 'rms speed'?",The most probable speed is slightly lower than the rms speed.
+What is the physical significance of absolute zero ($0\text{ K}$)?,It is the temperature at which all molecular translational motion would theoretically cease.
+How does the saturated vapour pressure of a substance change as temperature increases?,It increases rapidly.
+Term: Partial Pressure,Definition: The pressure a gas in a mixture would exert if it alone occupied the entire volume.
+Why do helium atoms ($4\text{ u}$) move faster than oxygen molecules ($32\text{ u}$) in a room-temperature mixture?,"At the same temperature, they have the same kinetic energy, but helium has less mass."
+Concept: Mean Free Path,Definition: The average distance a molecule travels between successive collisions.
+"In Fick's Law of diffusion, what is the relationship between the diffusion rate and the concentration gradient?",The diffusion rate is directly proportional to the concentration gradient.
+Term: Sublimation,Definition: The phase transition where a substance changes directly from a solid to a gas without passing through the liquid phase.
+What is the critical temperature of a substance?,"The temperature above which a gas cannot be liquefied, regardless of the pressure applied."
+Term: Triple Point,"Definition: The unique temperature and pressure at which the solid, liquid, and gas phases of a substance coexist in equilibrium."
+How does increasing the pressure affect the boiling point of water?,It increases the boiling point.
+What does a high 'relative humidity' indicate about the rate of evaporation from the skin?,It indicates a lower rate of evaporation because the air is closer to saturation.
+Term: Dew Point,Definition: The temperature at which the air becomes saturated with water vapour (relative humidity reaches $100\%$).
+"In the Ideal Gas Law $PV = nRT$, what does the 'n' represent?",The number of moles of the gas.
+Which observation provided early evidence for the atomic theory by showing the random motion of particles suspended in a fluid?,Brownian motion.
+What happens to the pressure of an ideal gas if its volume is halved while the temperature is kept constant?,The pressure doubles.
+How does the coefficient of volume expansion ($\beta$) for liquids typically compare to that of solids?,Liquids generally have a significantly larger coefficient of volume expansion than solids.
+What is the value of the Boltzmann constant ($k$) in SI units?,$1.38 \times 10^{-23} \text{ J/K}$
+Under what conditions of pressure and temperature do real gases behave most like ideal gases?,Low pressure and high temperature (where molecules are far apart and moving fast).
+What is the SI unit for pressure?,"The Pascal ($\text{Pa}$), which is $1 \text{ N/m}^2$."
+Concept: Thermal Equilibrium,Definition: A state in which two objects in thermal contact cease to have a net exchange of energy by heat.
+"In kinetic theory, how is the pressure exerted by a gas on its container walls explained?",By the cumulative force of many molecular collisions with the walls.
+What is the approximate molecular mass of an Oxygen molecule ($O_2$) in atomic mass units?,$32.0 \text{ u}$
+How does the rms speed of gas molecules at $300\text{ K}$ compare to their speed at $0\text{ K}$?,"At $0\text{ K}$, the speed is theoretically zero; at $300\text{ K}$, it is significantly higher (hundreds of metres per second)."
+"If the temperature of an ideal gas is held constant, what is the graphical shape of a Pressure-Volume ($P$-$V$) curve?",A hyperbola (called an isotherm).
+Why must an incubator for premature babies have high humidity in addition to high temperature?,To prevent excessive moisture loss and dramatic cooling through evaporation from the baby's skin.
+What distinguishes 'translational' kinetic energy from other forms of molecular energy like 'rotational' energy?,Translational energy refers to the movement of the molecule's centre of mass through space.
+"According to the Ideal Gas Law, if both $P$ and $V$ are doubled, what happens to the absolute temperature $T$?",It quadruples.
+What is the molar mass of Helium ($He$)?,$4.0 \text{ g/mol}$
+Formula: Number of moles ($n$) in terms of mass ($m$) and molar mass ($M$),$n = \frac{m}{M}$

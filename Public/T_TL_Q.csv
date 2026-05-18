@@ -1,0 +1,65 @@
+State the Zeroth Law of Thermodynamics regarding thermal equilibrium.,"If two systems are in thermal equilibrium with a third system, they are in thermal equilibrium with each other."
+The internal energy of a system is defined as the sum of all the _____ of its constituent molecules.,Kinetic and potential energies
+"Write the mathematical expression for the First Law of Thermodynamics, where $W$ is work done by the system.",$\Delta U = Q - W$
+"In the First Law of Thermodynamics, what does a positive value for $Q$ represent?",Heat is added to the system.
+"What thermodynamic process occurs at a constant temperature, resulting in $\Delta U = 0$ for an ideal gas?",Isothermal process
+An _____ process is one in which no heat flows into or out of the system ($Q = 0$).,Adiabatic
+State the formula for work done ($W$) during an isobaric process.,$W = P \Delta V$
+"In an isovolumetric process, how much work is done by the gas?",Zero
+"According to the Second Law of Thermodynamics, heat flows naturally from an object at a high temperature to one at a _____ temperature.",Lower
+How is the thermal efficiency ($e$) of a heat engine calculated in terms of heat input ($Q_H$) and work ($W$)?,$e = \frac{W}{Q_H}$
+What is the formula for the maximum theoretical efficiency of a heat engine (Carnot efficiency)?,$e_{ideal} = 1 - \frac{T_L}{T_H}$
+"In the Carnot efficiency formula, what unit must be used for the temperatures $T_L$ and $T_H$?",Kelvin ($K$)
+State the Clausius statement of the Second Law of Thermodynamics.,Heat cannot flow spontaneously from a cold object to a hot object.
+The measure of the disorder or randomness of a system is known as _____.,Entropy
+How is the change in entropy ($\Delta S$) defined for a reversible process at constant temperature?,$\Delta S = \frac{Q}{T}$
+"In any natural process, the total entropy of the universe always _____.",Increases
+State the relationship between a Celsius temperature ($T_C$) and its Kelvin equivalent ($T$).,$T = T_C + 273.15$
+What does the 'Kelvin-Planck' statement suggest about the possibility of a $100\%$ efficient heat engine?,No device can transform a given amount of heat completely into work in a cycle.
+Concept: Specific Heat Capacity,"Definition: The heat required to change the temperature of unit mass of a substance by $1 \, ^\circ C$."
+The heat required to change the phase of a substance without a change in temperature is called _____.,Latent heat
+Which mode of heat transfer involves the mass movement of molecules over large distances?,Convection
+State the Stefan-Boltzmann Law for the rate of energy radiation ($Q/t$).,$\frac{Q}{t} = \epsilon \sigma A T^4$
+"In the context of the human body, how does blood circulation primarily provide cooling?",By convection
+Why must an incubator for premature babies have high humidity as well as high temperature?,To prevent dramatic cooling caused by the evaporation of moisture from the baby's skin.
+What happens to the internal energy of an ideal gas during an adiabatic compression?,It increases because work is done on the gas.
+The _____ of a material is a dimensionless number between $0$ and $1$ representing its effectiveness as a radiator.,Emissivity
+Why is it impossible for a refrigerator to cool a room by simply leaving its door open?,The exhaust heat released into the room is greater than the heat removed from the refrigerator's interior.
+Formula: Ideal Gas Law,$PV = nRT$
+"In the Ideal Gas Law, what does the constant $n$ represent?",The number of moles of the gas.
+Under what condition is the work done by a system considered negative in the expression $\Delta U = Q - W$?,When work is done ON the system by an external force.
+What is the value of the molar gas constant ($R$)?,"$8.314 \, J / (mol \cdot K)$"
+"In thermodynamics, a _____ is a property that depends only on the current state of the system, not the path taken to reach it.",State function
+Identify an example of a 'state function' in thermodynamics.,Internal energy (or Temperature/Pressure/Volume).
+Why is heat NOT considered a property of an object?,Heat is energy in transit between objects due to a temperature difference.
+What is the entropy change of a system undergoing a reversible adiabatic process?,Zero
+Which phase of matter typically has the highest entropy for a given substance?,Gas (or Vapour)
+The ratio of heat removed from the cold reservoir to the work input for a refrigerator is called the _____.,Coefficient of Performance (COP)
+"In an isothermal expansion of an ideal gas, how does the heat added ($Q$) relate to the work done ($W$)?",$Q = W$
+What does a 'microstate' represent in statistical thermodynamics?,A specific configuration of the individual molecules in a system.
+How does the entropy of a system relate to the number of microstates ($W$)?,$S = k \ln W$
+"The 'high-grade' energy associated with work is highly ordered, whereas 'low-grade' heat energy is _____.",Disordered
+What thermal property of a material describes its ability to conduct heat?,Thermal conductivity ($k$)
+"During a phase change, such as water boiling, what happens to the temperature of the substance?",It remains constant.
+What is the 'Triple Point' of water in Celsius?,"$0.01 \, ^\circ C$"
+"In calorimetry problems, what fundamental principle is used when mixing substances at different temperatures?",Conservation of energy (Heat lost equals heat gained).
+Identify the primary mechanism of heat loss from a person standing in direct sunlight.,Radiation
+The _____ pressure used in the Ideal Gas Law must be measured relative to absolute zero pressure.,Absolute
+"How many joules are equivalent to $1 \, kcal$?","$4186 \, J$"
+"For a constant-volume process, what does the First Law of Thermodynamics simplify to?",$\Delta U = Q$
+State the general relationship between internal energy ($U$) and absolute temperature ($T$) for a monatomic ideal gas.,$U = \frac{3}{2} nRT$
+"According to the Second Law, the efficiency of any real heat engine must be _____ than the Carnot efficiency for the same reservoirs.",Less
+Why is the vacuum in a thermos flask effective at reducing heat transfer?,"It prevents heat loss by conduction and convection, which require a medium."
+What is the Celsius equivalent of absolute zero temperature?,"$-273.15 \, ^\circ C$"
+The entropy change for the entire cycle of a Carnot engine is _____.,Zero
+"In an adiabatic expansion, the temperature of a gas _____ because internal energy is used to do work.",Decreases
+What is the purpose of a bimetallic strip in a thermometer?,To exploit the different rates of thermal expansion in two different metals.
+"In the human body, what cooling process is hindered when environmental humidity is very high?",Evaporation (of sweat).
+How many molecules are contained in one mole of a substance (Avogadro's Number)?,$6.022 \times 10^{23}$
+What constant relates the average kinetic energy of molecules to the absolute temperature?,Boltzmann constant ($k$)
+"In a $P-V$ diagram, what does the area under the curve represent?",The work done by the gas.
+State the 'Law of Conservation of Energy' as applied to thermodynamics.,"Energy cannot be created or destroyed, only transformed between heat, work, and internal energy."
+Why is the entropy change of the surroundings usually positive when a system loses heat?,Heat entering the surroundings increases their molecular disorder.
+"On a $P-V$ diagram, an adiabatic curve is _____ than an isothermal curve.",Steeper
+What is the molar volume of an ideal gas at Standard Temperature and Pressure ($STP$)?,"$22.4 \, L/mol$ (or $0.0224 \, m^3/mol$)"
+A process that can be returned to its original state without any net change in the universe is called _____.,Reversible

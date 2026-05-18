@@ -111,19 +111,8 @@ code {
   font-size: 0.75rem;
 }
 
-.group-title {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-}
-
 .group-name {
   font-weight: 600;
-}
-
-.group-id {
-  font-size: 0.75rem;
-  color: var(--muted);
 }
 
 .sub-list {
@@ -162,6 +151,27 @@ code {
   border-radius: 14px;
   padding: 1rem 1.1rem 1.5rem;
   min-height: 280px;
+}
+
+.main--entry {
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entry-panel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entry-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
 }
 
 .subchapter-content {

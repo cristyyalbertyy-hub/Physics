@@ -1,0 +1,60 @@
+What is the physical phenomenon where a changing magnetic flux through a loop of wire results in an induced electromotive force (EMF)?,Electromagnetic Induction
+"What is the formula for magnetic flux, $\Phi_B$, in terms of magnetic field $B$, area $A$, and the angle $\theta$ between $B$ and the area's normal?",$\Phi_B = BA \cos \theta$
+What is the SI unit for magnetic flux?,The Weber ($Wb$)
+"According to Faraday's Law, what determines the magnitude of the average induced EMF in a conductive loop?",The rate of change of magnetic flux through the loop over time.
+State the mathematical expression for Faraday's Law of Induction for a coil with $N$ loops.,$\mathcal{E} = -N \frac{\Delta \Phi_B}{\Delta t}$
+What is the purpose of the negative sign in Faraday's Law of Induction?,It indicates that the induced EMF opposes the change in magnetic flux that created it (Lenz's Law).
+What law states that an induced current always flows in a direction such that its own magnetic field opposes the change in the original magnetic flux?,Lenz's Law
+"If the magnetic flux through a loop pointing into the page is increasing, in what direction will the induced current flow to oppose this change?",Counter-clockwise
+"If the magnetic flux through a loop pointing into the page is decreasing, in what direction will the induced current flow to oppose this change?",Clockwise
+Why is a current not induced in a conductive ring when a magnet is held steady within it?,There is no change in magnetic flux over time.
+What is the formula for the motional EMF induced in a conductor of length $\ell$ moving at speed $v$ perpendicular to a magnetic field $B$?,$\mathcal{E} = B \ell v$
+"In Faraday's experiments, what is the advantage of using a primary coil with a large number of turns $N$?","It produces a larger magnetic flux, which makes the resulting induced EMF easier to measure."
+What type of currents are induced in a bulk piece of metal moving through a magnetic field?,Eddy currents
+How do eddy currents produce a braking effect in metallic wheels?,They interact with the external magnetic field to create a force that opposes the original motion of the metal.
+Why does a magnet reach a constant terminal velocity when falling through a vertical metal tube?,The upward force from induced eddy currents eventually balances the downward force of gravity.
+What device is used to change the magnitude of an alternating current (AC) voltage through electromagnetic induction?,A transformer
+"What is the transformer equation relating primary and secondary voltages ($V_p, V_s$) to their respective number of turns ($N_p, N_s$)?",$\frac{V_s}{V_p} = \frac{N_s}{N_p}$
+"In an ideal transformer, how does the output power compare to the input power?",The output power is equal to the input power ($V_p I_p = V_s I_s$).
+What defines a 'step-up' transformer in terms of its turns ratio?,The secondary coil has more turns than the primary coil ($N_s > N_p$).
+What defines a 'step-down' transformer in terms of its turns ratio?,The secondary coil has fewer turns than the primary coil ($N_s < N_p$).
+"If a coil is moved through a magnetic field, what happens to the energy of the system if the coil is made of plastic instead of copper?","An EMF is produced, but no induced current flows because plastic is an insulator."
+What property of a circuit component quantifies its ability to oppose changes in the current flowing through it?,"Self-inductance (or Inductance, $L$)"
+What is the SI unit for inductance?,The Henry ($H$)
+How is the EMF $\mathcal{E}$ induced in an inductor related to the rate of change of current $I$?,$\mathcal{E} = -L \frac{\Delta I}{\Delta t}$
+What factors in a solenoid's geometry determine its self-inductance $L$?,"The number of turns $N$, the cross-sectional area $A$, and the length $\ell$."
+What is the formula for the energy $U$ stored in the magnetic field of an inductor with inductance $L$ and current $I$?,$U = \frac{1}{2} L I^2$
+"What is magnetic energy density, $u_B$?",The magnetic energy stored per unit volume in a magnetic field.
+"In terms of the magnetic field $B$ and permeability $\mu_0$, what is the formula for magnetic energy density $u_B$?",$u_B = \frac{B^2}{2 \mu_0}$
+What is the term for the EMF produced in a motor's armature that opposes the voltage source powering the motor?,Back EMF
+"What occurs when the current in one coil induces an EMF in a second, nearby coil?",Mutual Induction
+A generator converts _____ energy into _____ energy.,Mechanical; electrical
+How does the speed of swiping a credit card through a reader affect the signal produced?,"A faster swipe increases the rate of change of magnetic flux, resulting in a larger induced EMF."
+"What type of field is created in space by a changing magnetic flux, even in the absence of conductive wires?",An electric field
+"According to the right-hand rule for EM waves, if the electric field points west and the wave travels down, what is the direction of the magnetic field?",North
+What is the primary difference between sound waves and electromagnetic waves regarding their travel medium?,"Sound waves require a medium (gas, liquid, or solid), whereas EM waves can travel through a vacuum."
+The intensity of an electromagnetic wave is proportional to the _____ of the amplitudes of the electric and magnetic fields.,Product
+How is the inductive reactance $X_L$ related to the frequency $f$ of an AC source?,$X_L = 2 \pi f L$
+How is the capacitive reactance $X_C$ related to the frequency $f$ of an AC source?,$X_C = \frac{1}{2 \pi f C}$
+What condition must be met for an RLC circuit to be at resonance?,The inductive reactance must equal the capacitive reactance ($X_L = X_C$).
+What is the formula for the resonance frequency $f_0$ of an LC circuit?,$f_0 = \frac{1}{2 \pi \sqrt{LC}}$
+"In an RLC circuit, what is the total opposition to AC current flow called?",Impedance ($Z$)
+Why is the current through a lightbulb in a simple circuit the same as the current through the battery?,Charge is conserved and there is only one path for the current to flow.
+Why is Ohm's Law considered an empirical law rather than a fundamental law of physics?,"It is not valid for all materials, such as diodes and superconductors."
+"Using the water wheel analogy for a lightbulb, what physical quantity corresponds to the change in water height?",Electric potential (Voltage)
+"In the water wheel analogy for a circuit, what represents the conservation of electrons passing through a bulb?",The amount of water entering the top of the wheel is the same as the amount leaving the bottom.
+Where is the Earth's magnetic south pole located geographically?,At the geographic North Pole.
+"What is the shape of the magnetic field lines centered on a long, straight current-carrying wire?",Concentric circles
+"According to the right-hand rule, if your fingers point in the direction of current and curl toward the magnetic field, what does your thumb represent?",The direction of the magnetic force.
+Why can a magnet attract an unmagnetised iron bar but not a piece of wood?,Iron contains magnetic domains that can align with an external magnetic field.
+What happens to the magnetic domains of unmagnetised iron when a strong North pole is brought near?,"The domains rotate so their South poles face the external North pole, causing attraction."
+Can a magnetic field set a stationary electron into motion? Why or why not?,"No, because a magnetic field only exerts force on moving charges ($F = qvB \sin \theta$)."
+What type of field is required to accelerate a stationary electron from rest?,An electric field
+How does a magnetic force act on a moving proton if the force is perpendicular to the proton's velocity?,"It acts as a centripetal force, changing the proton's direction but not its speed or kinetic energy."
+Why does a magnetic force do zero work on a moving charged particle?,Because the force is always perpendicular to the direction of motion.
+What term describes the frequency of the circular motion of a charged particle in a uniform magnetic field?,Cyclotron frequency
+"When a charged rod is brought near an electroscope, why do the leaves separate even if the rod doesn't touch it?","The rod repels like charges onto the leaves by induction, causing them to repel each other."
+Why does a strong magnet cause distortion or black spots on a CRT television screen?,"The magnetic field exerts a force on the moving electron beam, deflecting electrons away from their intended phosphor targets."
+"If two metal rods are tested and their ends repel each other, what can be concluded about the rods?",Both rods are permanent magnets.
+How is the magnetic dipole moment $M$ related to current $I$ and area $A$ for a single loop?,$M = IA$
+Why is it unethical to use a large rectangular loop of wire near power lines to 'steal' electricity via induction?,"The induced current creates a back EMF in the power lines, causing a measurable power loss for the electric company."

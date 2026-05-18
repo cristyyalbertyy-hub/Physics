@@ -1,0 +1,60 @@
+How does the frequency of a simple periodic wave relate to the frequency of its source?,The wave frequency is always equal to the frequency of the source.
+Why does a wave throughout a medium maintain the same frequency as the source?,"Adjacent parts of the medium exert forces on each other while staying in contact, maintaining the oscillation rate."
+Which type of mechanical wave can travel through both solids and liquids?,Longitudinal waves.
+"The detection of longitudinal waves, but not transverse waves, opposite an earthquake's epicentre suggests what about the Earth's interior?","It contains a liquid layer, as transverse waves cannot travel through liquids."
+What is the 'superposition principle' regarding two waves meeting on a cord?,The total displacement at any point is the sum of the displacements of each individual wave.
+"Under the superposition principle, how do waves behave after they pass through each other?",They continue unaffected in their original patterns and directions.
+What factors determine the speed of a wave on a stretched cord?,The tension in the cord and the mass per unit length of the cord.
+Formula: Wave speed ($v$) on a cord with tension ($F_T$) and mass per unit length ($\mu$),$v = \sqrt{\frac{F_T}{\mu}}$
+How does stretching a cord affect the speed of a wave traveling along it?,It increases the speed by increasing tension and decreasing mass per unit length.
+"In a standing wave, what is the term for a point on the medium that experiences no motion?",Node.
+"What phase shift, in degrees, corresponds to a displacement of half a wavelength ($\lambda/2$)?",$180^\circ$
+Why is sound classified as a mechanical wave rather than an electromagnetic wave?,"It is a pressure wave that requires a physical medium (solid, liquid, or gas) to travel."
+What evidence supports the claim that sound is a form of energy?,"Sound can do work, such as vibrating an eardrum or shattering glass."
+"In a vacuum, how do the velocities of X-rays and radio waves compare?","They both travel at the same constant speed, the speed of light ($c$)."
+"Formula: The relationship between speed of light ($c$), wavelength ($\lambda$), and frequency ($f$)",$c = \lambda f$
+How do the electric and magnetic fields in an electromagnetic wave relate to the direction of travel?,Both fields are perpendicular to each other and perpendicular to the direction of wave travel.
+Formula: Ratio of the electric field ($E$) to the magnetic field ($B$) in an EM wave,$\frac{E}{B} = c$
+How does the intensity ($I$) of an electromagnetic wave relate to the amplitude of its electric field ($E_0$)?,Intensity is proportional to the square of the amplitude ($I \propto E_0^2$).
+Which end of the visible light spectrum has the higher frequency: red or violet?,Violet light.
+What is the approximate wavelength range of visible light?,$4 \times 10^{-7} \text{ m}$ to $7 \times 10^{-7} \text{ m}$
+Why can electromagnetic waves travel through a perfect vacuum?,They do not require a medium because energy is carried in oscillating electric and magnetic fields.
+"In medical imaging, why are X-ray images described as 'shadows'?","The rays travel in straight lines from a point source and are absorbed by dense objects, creating a 1:1 size ratio image."
+"According to the de Broglie hypothesis, what is the formula for the wavelength ($\lambda$) of a particle with momentum ($p$)?",$\lambda = \frac{h}{p}$
+How does a matter wave ($\%Psi$) differ from an electromagnetic wave regarding polarisation?,"A matter wave is a scalar and cannot be polarised, whereas an EM wave is a vector field and can be polarised."
+Why is Bohr's theory of precise circular electron orbits inconsistent with modern quantum mechanics?,The Uncertainty Principle prevents knowing both the position and momentum of an electron precisely.
+What is the significance of the square of the wave function ($\Psi^2$) in quantum mechanics?,It describes the probability of finding a particle within a specific spatial range.
+"In the 'DIKW' paradigm used by health professionals, what do the letters stand for?","Data, Information, Knowledge, and Wisdom."
+How is 'teleradiology' defined in the context of e-medicine?,The digitisation and electronic storage of X-rays or scans for remote sharing among health providers.
+What distinguishes 'e-medicine' tools from simple videoconferencing systems?,"The use of peripheral devices like electronic stethoscopes, digital microscopes, or close-up cameras for examinations."
+What is 'mobile medicine' as defined in e-health care systems?,The use of Bluetooth-enabled wireless sensors on a patient's body to transmit data to a central nursing system.
+"In healthcare informatics, what is an example of 'audio data'?","Monitor alerts, heart sounds, or recorded voice messages."
+What is the difference between a physical sensor and a biological sensor in medical monitoring?,"Physical sensors measure parameters like temperature/pressure, while biological sensors use receptors to bind with target molecules."
+What error occurs if a blood pressure cuff is placed below the level of the heart during measurement?,The reading will be too high due to additional pressure from the height of the blood above the cuff.
+Under what condition is there no Doppler shift between a moving source and a moving observer?,"When there is no relative motion, such as two cars traveling in the same direction at the same speed."
+How does an increase in air temperature affect the frequency of a wind instrument?,"The speed of sound increases, which increases the frequency (pitch) of the instrument."
+"In e-health systems, how is 'perturbation' viewed according to quantum physics observations?",As an inevitable part of a system that allows it to evolve and reach a steady state of order.
+What is the primary power challenge for wearable Bluetooth-enabled medical sensors?,Optimising energy consumption to extend battery life.
+Which medical imaging technique uses magnetic fields and radio waves to create detailed images of the body?,Magnetic Resonance Imaging (MRI).
+What happens to the wavelength of an EM wave if its frequency is doubled in a vacuum?,The wavelength is halved to maintain the constant speed $c$.
+Formula: Energy density ($u_E$) of an electric field ($E$),$u_E = \frac{1}{2} \epsilon_0 E^2$
+Why are X-rays more suitable for imaging small structures like atoms than visible light?,"X-rays have much smaller wavelengths, allowing for higher resolution of small objects."
+"In a standing wave on a string, how many nodes are present in the fundamental frequency (first harmonic)?",Two nodes (one at each fixed end).
+What is the characteristic motion of a point on a string during a transverse wave?,It oscillates vertically (up and down) and does not move horizontally.
+Concept: Radiation Pressure,"Definition: The pressure exerted by electromagnetic waves upon any surface they hit, resulting from momentum transfer."
+How does the speed of a 1000-Hz sound wave compare to a 1000-Hz EM wave?,"The EM wave is much faster, traveling at $3.00 \times 10^8 \text{ m/s}$ vs sound's $\approx 343 \text{ m/s}$."
+What creates the 'beat frequency' in medical Doppler ultrasound used to measure blood flow?,The interference between the original frequency and the Doppler-shifted reflected frequency from blood cells.
+"In teleradiology, what is the purpose of image compression (e.g., wavelet techniques)?",To reduce file size for faster transmission across networks while retaining clinical features.
+What is 'tele-ultrasound' and why is it used in rural areas?,The transmission of live ultrasound images to an expert consultant at a distant site to overcome local expertise shortages.
+How is Morse code transmitted via a flashlight categorised as a wave?,It is an Amplitude Modulated (AM) wave where the carrier wave (light) is turned on and off.
+What is the relationship between the intensity of a wave and its distance ($r$) from a point source?,"Intensity follows the inverse-square law, $I \propto \frac{1}{r^2}$."
+Formula: Momentum ($p$) of a photon with energy ($E$),$p = \frac{E}{c}$
+"In informatics, 'alphanumeric data' consists of which two types of characters?",Letters and numbers.
+What is the main function of an 'intelligent knee sleeve' wearable sensor?,To monitor knee strain or injury and provide feedback via audio tones.
+Why can an astronaut on the Moon communicate with Earth via radio but not via sound?,"Radio is an EM wave that travels through the vacuum of space, while sound requires an atmosphere."
+"In terms of frequency, how does FM radio differ from AM radio?",FM radio operates at much higher frequencies ($88-108 \text{ MHz}$) than AM radio ($535-1605 \text{ kHz}$).
+What is the typical transit time for a radio signal traveling from the Earth to the Moon?,Approximately $1.25 \text{ to } 1.3 \text{ seconds}$.
+Formula: RMS electric field ($E_{rms}$) related to average intensity ($I$),$E_{rms} = \sqrt{\frac{I}{c \epsilon_0}}$
+What is the 'Mach number'?,The ratio of the speed of an object to the speed of sound in the surrounding medium.
+"In a longitudinal wave, the regions of high pressure are called compressions; what are the regions of low pressure called?",Rarefactions.
+How does the wavelength of a matter wave change if the particle's velocity increases?,The wavelength decreases (inversely proportional to velocity/momentum).
