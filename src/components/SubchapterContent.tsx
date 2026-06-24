@@ -13,10 +13,11 @@ import { Questionnaire } from './Questionnaire';
 type Props = {
   groupId: GroupId;
   sub: Subchapter;
+  groupTitle: string;
 };
 
-export function SubchapterContent({ groupId, sub }: Props) {
-  const qPath = assetUrl(questionnairePathFor(groupId, sub));
+export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
+  const qPath = questionnairePathFor(groupId, sub);
   const audioUrl = assetUrl(podcastUrl(groupId, sub));
   const imageUrl = assetUrl(infographicUrl(groupId, sub));
 
@@ -31,7 +32,7 @@ export function SubchapterContent({ groupId, sub }: Props) {
   return (
     <div className="subchapter-content">
       <header className="subchapter-head">
-        <p className="eyebrow">{groupId}</p>
+        <p className="eyebrow">{groupTitle}</p>
         <h2>{sub.title}</h2>
         <p className="muted small">{namingHint}</p>
       </header>
@@ -97,7 +98,7 @@ export function SubchapterContent({ groupId, sub }: Props) {
           <h3>Questionnaire</h3>
           <p className="muted small">CSV with a question column and an answer column.</p>
         </header>
-        <Questionnaire src={qPath} />
+        <Questionnaire paths={[qPath]} urlKey={assetUrl(qPath)} />
       </section>
     </div>
   );

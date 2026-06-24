@@ -23,14 +23,21 @@ export type Subchapter = {
 export type Group = {
   id: GroupId;
   title: string;
+  /** Chapter bar colour (Moral Philosophy palette). */
+  color: string;
   subchapters: Subchapter[];
 };
 
+const GROUP_COLORS = ['#14213d', '#2d4636', '#d36b31'] as const;
+
 /** Curricula as in the course map; UI is English. */
+export const courseTitle = 'Physics';
+
 export const groups: Group[] = [
   {
     id: 'M',
     title: 'Mechanics',
+    color: GROUP_COLORS[0],
     subchapters: [
       { id: 'm-mu', title: 'Measurement and Units', code: 'MU' },
       { id: 'm-k', title: 'Kinematics', code: 'K' },
@@ -42,6 +49,7 @@ export const groups: Group[] = [
   {
     id: 'EM',
     title: 'Electricity & Magnetism',
+    color: GROUP_COLORS[1],
     subchapters: [
       { id: 'em-cf', title: 'Electric Charge and Field', code: 'ECF' },
       { id: 'em-ep', title: 'Electric Potential', code: 'EP' },
@@ -58,6 +66,7 @@ export const groups: Group[] = [
   {
     id: 'VW',
     title: 'Vibrations & Waves',
+    color: GROUP_COLORS[2],
     subchapters: [
       { id: 'vw-ws', title: 'Wave Motion and Sound', code: 'WMS' },
       { id: 'vw-ew', title: 'Electromagnetic Waves', code: 'EW' },
@@ -68,6 +77,7 @@ export const groups: Group[] = [
   {
     id: 'T',
     title: 'Thermodynamics',
+    color: GROUP_COLORS[0],
     subchapters: [
       { id: 't-tk', title: 'Temperature and Kinetic Theory', code: 'TK' },
       { id: 't-hc', title: 'Heat and Calorimetry', code: 'HC' },
@@ -77,6 +87,7 @@ export const groups: Group[] = [
   {
     id: 'N',
     title: 'Nuclear Physics',
+    color: GROUP_COLORS[1],
     subchapters: [
       { id: 'n-r', title: 'Radioactivity', code: 'R', dualVideo: true },
       { id: 'n-nf', title: 'Nuclear Forces', code: 'NF', dualVideo: true },
@@ -86,6 +97,7 @@ export const groups: Group[] = [
   {
     id: 'F',
     title: 'Fluids',
+    color: GROUP_COLORS[2],
     subchapters: [
       {
         id: 'f-core',
