@@ -30,7 +30,7 @@ export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
       : `Naming: ${groupId}_${sub.code} with _V, _Vs, _P (.m4a), _I (.png), _Q (.csv).`;
 
   return (
-    <div className="subchapter-content">
+    <div className="subchapter-content" onContextMenu={(event) => event.preventDefault()}>
       <header className="subchapter-head">
         <p className="eyebrow">{groupTitle}</p>
         <h2>{sub.title}</h2>
@@ -46,7 +46,7 @@ export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
             description="Main clip (_V.mp4)."
           >
             {({ onMissing }) => (
-              <video className="video" controls preload="metadata" src={videoPrimary} onError={onMissing} />
+              <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoPrimary} onError={onMissing} />
             )}
           </MediaBlock>
           <MediaBlock
@@ -56,27 +56,27 @@ export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
             description="Second clip (_Vs.mp4)."
           >
             {({ onMissing }) => (
-              <video className="video" controls preload="metadata" src={videoSecondary} onError={onMissing} />
+              <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoSecondary} onError={onMissing} />
             )}
           </MediaBlock>
         </>
       ) : sub.videoVsOnly ? (
         <MediaBlock key={`${groupId}-${sub.id}-vs`} urlKey={videoSecondary} label="Video" description="Single clip (_Vs.mp4).">
           {({ onMissing }) => (
-            <video className="video" controls preload="metadata" src={videoSecondary} onError={onMissing} />
+            <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoSecondary} onError={onMissing} />
           )}
         </MediaBlock>
       ) : (
         <MediaBlock key={`${groupId}-${sub.id}-v`} urlKey={videoPrimary} label="Video" description="One MP4 file (_V.mp4).">
           {({ onMissing }) => (
-            <video className="video" controls preload="metadata" src={videoPrimary} onError={onMissing} />
+            <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoPrimary} onError={onMissing} />
           )}
         </MediaBlock>
       )}
 
       <MediaBlock key={`${groupId}-${sub.id}-podcast`} urlKey={audioUrl} label="Podcast" description="One M4A file per subchapter.">
         {({ onMissing }) => (
-          <audio className="audio" controls preload="metadata" src={audioUrl} onError={onMissing}>
+          <audio className="audio" controls controlsList="nodownload" preload="metadata" src={audioUrl} onError={onMissing}>
             Podcast
           </audio>
         )}
