@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import type { GroupId } from '../data/curriculum';
 import {
   infographicUrl,
@@ -8,6 +9,7 @@ import {
 } from '../data/curriculum';
 import { assetUrl } from '../utils/assetUrl';
 import { MediaBlock } from './MediaBlock';
+import { MediaTabs, type MediaTabId } from './MediaTabs';
 import { Questionnaire } from './Questionnaire';
 
 type Props = {
@@ -17,89 +19,133 @@ type Props = {
 };
 
 export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
+  const [tab, setTab] = useState<MediaTabId>('video');
+
+  useEffect(() => {
+    setTab('video');
+  }, [groupId, sub.id]);
+
   const qPath = questionnairePathFor(groupId, sub);
   const audioUrl = assetUrl(podcastUrl(groupId, sub));
   const imageUrl = assetUrl(infographicUrl(groupId, sub));
 
   const videoPrimary = assetUrl(videoUrl(groupId, sub, 'V'));
   const videoSecondary = assetUrl(videoUrl(groupId, sub, 'Vs'));
-
-  const namingHint =
-    sub.groupOnlyAssetNames && groupId === 'F'
-      ? 'Fluids media files: F_V.mp4, F_P.m4a, F_I.png, F_Q.csv (and optionally F_Vs.mp4).'
-      : `Naming: ${groupId}_${sub.code} with _V, _Vs, _P (.m4a), _I (.png), _Q (.csv).`;
+  const qKey = assetUrl(qPath);
 
   return (
-    <div className="subchapter-content" onContextMenu={(event) => event.preventDefault()}>
+    <div className="subchapter-content">
       <header className="subchapter-head">
         <p className="eyebrow">{groupTitle}</p>
         <h2>{sub.title}</h2>
-        <p className="muted small">{namingHint}</p>
       </header>
 
-      {sub.dualVideo ? (
-        <>
-          <MediaBlock
-            key={`${groupId}-${sub.id}-v`}
-            urlKey={videoPrimary}
-            label="Video"
-            description="Main clip (_V.mp4)."
-          >
+      <MediaTabs active={tab} onChange={setTab} />
+
+      <div
+        className="media-stage"
+        role="tabpanel"
+        id={`panel-${tab}`}
+        aria-labelledby={`tab-${tab}`}
+        onContextMenu={(event) => event.preventDefault()}
+      >
+        {tab === 'video' ? (
+          sub.dualVideo ? (
+            <div className="video-stack">
+              <MediaBlock key={`${groupId}-${sub.id}-v`} urlKey={videoPrimary} bare>
+                {({ onMissing }) => (
+                  <video
+                    className="video"
+                    controls
+                    controlsList="nodownload"
+                    playsInline
+                    preload="metadata"
+                    src={videoPrimary}
+                    onError={onMissing}
+                  />
+                )}
+              </MediaBlock>
+              <MediaBlock key={`${groupId}-${sub.id}-vs`} urlKey={videoSecondary} bare>
+                {({ onMissing }) => (
+                  <video
+                    className="video"
+                    controls
+                    controlsList="nodownload"
+                    playsInline
+                    preload="metadata"
+                    src={videoSecondary}
+                    onError={onMissing}
+                  />
+                )}
+              </MediaBlock>
+            </div>
+          ) : sub.videoVsOnly ? (
+            <MediaBlock key={`${groupId}-${sub.id}-vs`} urlKey={videoSecondary} bare>
+              {({ onMissing }) => (
+                <video
+                  className="video"
+                  controls
+                  controlsList="nodownload"
+                  playsInline
+                  preload="metadata"
+                  src={videoSecondary}
+                  onError={onMissing}
+                />
+              )}
+            </MediaBlock>
+          ) : (
+            <MediaBlock key={`${groupId}-${sub.id}-v`} urlKey={videoPrimary} bare>
+              {({ onMissing }) => (
+                <video
+                  className="video"
+                  controls
+                  controlsList="nodownload"
+                  playsInline
+                  preload="metadata"
+                  src={videoPrimary}
+                  onError={onMissing}
+                />
+              )}
+            </MediaBlock>
+          )
+        ) : null}
+
+        {tab === 'podcast' ? (
+          <MediaBlock key={`${groupId}-${sub.id}-podcast`} urlKey={audioUrl} bare>
             {({ onMissing }) => (
-              <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoPrimary} onError={onMissing} />
+              <audio
+                className="audio"
+                controls
+                controlsList="nodownload"
+                preload="metadata"
+                src={audioUrl}
+                onError={onMissing}
+              >
+                Podcast
+              </audio>
             )}
           </MediaBlock>
-          <MediaBlock
-            key={`${groupId}-${sub.id}-vs`}
-            urlKey={videoSecondary}
-            label="Video (extended)"
-            description="Second clip (_Vs.mp4)."
-          >
+        ) : null}
+
+        {tab === 'infographic' ? (
+          <MediaBlock key={`${groupId}-${sub.id}-info`} urlKey={imageUrl} bare>
             {({ onMissing }) => (
-              <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoSecondary} onError={onMissing} />
+              <img
+                className="infographic"
+                src={imageUrl}
+                alt={`Infographic: ${sub.title}`}
+                onError={onMissing}
+              />
             )}
           </MediaBlock>
-        </>
-      ) : sub.videoVsOnly ? (
-        <MediaBlock key={`${groupId}-${sub.id}-vs`} urlKey={videoSecondary} label="Video" description="Single clip (_Vs.mp4).">
-          {({ onMissing }) => (
-            <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoSecondary} onError={onMissing} />
-          )}
-        </MediaBlock>
-      ) : (
-        <MediaBlock key={`${groupId}-${sub.id}-v`} urlKey={videoPrimary} label="Video" description="One MP4 file (_V.mp4).">
-          {({ onMissing }) => (
-            <video className="video" controls controlsList="nodownload" playsInline preload="metadata" src={videoPrimary} onError={onMissing} />
-          )}
-        </MediaBlock>
-      )}
+        ) : null}
 
-      <MediaBlock key={`${groupId}-${sub.id}-podcast`} urlKey={audioUrl} label="Podcast" description="One M4A file per subchapter.">
-        {({ onMissing }) => (
-          <audio className="audio" controls controlsList="nodownload" preload="metadata" src={audioUrl} onError={onMissing}>
-            Podcast
-          </audio>
-        )}
-      </MediaBlock>
-
-      <MediaBlock key={`${groupId}-${sub.id}-info`} urlKey={imageUrl} label="Infographic" description="One PNG file per subchapter.">
-        {({ onMissing }) => (
-          <img
-            className="infographic"
-            src={imageUrl}
-            alt={`Infographic: ${sub.title}`}
-            onError={onMissing}
-          />
-        )}
-      </MediaBlock>
-
-      <section className="media-block">
-        <header className="media-block-head">
-          <h3>Questionnaire</h3>
-          <p className="muted small">CSV with a question column and an answer column.</p>
-        </header>
-        <Questionnaire paths={[qPath]} urlKey={assetUrl(qPath)} />
-      </section>
+        {tab === 'questions' ? (
+          <div key={`${groupId}-${sub.id}-q`} className="media-panel media-panel--questions">
+            <Questionnaire paths={[qPath]} urlKey={qKey} />
+          </div>
+        ) : null}
+      </div>
     </div>
   );
 }
