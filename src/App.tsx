@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { SubchapterContent } from './components/SubchapterContent';
 import { courseTitle, groups, type GroupId } from './data/curriculum';
 import { assetUrl } from './utils/assetUrl';
+import { useAuth } from './context/AuthContext';
 
 type Selection = { groupId: GroupId; subId: string };
 
@@ -12,6 +13,7 @@ function collapsedRecord(ids: GroupId[]): Record<GroupId, boolean> {
 }
 
 export default function App() {
+  const { userEmail, logout } = useAuth();
   const [openGroups, setOpenGroups] = useState(() => collapsedRecord(groups.map((g) => g.id)));
   const [selection, setSelection] = useState<Selection | null>(null);
   const [atHome, setAtHome] = useState(true);
@@ -154,6 +156,18 @@ export default function App() {
           <span className="home-overview-btn__label">Course overview</span>
         </button>
         <h1>{courseTitle}</h1>
+        {userEmail ? (
+          <div className="app-header__actions">
+            <div className="auth-account">
+              <span className="auth-account__email" title={userEmail}>
+                {userEmail}
+              </span>
+              <button type="button" className="btn-ghost" onClick={() => void logout()}>
+                Sair
+              </button>
+            </div>
+          </div>
+        ) : null}
       </header>
 
       {showMobileLessonBar && mobileLessonContext ? (
