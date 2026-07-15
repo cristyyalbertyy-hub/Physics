@@ -13,6 +13,8 @@ export type Subchapter = {
   questionnairePath?: string;
   /** When infographic is not Group_Code_I.png (e.g. EM_M.png) */
   infographicPath?: string;
+  /** Override podcast path when not Group_Code_P.m4a (e.g. EM_EP_P.mp3). */
+  podcastPath?: string;
   /**
    * Fluids assets use only the group letter (F_P.m4a, F_I.png, F_V.mp4, F_Q.csv),
    * not F_FL_*.
@@ -52,7 +54,7 @@ export const groups: Group[] = [
     color: GROUP_COLORS[1],
     subchapters: [
       { id: 'em-cf', title: 'Electric Charge and Field', code: 'ECF' },
-      { id: 'em-ep', title: 'Electric Potential', code: 'EP' },
+      { id: 'em-ep', title: 'Electric Potential', code: 'EP', podcastPath: '/EM_EP_P.mp3' },
       {
         id: 'em-cc',
         title: 'Electric Currents and DC Circuits',
@@ -126,6 +128,7 @@ export function videoUrl(groupId: GroupId, sub: Subchapter, slot: 'V' | 'Vs'): s
 
 /** Podcast: N_R_P.m4a, etc. Fluids: F_P.m4a. */
 export function podcastUrl(groupId: GroupId, sub: Subchapter): string {
+  if (sub.podcastPath) return sub.podcastPath;
   if (sub.groupOnlyAssetNames && groupId === 'F') return '/F_P.m4a';
   return `/${buildStem(groupId, sub.code)}_P.m4a`;
 }
