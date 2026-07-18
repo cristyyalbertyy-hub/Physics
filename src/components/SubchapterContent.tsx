@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { GroupId } from '../data/curriculum';
 import {
   infographicUrl,
@@ -7,6 +7,8 @@ import {
   videoUrl,
   type Subchapter,
 } from '../data/curriculum';
+import { useMediaProgress } from '../hooks/useMediaProgress';
+import { bindPlaybackProgress } from '../lib/playbackProgress';
 import { assetUrl } from '../utils/assetUrl';
 import { MediaBlock } from './MediaBlock';
 import { MediaTabs, type MediaTabId } from './MediaTabs';
@@ -18,8 +20,73 @@ type Props = {
   groupTitle: string;
 };
 
+function VideoWithProgress({
+  src,
+  onMissing,
+  onComplete,
+}: {
+  src: string;
+  onMissing: () => void;
+  onComplete: () => void;
+}) {
+  const ref = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    return bindPlaybackProgress(el, onComplete);
+  }, [src, onComplete]);
+
+  return (
+    <video
+      ref={ref}
+      className="video"
+      controls
+      controlsList="nodownload"
+      playsInline
+      preload="metadata"
+      src={src}
+      onError={onMissing}
+    />
+  );
+}
+
+function AudioWithProgress({
+  src,
+  onMissing,
+  onComplete,
+}: {
+  src: string;
+  onMissing: () => void;
+  onComplete: () => void;
+}) {
+  const ref = useRef<HTMLAudioElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    return bindPlaybackProgress(el, onComplete);
+  }, [src, onComplete]);
+
+  return (
+    <audio
+      ref={ref}
+      className="audio"
+      controls
+      controlsList="nodownload"
+      preload="metadata"
+      src={src}
+      onError={onMissing}
+    >
+      Podcast
+    </audio>
+  );
+}
+
 export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
   const [tab, setTab] = useState<MediaTabId>('video');
+  const progressItemKey = `${groupId}/${sub.code}`;
+  const { trackWatchComplete } = useMediaProgress(progressItemKey);
 
   useEffect(() => {
     setTab('video');
@@ -32,6 +99,9 @@ export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
   const videoPrimary = assetUrl(videoUrl(groupId, sub, 'V'));
   const videoSecondary = assetUrl(videoUrl(groupId, sub, 'Vs'));
   const qKey = assetUrl(qPath);
+
+  const onVideoComplete = () => void trackWatchComplete('V');
+  const onPodcastComplete = () => void trackWatchComplete('P');
 
   return (
     <div className="subchapter-content">
@@ -54,57 +124,25 @@ export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
             <div className="video-stack">
               <MediaBlock key={`${groupId}-${sub.id}-v`} urlKey={videoPrimary} bare>
                 {({ onMissing }) => (
-                  <video
-                    className="video"
-                    controls
-                    controlsList="nodownload"
-                    playsInline
-                    preload="metadata"
-                    src={videoPrimary}
-                    onError={onMissing}
-                  />
+                  <VideoWithProgress src={videoPrimary} onMissing={onMissing} onComplete={onVideoComplete} />
                 )}
               </MediaBlock>
               <MediaBlock key={`${groupId}-${sub.id}-vs`} urlKey={videoSecondary} bare>
                 {({ onMissing }) => (
-                  <video
-                    className="video"
-                    controls
-                    controlsList="nodownload"
-                    playsInline
-                    preload="metadata"
-                    src={videoSecondary}
-                    onError={onMissing}
-                  />
+                  <VideoWithProgress src={videoSecondary} onMissing={onMissing} onComplete={onVideoComplete} />
                 )}
               </MediaBlock>
             </div>
           ) : sub.videoVsOnly ? (
             <MediaBlock key={`${groupId}-${sub.id}-vs`} urlKey={videoSecondary} bare>
               {({ onMissing }) => (
-                <video
-                  className="video"
-                  controls
-                  controlsList="nodownload"
-                  playsInline
-                  preload="metadata"
-                  src={videoSecondary}
-                  onError={onMissing}
-                />
+                <VideoWithProgress src={videoSecondary} onMissing={onMissing} onComplete={onVideoComplete} />
               )}
             </MediaBlock>
           ) : (
             <MediaBlock key={`${groupId}-${sub.id}-v`} urlKey={videoPrimary} bare>
               {({ onMissing }) => (
-                <video
-                  className="video"
-                  controls
-                  controlsList="nodownload"
-                  playsInline
-                  preload="metadata"
-                  src={videoPrimary}
-                  onError={onMissing}
-                />
+                <VideoWithProgress src={videoPrimary} onMissing={onMissing} onComplete={onVideoComplete} />
               )}
             </MediaBlock>
           )
@@ -113,16 +151,7 @@ export function SubchapterContent({ groupId, sub, groupTitle }: Props) {
         {tab === 'podcast' ? (
           <MediaBlock key={`${groupId}-${sub.id}-podcast`} urlKey={audioUrl} bare>
             {({ onMissing }) => (
-              <audio
-                className="audio"
-                controls
-                controlsList="nodownload"
-                preload="metadata"
-                src={audioUrl}
-                onError={onMissing}
-              >
-                Podcast
-              </audio>
+              <AudioWithProgress src={audioUrl} onMissing={onMissing} onComplete={onPodcastComplete} />
             )}
           </MediaBlock>
         ) : null}
